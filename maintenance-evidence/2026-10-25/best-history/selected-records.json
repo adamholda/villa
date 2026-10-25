@@ -1,0 +1,33 @@
+{
+  "id": "best-history",
+  "title": "Preserve best-checkpoint history across native ink resume",
+  "original_jobs": [
+    "24944823"
+  ],
+  "source_main": "322cb0899ac9efe2588d5a3395dce6dc2dea3c89",
+  "original": {
+    "methods": 28,
+    "assertion_failures": 17,
+    "errors": 0,
+    "passing": 11,
+    "skipped": 0,
+    "representative_failures": [
+      "test_best_checkpoint_resume.TestBestCheckpointResume.test_better_resumed_loss_updates_payload_and_sidecar",
+      "test_best_checkpoint_resume.TestBestCheckpointResume.test_infinite_first_accuracy_is_not_saved_as_best",
+      "test_best_checkpoint_resume.TestBestCheckpointResume.test_infinite_first_loss_is_not_saved_as_best"
+    ],
+    "representative_errors": []
+  },
+  "repaired": {
+    "methods": 28,
+    "assertion_failures": 0,
+    "errors": 0,
+    "passing": 28,
+    "skipped": 0,
+    "representative_failures": [],
+    "representative_errors": []
+  },
+  "limits": "Real CPU model/checkpoint files, controlled scores; no training or CT/model-quality execution. Independent of the separate EMA-counter proposal.",
+  "record_view_only": true,
+  "new_runtime": false
+}

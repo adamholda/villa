@@ -1,0 +1,45 @@
+{
+  "id": "flat-axes",
+  "title": "Honor declared depth axes in flat ink inference",
+  "original_jobs": [
+    "24931055.pbs-m1.metacentrum.cz"
+  ],
+  "source_main": "322cb0899ac9efe2588d5a3395dce6dc2dea3c89",
+  "original": {
+    "id": "group_zyx_narrow_y",
+    "direction": "forward",
+    "completed": true,
+    "output_shape": [
+      28,
+      16
+    ],
+    "expected_shape": [
+      16,
+      80
+    ],
+    "first_input_exact": false,
+    "input_and_shape_correct": false,
+    "first_input_sha256": "46e494303ff3f08a884cb5af658b254f2fe157231264406f44e82616557e1e07",
+    "expected_input_sha256": "b01629654f744789d635342cabf00efee42bf50ff5cf30870e51ab5c6670bcc6"
+  },
+  "repaired": {
+    "id": "group_zyx_narrow_y",
+    "direction": "forward",
+    "completed": true,
+    "output_shape": [
+      16,
+      80
+    ],
+    "expected_shape": [
+      16,
+      80
+    ],
+    "first_input_exact": true,
+    "input_and_shape_correct": true,
+    "first_input_sha256": "b01629654f744789d635342cabf00efee42bf50ff5cf30870e51ab5c6670bcc6",
+    "expected_input_sha256": "b01629654f744789d635342cabf00efee42bf50ff5cf30870e51ab5c6670bcc6"
+  },
+  "limits": "PHerc0841 CT surface crop; untrained recording model instruments input delivery. No ink-reading or model-quality result.",
+  "record_view_only": true,
+  "new_runtime": false
+}

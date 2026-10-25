@@ -1,0 +1,80 @@
+{
+  "id": "amp-ema-resume",
+  "title": "Preserve successful update history and EMA state on native ink resume",
+  "original_jobs": [
+    "24944472",
+    "24945133"
+  ],
+  "source_main": "322cb0899ac9efe2588d5a3395dce6dc2dea3c89",
+  "original": {
+    "resume_counter_suite": {
+      "methods": 33,
+      "assertion_failures": 19,
+      "errors": 0,
+      "passing": 14,
+      "skipped": 0,
+      "representative_failures": [
+        "test_ema_resume_counter.ResumeCounterTests.test_boolean_new_counter_rejects_before_state_changes",
+        "test_ema_resume_counter.ResumeCounterTests.test_boolean_save_counter_rejects",
+        "test_ema_resume_counter.ResumeCounterTests.test_conflicting_counters_reject_before_state_changes"
+      ],
+      "representative_errors": []
+    },
+    "AMP_subset_earlier_common_fix": {
+      "methods": 4,
+      "assertion_failures": 1,
+      "errors": 0,
+      "passing": 3,
+      "skipped": 0,
+      "representative_failures": [
+        "test_amp_skipped_update.RegressionTests.test_scheduler_counter_and_ema_follow_successful_updates__case_3"
+      ],
+      "representative_errors": []
+    },
+    "saved_EMA_seed_subset_earlier": {
+      "methods": 5,
+      "assertion_failures": 3,
+      "errors": 0,
+      "passing": 2,
+      "skipped": 0,
+      "representative_failures": [
+        "test_ema_checkpoint_seed.RegressionTests.test_ema_uses_restored_main_weights_unless_full_ema_state_is_available__case_0",
+        "test_ema_checkpoint_seed.RegressionTests.test_ema_uses_restored_main_weights_unless_full_ema_state_is_available__case_1",
+        "test_ema_checkpoint_seed.RegressionTests.test_ema_uses_restored_main_weights_unless_full_ema_state_is_available__case_2"
+      ],
+      "representative_errors": []
+    }
+  },
+  "repaired": {
+    "resume_counter_suite": {
+      "methods": 33,
+      "assertion_failures": 0,
+      "errors": 0,
+      "passing": 33,
+      "skipped": 0,
+      "representative_failures": [],
+      "representative_errors": []
+    },
+    "AMP_subset_earlier_common_fix": {
+      "methods": 4,
+      "assertion_failures": 0,
+      "errors": 0,
+      "passing": 4,
+      "skipped": 0,
+      "representative_failures": [],
+      "representative_errors": []
+    },
+    "saved_EMA_seed_subset_earlier": {
+      "methods": 5,
+      "assertion_failures": 0,
+      "errors": 0,
+      "passing": 5,
+      "skipped": 0,
+      "representative_failures": [],
+      "representative_errors": []
+    }
+  },
+  "limits": "CPU source-block and real save/load controls. The 33-method comparison already has AMP/EMA seeding common. No actual CUDA overflow, full training or combined best-history runtime.",
+  "record_view_only": true,
+  "new_runtime": false
+}

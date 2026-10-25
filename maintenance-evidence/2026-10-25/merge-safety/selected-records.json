@@ -1,0 +1,78 @@
+{
+  "id": "merge-safety",
+  "title": "Reject overlapping merge stores and incompatible declared grids",
+  "original_jobs": [
+    "24944947",
+    "24945156"
+  ],
+  "source_main": "322cb0899ac9efe2588d5a3395dce6dc2dea3c89",
+  "original": {
+    "same_output_as_input": [
+      {
+        "fixture": "s3",
+        "CLI_exit": 0,
+        "all_inputs_unchanged": false,
+        "lost_nonzero_input_voxels": 8192,
+        "intended_rejection": false
+      },
+      {
+        "fixture": "s5",
+        "CLI_exit": 0,
+        "all_inputs_unchanged": false,
+        "lost_nonzero_input_voxels": 8192,
+        "intended_rejection": false
+      }
+    ],
+    "aligned_constructed_grid": {
+      "exact_CT_values": true,
+      "max_declared_coordinate_error_um": 260.0
+    },
+    "grid_regressions": {
+      "methods": 19,
+      "assertion_failures": 17,
+      "errors": 0,
+      "passing": 2,
+      "skipped": 0,
+      "representative_failures": [
+        "test_merge_grid.MergeGridTests.test_axis_order_mismatch_rejects_before_output_writes",
+        "test_merge_grid.MergeGridTests.test_boolean_pitch_rejects_before_output_writes",
+        "test_merge_grid.MergeGridTests.test_composes_dataset_and_global_transforms"
+      ],
+      "representative_errors": []
+    }
+  },
+  "repaired": {
+    "same_output_as_input": [
+      {
+        "fixture": "s3",
+        "CLI_exit": 1,
+        "all_inputs_unchanged": true,
+        "lost_nonzero_input_voxels": null,
+        "intended_rejection": true
+      },
+      {
+        "fixture": "s5",
+        "CLI_exit": 1,
+        "all_inputs_unchanged": true,
+        "lost_nonzero_input_voxels": null,
+        "intended_rejection": true
+      }
+    ],
+    "aligned_constructed_grid": {
+      "exact_CT_values": true,
+      "max_declared_coordinate_error_um": 0.0
+    },
+    "grid_regressions": {
+      "methods": 19,
+      "assertion_failures": 0,
+      "errors": 0,
+      "passing": 19,
+      "skipped": 0,
+      "representative_failures": [],
+      "representative_errors": []
+    }
+  },
+  "limits": "Real S3/S5 CT values; coordinate headers deliberately constructed. No native registration claim. PR2244 compatibility by stantheman0128 is common to both arms.",
+  "record_view_only": true,
+  "new_runtime": false
+}
