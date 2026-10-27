@@ -1,0 +1,81 @@
+{
+  "id": "0083",
+  "title": "Generic AMP successful-update consumers",
+  "before": "Generic update consumers can advance after a skipped optimizer update.",
+  "after": "Advance successful-update consumers only on synchronized successful updates.",
+  "scope": "Generic extension of existing public native AMP family;supplied skip flags,no actual CUDA overflow.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "job_id": "24992977.pbs-m1.metacentrum.cz",
+  "raw_result_sha256": "1c56416df0a4b5931ced90a6031b5c8adda9f339fbc03b5b55a5da9d24614103",
+  "original": {
+    "methods": 8,
+    "assertion_failures": 4,
+    "controls": 4,
+    "errors": 0,
+    "skips": 0,
+    "representative_assertion_ids": [
+      "test_generic_amp_success.GenericAmpSuccessTests.test_ema_warmup_and_cadence_use_successes",
+      "test_generic_amp_success.GenericAmpSuccessTests.test_overflow_at_accumulation_boundary"
+    ]
+  },
+  "repaired": {
+    "methods": 8,
+    "passes": 8,
+    "assertion_failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "publication_title": "Advance generic AMP consumers only after successful updates",
+  "publication_base_commit": "39a8cf3a124bdd5540ee826e1cb30047c8dc8c85",
+  "publication_files": [
+    {
+      "path": "vesuvius/src/vesuvius/models/training/train.py",
+      "sha256": "d9fe2529a003b33ff5188dec4aa547b02801a281ff9f35ef870f24d6b3eae317",
+      "bytes": 122894
+    },
+    {
+      "path": "vesuvius/tests/models/training/test_generic_amp_success.py",
+      "sha256": "b134213461da289dd62691b758dfb5e4e2871289769af220f546188dbd7955ee",
+      "bytes": 8341
+    }
+  ],
+  "source_patch_sha256": "0373abadedd87b6660bd311f7341124018ff18c92000032fc145b7339c9fe064",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 313,
+      "author": "bruniss",
+      "credit": "trainer/AMP groundwork",
+      "url": "https://github.com/ScrollPrize/villa/pull/313"
+    },
+    {
+      "pr": 340,
+      "author": "bruniss",
+      "credit": "trainer/AMP groundwork",
+      "url": "https://github.com/ScrollPrize/villa/pull/340"
+    },
+    {
+      "pr": 652,
+      "author": "bruniss",
+      "credit": "trainer/AMP groundwork",
+      "url": "https://github.com/ScrollPrize/villa/pull/652"
+    },
+    {
+      "pr": 1819,
+      "author": "giorgioangel",
+      "credit": "distinct Hecate path",
+      "url": "https://github.com/ScrollPrize/villa/pull/1819"
+    },
+    {
+      "pr": 802,
+      "author": "giorgioangel",
+      "credit": "separate distributed-validation work",
+      "url": "https://github.com/ScrollPrize/villa/pull/802"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made."
+}

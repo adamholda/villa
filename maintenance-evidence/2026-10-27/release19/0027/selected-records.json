@@ -1,0 +1,69 @@
+{
+  "id": "0027",
+  "title": "Zero-range output-argument guard",
+  "before": "An output argument is accepted although zero-range writes into its input.",
+  "after": "Reject that unsupported output before prompting/reads;preserve explicit/implicit in-place use.",
+  "scope": "Six unchanged methods and32 fixed S3/S5 CLI gates under0112;constructed isotropic headers over actual CT. Separate depth-scaling STOP remains.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "job_id": "25051344.pbs-m1.metacentrum.cz",
+  "raw_result_sha256": "d17b23e7a83169c5c34e2146eb3981a640695f0c6bf52ab72cc74c0d44badc8b",
+  "original": {
+    "methods": 6,
+    "assertion_failures": 3,
+    "controls": 3,
+    "errors": 0,
+    "skips": 0,
+    "representative_assertion_ids": [
+      "test_direct_constructor_rejects_output_without_opening_data",
+      "test_existing_output_is_rejected_before_overwrite_prompt"
+    ]
+  },
+  "repaired": {
+    "methods": 6,
+    "passes": 6,
+    "assertion_failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "publication_title": "Reject separate output paths for in-place zero-range edits",
+  "publication_base_commit": "39a8cf3a124bdd5540ee826e1cb30047c8dc8c85",
+  "publication_files": [
+    {
+      "path": "vesuvius/src/vesuvius/image_proc/run/zarr_tasks/tasks/zero_range.py",
+      "sha256": "77330e6420cba53ed3175032634dcc2f70322a7d571c519b7afa7ffde672e06e",
+      "bytes": 8028
+    },
+    {
+      "path": "vesuvius/tests/image_proc/test_zero_range_output.py",
+      "sha256": "c2e7401d68df61386acbb8ddcf9e89e1d5c86730047b8b43c6b66562a6ac28c6",
+      "bytes": 3827
+    }
+  ],
+  "source_patch_sha256": "fd57cd04435f75a88c8c29e9f5907032727a6c2c14c3786aef207b7c84e27e8f",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 1431,
+      "author": "axiosdevs",
+      "credit": "selected-input routing",
+      "url": "https://github.com/ScrollPrize/villa/pull/1431"
+    },
+    {
+      "pr": 1682,
+      "author": "kadenpool",
+      "credit": "shared store creation",
+      "url": "https://github.com/ScrollPrize/villa/pull/1682"
+    },
+    {
+      "pr": 2295,
+      "author": "ChaseHendrick",
+      "credit": "separate task-core proposal",
+      "url": "https://github.com/ScrollPrize/villa/pull/2295"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made."
+}

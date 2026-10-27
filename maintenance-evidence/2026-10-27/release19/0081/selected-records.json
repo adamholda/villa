@@ -1,0 +1,90 @@
+{
+  "id": "0081",
+  "title": "Honor configured rotation axes",
+  "before": "The supported configuration-to-transform path can drop rotation-axis constraints.",
+  "after": "Forward the configured constraints to the supported factories/callers.",
+  "scope": "CPU CLI/config/factory/caller contract;no training/quality proof.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "job_id": "24992214.pbs-m1.metacentrum.cz",
+  "raw_result_sha256": "9124c1ee7ad1fa609b455630dee1af2c195be1b1f6237b08cceb0f36bca38a93",
+  "original": {
+    "methods": 9,
+    "assertion_failures": 6,
+    "controls": 3,
+    "errors": 0,
+    "skips": 0,
+    "representative_assertion_ids": [
+      "test_rotation_axes_wiring.RotationAxesWiringTests.test_anisotropic_equal_plane_admissibility",
+      "test_rotation_axes_wiring.RotationAxesWiringTests.test_cli_none_disables_orientation_not_intensity"
+    ]
+  },
+  "repaired": {
+    "methods": 9,
+    "passes": 9,
+    "assertion_failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "publication_title": "Pass configured rotation axes to training augmentation",
+  "publication_base_commit": "39a8cf3a124bdd5540ee826e1cb30047c8dc8c85",
+  "publication_files": [
+    {
+      "path": "vesuvius/src/vesuvius/models/augmentation/pipelines/training_transforms.py",
+      "sha256": "b56cd15c34a4d86d85989da69d474cb0c14311de0517043ad5a773a168f87e87",
+      "bytes": 20434
+    },
+    {
+      "path": "vesuvius/src/vesuvius/models/datasets/cross_frame_dataset.py",
+      "sha256": "247ecbdb0224e2b2d3316fefc9a88cfc475dc11e13e68c3b81ae4af7a0d17c45",
+      "bytes": 32776
+    },
+    {
+      "path": "vesuvius/src/vesuvius/models/datasets/mutex_affinity_dataset.py",
+      "sha256": "7d972fe75447f7937d050b8ab02b28835bf306a7c9e6cad3ca98adeccd8eb22b",
+      "bytes": 31010
+    },
+    {
+      "path": "vesuvius/src/vesuvius/models/datasets/zarr_dataset.py",
+      "sha256": "e22a45e326e11a1c5a47d373e8b5d6e636c64051cc54be7f485144327e1153b6",
+      "bytes": 38747
+    },
+    {
+      "path": "vesuvius/tests/models/datasets/test_rotation_axes_wiring.py",
+      "sha256": "762bc86a70631e7506e4d8e9870cff6c0cbc508b9e24842710c9104784943d5d",
+      "bytes": 9765
+    }
+  ],
+  "source_patch_sha256": "a3a1b687669387e5e3760e1a7b255fa222ebc7208543c95acfc16b6255b8e49e",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 509,
+      "author": "bruniss",
+      "credit": "existing rotation-axis control",
+      "url": "https://github.com/ScrollPrize/villa/pull/509"
+    },
+    {
+      "pr": 666,
+      "author": "bruniss",
+      "credit": "quarter-turn/transpose refactor",
+      "url": "https://github.com/ScrollPrize/villa/pull/666"
+    },
+    {
+      "pr": 1020,
+      "author": "pscamillo",
+      "credit": "distinct ring augmentation",
+      "url": "https://github.com/ScrollPrize/villa/pull/1020"
+    },
+    {
+      "pr": 1796,
+      "author": "khj1222",
+      "credit": "distinct Copy TTA",
+      "url": "https://github.com/ScrollPrize/villa/pull/1796"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made."
+}

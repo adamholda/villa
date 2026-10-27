@@ -1,0 +1,81 @@
+{
+  "id": "0077",
+  "title": "Packed neighbor normalization isolation",
+  "before": "A packed read can include a neighboring sample in instance normalization.",
+  "after": "Bound each mapped read to its own extent while retaining its own gaps.",
+  "scope": "Actual item reads/normalization;combined dataset gate separate.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "job_id": "24980532.pbs-m1.metacentrum.cz",
+  "raw_result_sha256": "f7df49f330ef7e12acf773e1286b89250890cf697d1cd1fec5cd006604febfb2",
+  "original": {
+    "methods": 8,
+    "assertion_failures": 5,
+    "controls": 3,
+    "errors": 0,
+    "skips": 0,
+    "representative_assertion_ids": [
+      "test_packed_normalization.PackedNormalizationTests.test_2d_normalization_excludes_neighbor",
+      "test_packed_normalization.PackedNormalizationTests.test_gap_extension_retains_own_gap_but_excludes_neighbor"
+    ]
+  },
+  "repaired": {
+    "methods": 8,
+    "passes": 8,
+    "assertion_failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "publication_title": "Exclude neighboring packed volumes from patch normalization",
+  "publication_base_commit": "39a8cf3a124bdd5540ee826e1cb30047c8dc8c85",
+  "publication_files": [
+    {
+      "path": "vesuvius/src/vesuvius/models/datasets/zarr_dataset.py",
+      "sha256": "49424cc0d94d853f40b0bc6cbe576cdd80ad9ebd9396b3e2f480496fd9404e4d",
+      "bytes": 38960
+    },
+    {
+      "path": "vesuvius/tests/models/datasets/test_packed_normalization.py",
+      "sha256": "1143babcf28de47cedaa21fa234848aa8b5ab0634538c3dfa0db84b0ebd76efe",
+      "bytes": 5816
+    }
+  ],
+  "source_patch_sha256": "0c8d24571b132530ccb654bbd1a041c353c7146003ad61f1841f19a263d5c02e",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 802,
+      "author": "giorgioangel",
+      "credit": "separate scale/dilation/cache and distributed-validation work",
+      "url": "https://github.com/ScrollPrize/villa/pull/802"
+    },
+    {
+      "pr": 1483,
+      "author": null,
+      "credit": "different native flat-padding normalization",
+      "url": "https://github.com/ScrollPrize/villa/pull/1483"
+    },
+    {
+      "pr": 1646,
+      "author": null,
+      "credit": "different native flat-padding normalization",
+      "url": "https://github.com/ScrollPrize/villa/pull/1646"
+    },
+    {
+      "pr": 1773,
+      "author": null,
+      "credit": "different native flat-padding normalization",
+      "url": "https://github.com/ScrollPrize/villa/pull/1773"
+    },
+    {
+      "pr": 2169,
+      "author": null,
+      "credit": "different native flat-padding normalization",
+      "url": "https://github.com/ScrollPrize/villa/pull/2169"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made."
+}

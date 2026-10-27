@@ -1,0 +1,63 @@
+{
+  "id": "0050",
+  "title": "Threshold local-tree guard",
+  "before": "A threshold output parent can replace the selected input array.",
+  "after": "Reject overlapping local trees while retaining separate outputs.",
+  "scope": "Generated-store selected-array scope;same store-safety family as0045/public2302.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "job_id": "24978838.pbs-m1.metacentrum.cz",
+  "raw_result_sha256": "fced529e759b6d1cf899242d704feb03f90b4757a8ff89a9920d44962447a2f4",
+  "original": {
+    "methods": 9,
+    "assertion_failures": 5,
+    "controls": 4,
+    "errors": 0,
+    "skips": 0,
+    "representative_assertion_ids": [
+      "test_threshold_paths.ThresholdPathTests.test_cli_nested_output_rejects",
+      "test_threshold_paths.ThresholdPathTests.test_cli_selected_array_parent_rejects"
+    ]
+  },
+  "repaired": {
+    "methods": 9,
+    "passes": 9,
+    "assertion_failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "publication_title": "Reject overlapping local input/output trees in threshold",
+  "publication_base_commit": "39a8cf3a124bdd5540ee826e1cb30047c8dc8c85",
+  "publication_files": [
+    {
+      "path": "vesuvius/src/vesuvius/image_proc/run/zarr_tasks/tasks/threshold.py",
+      "sha256": "4ece113d043671692ffbc2721509db42e107a48bf68211d5b8fd891adf3f3d65",
+      "bytes": 6652
+    },
+    {
+      "path": "vesuvius/tests/image_proc/test_threshold_paths.py",
+      "sha256": "9f87227317b5c0c90fa3637519c0aa06b35be12770121a528a8f438833223891",
+      "bytes": 4488
+    }
+  ],
+  "source_patch_sha256": "2fd9a4c337baf186d6049f7be6e74d0f0e54786d439ca087e36f017e60997d6c",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 1682,
+      "author": "kadenpool",
+      "credit": "shared store creation",
+      "url": "https://github.com/ScrollPrize/villa/pull/1682"
+    },
+    {
+      "pr": 2295,
+      "author": "ChaseHendrick",
+      "credit": "separate routing, pitch and planning proposal",
+      "url": "https://github.com/ScrollPrize/villa/pull/2295"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made."
+}

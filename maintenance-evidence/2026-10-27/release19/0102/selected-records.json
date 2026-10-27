@@ -1,0 +1,93 @@
+{
+  "id": "0102",
+  "title": "Inference guide/help contract",
+  "before": "The guide/help advertises unsupported inputs/options,structures and a wrong TTA default.",
+  "after": "Describe the existing supported CLI and correct the help label without changing defaults/computation.",
+  "scope": "Actual extracted argparse/text checks;no inference/fullCLI runtime.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "source_only": true,
+  "no_actual_module_or_array_runtime": true,
+  "source_example": {
+    "actual_parser_default": "mirroring",
+    "old_help_claim": "Default: rotation",
+    "new_help_claim": "Default: mirroring",
+    "computation_changed": false
+  },
+  "publication_title": "Align the inference guide and help with the current CLI",
+  "publication_base_commit": "39a8cf3a124bdd5540ee826e1cb30047c8dc8c85",
+  "publication_files": [
+    {
+      "path": "vesuvius/docs/inference.md",
+      "sha256": "20cd2b58c23d965a5943ba470a847c3d5cbde7c2947fe3d4f9d25d4be5d270c6",
+      "bytes": 9624
+    },
+    {
+      "path": "vesuvius/src/vesuvius/models/run/inference.py",
+      "sha256": "0048fb4f7520297c1cd297cdf3fd2dc3c88bc37c2c67c5747375998321626da6",
+      "bytes": 70535
+    }
+  ],
+  "source_patch_sha256": "d033da0265df7ad94cf6dc2aac71296ae34bb459a393d9891326153c883fab84",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 739,
+      "author": "giorgioangel",
+      "credit": "historical orchestrator removal",
+      "url": "https://github.com/ScrollPrize/villa/pull/739"
+    },
+    {
+      "pr": 1256,
+      "author": "TAUIL-Abd-Elilah",
+      "credit": "input aliases",
+      "url": "https://github.com/ScrollPrize/villa/pull/1256"
+    },
+    {
+      "pr": 1508,
+      "author": "nerln",
+      "credit": "remote input",
+      "url": "https://github.com/ScrollPrize/villa/pull/1508"
+    },
+    {
+      "pr": 1913,
+      "author": "Sartoshirelli",
+      "credit": "terminal-gating removal",
+      "url": "https://github.com/ScrollPrize/villa/pull/1913"
+    },
+    {
+      "pr": 1241,
+      "author": "TAUIL-Abd-Elilah",
+      "credit": "ROI support",
+      "url": "https://github.com/ScrollPrize/villa/pull/1241"
+    },
+    {
+      "pr": 1808,
+      "author": "CVasilopoulos",
+      "credit": "chunk cache",
+      "url": "https://github.com/ScrollPrize/villa/pull/1808"
+    },
+    {
+      "pr": 1543,
+      "author": "blackemberlabs",
+      "credit": "separate persistent-cache proposal",
+      "url": "https://github.com/ScrollPrize/villa/pull/1543"
+    },
+    {
+      "pr": 1988,
+      "author": "AndreasHad04",
+      "credit": "device work",
+      "url": "https://github.com/ScrollPrize/villa/pull/1988"
+    },
+    {
+      "pr": 2260,
+      "author": "ChaseHendrick",
+      "credit": "separate rented-GPU guide",
+      "url": "https://github.com/ScrollPrize/villa/pull/2260"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made."
+}

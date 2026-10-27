@@ -1,0 +1,74 @@
+{
+  "id": "0089",
+  "title": "Saved AMP-policy YAML/CLI roundtrip",
+  "before": "Saved AMP enablement/dtype policy can be lost on YAML/API/CLI reload.",
+  "after": "Persist and merge the saved policy while retaining legacy defaults and explicit overrides.",
+  "scope": "Actual YAML loader/writer,parser/merge and source precision block with Torch dtypes;no training/autocast/scaler;1702/1496/509 credited.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "job_id": "25042460.pbs-m1.metacentrum.cz",
+  "raw_result_sha256": "8a010a1a7ca279ea7f3251d8a5a9523b498f0f7115d670d6f99fabfaa4070cd2",
+  "original": {
+    "methods": 7,
+    "assertion_failures": 3,
+    "controls": 4,
+    "errors": 0,
+    "skips": 0,
+    "representative_assertion_ids": [
+      "test_amp_policy_roundtrip.AmpPolicyRoundtripTests.test_explicit_dtype_does_not_erase_saved_disabled_policy",
+      "test_amp_policy_roundtrip.AmpPolicyRoundtripTests.test_saved_bfloat16_survives_reload_without_dtype_flag"
+    ]
+  },
+  "repaired": {
+    "methods": 7,
+    "passes": 7,
+    "assertion_failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "publication_title": "Preserve saved AMP policy across YAML and CLI loading",
+  "publication_base_commit": "39a8cf3a124bdd5540ee826e1cb30047c8dc8c85",
+  "publication_files": [
+    {
+      "path": "vesuvius/src/vesuvius/models/configuration/config_manager.py",
+      "sha256": "605c3f78db8671ba7dde56378af6306d68bde91caed9b2860de126fd07be2bfa",
+      "bytes": 53100
+    },
+    {
+      "path": "vesuvius/src/vesuvius/models/training/cli.py",
+      "sha256": "874c5e1a535be4e309c899fcaff40d75dc97abc7c3652f6db247eb12e68a6cc1",
+      "bytes": 21879
+    },
+    {
+      "path": "vesuvius/tests/models/training/test_amp_policy_roundtrip.py",
+      "sha256": "b5070721d0d7f17e5628427339dd0e530f9ffe35cf0351f85fa2b178ea846dfe",
+      "bytes": 5482
+    }
+  ],
+  "source_patch_sha256": "f24c04b237a6a4c64ab83d957e093134df84b37223227cdae7fe30d45a0d8ca9",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 1702,
+      "author": "ge-al",
+      "credit": "existing AMP controls",
+      "url": "https://github.com/ScrollPrize/villa/pull/1702"
+    },
+    {
+      "pr": 1496,
+      "author": "axiosdevs",
+      "credit": "existing precision control",
+      "url": "https://github.com/ScrollPrize/villa/pull/1496"
+    },
+    {
+      "pr": 509,
+      "author": "bruniss",
+      "credit": "training groundwork",
+      "url": "https://github.com/ScrollPrize/villa/pull/509"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made."
+}

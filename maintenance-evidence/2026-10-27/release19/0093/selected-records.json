@@ -1,0 +1,57 @@
+{
+  "id": "0093",
+  "title": "Final checkpoint completed-epoch metadata",
+  "before": "A final checkpoint can record stale completed-epoch metadata.",
+  "after": "Record the actual completed epoch in the final checkpoint.",
+  "scope": "CPU checkpoint modules/reduced source loop;not fulltrainer.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "job_id": "25041027.pbs-m1.metacentrum.cz",
+  "raw_result_sha256": "04dc69ed70477762de7d602ede71600a29524986274d7b8336584c844b6057c5",
+  "original": {
+    "methods": 6,
+    "assertion_failures": 3,
+    "controls": 3,
+    "errors": 0,
+    "skips": 0,
+    "representative_assertion_ids": [
+      "test_generic_final_epoch.GenericFinalEpochTests.test_early_stop_final_epoch_matches_completed_range",
+      "test_generic_final_epoch.GenericFinalEpochTests.test_no_loop_above_horizon_preserves_loaded_epoch"
+    ]
+  },
+  "repaired": {
+    "methods": 6,
+    "passes": 6,
+    "assertion_failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "publication_title": "Save the completed epoch in the final checkpoint",
+  "publication_base_commit": "39a8cf3a124bdd5540ee826e1cb30047c8dc8c85",
+  "publication_files": [
+    {
+      "path": "vesuvius/src/vesuvius/models/training/train.py",
+      "sha256": "84a5f27b36d96951532a0c6b376f49e59c98e04d8077d3c23e229829a05642af",
+      "bytes": 122615
+    },
+    {
+      "path": "vesuvius/tests/models/training/test_generic_final_epoch.py",
+      "sha256": "c930299c6c2a1d0bcdae1429da7ffa786f6f21a057693daf0f17b17d5cf1e402",
+      "bytes": 8998
+    }
+  ],
+  "source_patch_sha256": "c308b2828fae271b00bfe8028fe5c6eebb6ff7c5b1cdaf56f1919d21b59831d0",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 802,
+      "author": "giorgioangel",
+      "credit": "separate distributed coordination",
+      "url": "https://github.com/ScrollPrize/villa/pull/802"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made."
+}

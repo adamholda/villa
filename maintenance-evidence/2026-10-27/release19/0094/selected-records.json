@@ -1,0 +1,63 @@
+{
+  "id": "0094",
+  "title": "Scheduler horizon with gradient accumulation",
+  "before": "Per-update scheduler horizons can count microbatches without accumulation conversion.",
+  "after": "Use the intended optimizer-update horizon with accumulation and final flush.",
+  "scope": "Actual scheduler factory/extracted methods,tiny CPU updates;no fulltrainer/AMP/DDP;axiosdevs1495 credited.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "job_id": "25042290.pbs-m1.metacentrum.cz",
+  "raw_result_sha256": "bb02b6bc49a8b28a7692191739a871f3c8febb3253306823160b706106a4d928",
+  "original": {
+    "methods": 9,
+    "assertion_failures": 5,
+    "controls": 4,
+    "errors": 0,
+    "skips": 0,
+    "representative_assertion_ids": [
+      "test_generic_scheduler_accumulation.GenericSchedulerAccumulationTests.test_capped_cosine",
+      "test_generic_scheduler_accumulation.GenericSchedulerAccumulationTests.test_diffusers_partial"
+    ]
+  },
+  "repaired": {
+    "methods": 9,
+    "passes": 9,
+    "assertion_failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "publication_title": "Account for gradient accumulation in scheduler horizons",
+  "publication_base_commit": "39a8cf3a124bdd5540ee826e1cb30047c8dc8c85",
+  "publication_files": [
+    {
+      "path": "vesuvius/src/vesuvius/models/training/train.py",
+      "sha256": "356a93194c7434b61bef0839a42f08a126b190c0c5bee460b5b124baece8e3e0",
+      "bytes": 122699
+    },
+    {
+      "path": "vesuvius/tests/models/training/test_generic_scheduler_accumulation.py",
+      "sha256": "a1f183f0b1746983725ea5d8b6658116680ab074eb8b2561a0d9872689fd9029",
+      "bytes": 7698
+    }
+  ],
+  "source_patch_sha256": "88e0a274221f88b38fb694ea4aaac9dc6efa8877c9f8b2b4669e1536918a5af5",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 1495,
+      "author": "axiosdevs",
+      "credit": "existing per-update scheduler horizon",
+      "url": "https://github.com/ScrollPrize/villa/pull/1495"
+    },
+    {
+      "pr": 2252,
+      "author": "campbelltron1",
+      "credit": "distinct auxiliary work",
+      "url": "https://github.com/ScrollPrize/villa/pull/2252"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made."
+}

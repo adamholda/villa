@@ -1,0 +1,105 @@
+{
+  "id": "0067",
+  "title": "Coherent cache target/selection/value packet",
+  "before": "Cache selection/value handling can reuse a different unlabeled pool or omit required constraints.",
+  "after": "Keep target identity,allowlist identity,required-cache and null-value semantics coherent.",
+  "scope": "0055 target identity common in this final comparison;its foundation separately4/4;related mechanisms grouped once.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "job_id": "24976761.pbs-m1.metacentrum.cz",
+  "raw_result_sha256": "10195843649dda62429605dfb1e17c1f40e393d96d0b854e8a9ce4909ab44fe1",
+  "original": {
+    "methods": 22,
+    "assertion_failures": 11,
+    "controls": 11,
+    "errors": 0,
+    "skips": 0,
+    "representative_assertion_ids": [
+      "test_cache_unlabeled_allowlist.UnlabeledAllowlistCacheTests.test_distinct_nonempty_allowlists_have_distinct_pools",
+      "test_cache_unlabeled_allowlist.UnlabeledAllowlistCacheTests.test_force_other_selection_preserves_the_first_cache"
+    ]
+  },
+  "repaired": {
+    "methods": 22,
+    "passes": 22,
+    "assertion_failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "publication_title": "Keep dataset cache targets, selections and values consistent",
+  "publication_base_commit": "39a8cf3a124bdd5540ee826e1cb30047c8dc8c85",
+  "publication_files": [
+    {
+      "path": "vesuvius/src/vesuvius/models/datasets/zarr_dataset.py",
+      "sha256": "c81e1470fd9838cc6ccf5a125b99023f79c6438a0af78e961756472621275902",
+      "bytes": 39319
+    },
+    {
+      "path": "vesuvius/src/vesuvius/models/preprocessing/patches/cache.py",
+      "sha256": "df55132fd4f6098b3c22a641f4e0a153139c0bff68f69f628491fcf33283cda8",
+      "bytes": 10604
+    },
+    {
+      "path": "vesuvius/src/vesuvius/models/preprocessing/patches/generate.py",
+      "sha256": "6ea9c9591a8800e8c14e4f9de45ba561eb6c81bb5b2ca923a1659e6082efd691",
+      "bytes": 10338
+    },
+    {
+      "path": "vesuvius/tests/models/datasets/test_cache_unlabeled_allowlist.py",
+      "sha256": "b3244b86afcf767ffa5256a3e6fd1569f86bdc53f7c8df49f0668c9204a4cca3",
+      "bytes": 8390
+    },
+    {
+      "path": "vesuvius/tests/models/datasets/test_cache_value_null.py",
+      "sha256": "9538ca025a9f149bf63bd45b6c0879e1c06f2398cf9b0e8c95f43a550e02f407",
+      "bytes": 4354
+    },
+    {
+      "path": "vesuvius/tests/models/datasets/test_unlabeled_cache_required.py",
+      "sha256": "9f87ec44df26f5f6ed2592c154c227b945fb75ae133c45ee5799822a6b0a5390",
+      "bytes": 1918
+    },
+    {
+      "path": "vesuvius/tests/models/datasets/test_unlabeled_skip_compatibility.py",
+      "sha256": "f83db799ffe28f91fffba2d8e7934599e16cad4b6bda4b95415d0d540dd9c6b2",
+      "bytes": 2785
+    }
+  ],
+  "source_patch_sha256": "354430fa8db71343c8089b59f5635fa1020ddadee5a198bf5e64dba35f850595",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 509,
+      "author": "bruniss",
+      "credit": "dataset groundwork",
+      "url": "https://github.com/ScrollPrize/villa/pull/509"
+    },
+    {
+      "pr": 666,
+      "author": "bruniss",
+      "credit": "dataset groundwork",
+      "url": "https://github.com/ScrollPrize/villa/pull/666"
+    },
+    {
+      "pr": 1682,
+      "author": "kadenpool",
+      "credit": "store creation",
+      "url": "https://github.com/ScrollPrize/villa/pull/1682"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made.",
+  "included_foundation": "Private target-identity correction 0055 is included in this packet, not a separate contribution count.",
+  "additional_composition_evidence": {
+    "pbs_job_id": "25051815.pbs-m1.metacentrum.cz",
+    "original_methods": 46,
+    "original_assertion_failures": 25,
+    "original_controls": 21,
+    "repaired_passes": 46,
+    "errors": 0,
+    "skips": 0,
+    "scope": "This cache packet composed with packed mapping, packed normalization and rotation-axis wiring; not the whole portfolio."
+  }
+}

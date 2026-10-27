@@ -1,0 +1,69 @@
+{
+  "id": "0095",
+  "title": "Saved minmax/rescale aliases reach inference",
+  "before": "Saved minmax/rescale aliases can reach inference without selecting the intended normalizer.",
+  "after": "Map the existing aliases to the supported minmax normalization behavior.",
+  "scope": "Explicitly authorized corrected global-zscore control;failed0104 remains separately preserved/charged.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "job_id": "25039900.pbs-m1.metacentrum.cz",
+  "raw_result_sha256": "8a7212cf4f7271e4f002d625c999b970319c22f1bf4c7b3df290054f8a140340",
+  "original": {
+    "methods": 8,
+    "assertion_failures": 4,
+    "controls": 4,
+    "errors": 0,
+    "skips": 0,
+    "representative_assertion_ids": [
+      "test_checkpoint_minmax_alias_global_control.CheckpointMinmaxAliasTests.test_current_minmax",
+      "test_checkpoint_minmax_alias_global_control.CheckpointMinmaxAliasTests.test_current_rescale"
+    ]
+  },
+  "repaired": {
+    "methods": 8,
+    "passes": 8,
+    "assertion_failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "publication_title": "Restore saved minmax normalization aliases for inference",
+  "publication_base_commit": "39a8cf3a124bdd5540ee826e1cb30047c8dc8c85",
+  "publication_files": [
+    {
+      "path": "vesuvius/src/vesuvius/models/run/inference.py",
+      "sha256": "7ae2c168380cb85af55c98fb4cbe775d3e35ba816f94afba6d010c5cb24b3783",
+      "bytes": 70687
+    },
+    {
+      "path": "vesuvius/tests/models/run/test_checkpoint_minmax_alias_global_control.py",
+      "sha256": "d706347c82f9a99d9e06feaf1b9a8fdac791dae76aaeb9aab451251df892527a",
+      "bytes": 7508
+    }
+  ],
+  "source_patch_sha256": "10e16709f65a1f8963430f085ae24b98732135587c4a7a430df7c05f0deda607",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 1386,
+      "author": "TAUIL-Abd-Elilah",
+      "credit": "nnU-Net mapping",
+      "url": "https://github.com/ScrollPrize/villa/pull/1386"
+    },
+    {
+      "pr": 2295,
+      "author": "ChaseHendrick",
+      "credit": "separate routing proposal",
+      "url": "https://github.com/ScrollPrize/villa/pull/2295"
+    },
+    {
+      "pr": 1446,
+      "author": null,
+      "credit": "different intensity-normalization write-through correction",
+      "url": "https://github.com/ScrollPrize/villa/pull/1446"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made."
+}

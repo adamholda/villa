@@ -1,0 +1,75 @@
+{
+  "id": "0090",
+  "title": "Generic weights-only EMA reset",
+  "before": "A weights-only restore can leave EMA seeded from pre-load weights/history.",
+  "after": "Reset EMA from the actual loaded main state and retain full-resume behavior.",
+  "scope": "Actual CPU checkpoint/history states and extracted caller/EMA methods;full resume controls retained;no fulltrainer/training;652/806 credited.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "job_id": "25044404.pbs-m1.metacentrum.cz",
+  "raw_result_sha256": "7eff6d2a8873a2beae0a96d3f007e100fe05c9c0455cbe361bda7e39883fffa3",
+  "original": {
+    "methods": 7,
+    "assertion_failures": 3,
+    "controls": 4,
+    "errors": 0,
+    "skips": 0,
+    "representative_assertion_ids": [
+      "test_generic_weights_only_ema.GenericWeightsOnlyEmaTests.test_partial_weights_only_seeds_ema_from_loaded_and_retained_main",
+      "test_generic_weights_only_ema.GenericWeightsOnlyEmaTests.test_weights_only_ignores_ema_weights_and_counter"
+    ]
+  },
+  "repaired": {
+    "methods": 7,
+    "passes": 7,
+    "assertion_failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "publication_title": "Reset EMA state on weights-only checkpoint loads",
+  "publication_base_commit": "39a8cf3a124bdd5540ee826e1cb30047c8dc8c85",
+  "publication_files": [
+    {
+      "path": "vesuvius/src/vesuvius/models/training/train.py",
+      "sha256": "0fcb055372e028977bdf8cb6d27fff883d1d3626c923e54610c370dac5d37d07",
+      "bytes": 122637
+    },
+    {
+      "path": "vesuvius/tests/models/training/test_generic_weights_only_ema.py",
+      "sha256": "11c0fa473a3a33f6cecfb886edd6ade7020d693830e16c5500c9784ae9aa685a",
+      "bytes": 8232
+    }
+  ],
+  "source_patch_sha256": "1e0fd9081f56828365fedca3a89f0c84b1182e4ec0c7c0a5edde7f273533b2af",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 652,
+      "author": "bruniss",
+      "credit": "extra-state groundwork",
+      "url": "https://github.com/ScrollPrize/villa/pull/652"
+    },
+    {
+      "pr": 806,
+      "author": "giorgioangel",
+      "credit": "EMA/counter feature",
+      "url": "https://github.com/ScrollPrize/villa/pull/806"
+    },
+    {
+      "pr": 1475,
+      "author": "jaideepsaipadhi",
+      "credit": "different partial-load reporting",
+      "url": "https://github.com/ScrollPrize/villa/pull/1475"
+    },
+    {
+      "pr": 1819,
+      "author": "giorgioangel",
+      "credit": "different Hecate path",
+      "url": "https://github.com/ScrollPrize/villa/pull/1819"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made."
+}

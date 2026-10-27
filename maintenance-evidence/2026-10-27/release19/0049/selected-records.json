@@ -1,0 +1,81 @@
+{
+  "id": "0049",
+  "title": "Named-axis/full-frame transpose planning",
+  "before": "Transpose planning/runtime assume fixed ZYX and lose parts of declared frames.",
+  "after": "Share read-only named-axis/full-frame specification in planning and preparation.",
+  "scope": "Explicit2295 core overlay;ChaseHendrick basic pitch/units/routing/planning credited;old0021a counted here once.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "job_id": "24978838.pbs-m1.metacentrum.cz",
+  "raw_result_sha256": "fced529e759b6d1cf899242d704feb03f90b4757a8ff89a9920d44962447a2f4",
+  "original": {
+    "methods": 9,
+    "assertion_failures": 5,
+    "controls": 4,
+    "errors": 0,
+    "skips": 0,
+    "representative_assertion_ids": [
+      "test_transpose_plan.TransposePlanTests.test_dataset_translation_survives_plan_and_execution",
+      "test_transpose_plan.TransposePlanTests.test_global_frame_and_signed_scale_survive_execution"
+    ]
+  },
+  "repaired": {
+    "methods": 9,
+    "passes": 9,
+    "assertion_failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "publication_title": "Preserve declared axes and transforms in transpose planning",
+  "publication_base_commit": "209d3b7940af2768fb8a796249d19c969e608e5f",
+  "publication_files": [
+    {
+      "path": "vesuvius/src/vesuvius/image_proc/run/zarr_tasks/tasks/transpose.py",
+      "sha256": "de1dc1845ec8b6949047def2a7c7a7aab947d36de294e93781a7eefaae540d6e",
+      "bytes": 11378
+    },
+    {
+      "path": "vesuvius/tests/image_proc/test_transpose_plan.py",
+      "sha256": "314eeca96abf11fabd7e9f97e071a6ebdab2cf4eac0203fdca4e3768f20a462c",
+      "bytes": 7705
+    }
+  ],
+  "source_patch_sha256": "81f2a65525e99beadddde07bc616282de50f4950d2c34f3ebe3c1c479a2e0947",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 2295,
+      "author": "ChaseHendrick",
+      "credit": "the dependency containing routing, pitch, planning and defaults",
+      "url": "https://github.com/ScrollPrize/villa/pull/2295"
+    },
+    {
+      "pr": 1431,
+      "author": "axiosdevs",
+      "credit": "selected-input routing",
+      "url": "https://github.com/ScrollPrize/villa/pull/1431"
+    },
+    {
+      "pr": 1682,
+      "author": "kadenpool",
+      "credit": "shared store creation",
+      "url": "https://github.com/ScrollPrize/villa/pull/1682"
+    },
+    {
+      "pr": 2266,
+      "author": "rwe6445",
+      "credit": "separate metadata work",
+      "url": "https://github.com/ScrollPrize/villa/pull/2266"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made.",
+  "upstream_dependency": {
+    "pr": 2295,
+    "author": "ChaseHendrick",
+    "commit": "209d3b7940af2768fb8a796249d19c969e608e5f",
+    "review_scope": "Only the final follow-up commit is this packet; upstream dependency changes are not attributed to it."
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "0052",
+  "title": "Native confusion per-sample count rows",
+  "before": "A whole-local-batch count row does not align with Accelerate dataset-sample trimming.",
+  "after": "Gather int64 count rows per input sample,retain ignored zero rows,then sum after trimming.",
+  "scope": "Real CPU counts and pinned gather with supplied collective/state;no actualDDP/training.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "job_id": "24978709.pbs-m1.metacentrum.cz",
+  "raw_result_sha256": "4a53e275a8967d08c897502148d6bb7515f765c68cac6bf92d0edc201465f998",
+  "original": {
+    "methods": 11,
+    "assertion_failures": 4,
+    "controls": 7,
+    "errors": 0,
+    "skips": 0,
+    "representative_assertion_ids": [
+      "test_confusion_sample_rows.ConfusionSampleRowsTests.test_all_ignored_sample_retains_zero_row_until_trim",
+      "test_confusion_sample_rows.ConfusionSampleRowsTests.test_one_sample_tail_after_full_step_removes_duplicate_counts"
+    ]
+  },
+  "repaired": {
+    "methods": 11,
+    "passes": 11,
+    "assertion_failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "publication_title": "Gather validation confusion counts at sample granularity",
+  "publication_base_commit": "39a8cf3a124bdd5540ee826e1cb30047c8dc8c85",
+  "publication_files": [
+    {
+      "path": "vesuvius/src/vesuvius/ink_detection/training/train.py",
+      "sha256": "9fe5e320e625f5ce56811e73c05efddcef7e4896134cf9729ec573bcfd215304",
+      "bytes": 52393
+    },
+    {
+      "path": "vesuvius/tests/ink_detection/test_confusion_sample_rows.py",
+      "sha256": "e04b287051c675cd742200d43b18fc84216d7dcc5d44d6bab8fb1189b3a89292",
+      "bytes": 11681
+    }
+  ],
+  "source_patch_sha256": "cfade691c11fc134b65f745c1f1d1132b6f8426716a4cb506931dba1ffd45fe5",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 1927,
+      "author": "AndreasHad04",
+      "credit": "existing MPS/dtype behavior, retained",
+      "url": "https://github.com/ScrollPrize/villa/pull/1927"
+    },
+    {
+      "pr": 2126,
+      "author": "AndreasHad04",
+      "credit": "separate held-out isolation proposal",
+      "url": "https://github.com/ScrollPrize/villa/pull/2126"
+    },
+    {
+      "pr": 2118,
+      "author": "bruniss",
+      "credit": "native training groundwork",
+      "url": "https://github.com/ScrollPrize/villa/pull/2118"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made."
+}

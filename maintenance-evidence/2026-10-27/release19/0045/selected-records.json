@@ -1,0 +1,65 @@
+{
+  "id": "0045",
+  "title": "Transpose local-tree guard",
+  "before": "Transpose local trees can overlap output writes.",
+  "after": "Reject canonical local tree overlap before prompting or prepare reads.",
+  "scope": "16 methods and24 S3/S5 records;0021a common;0049 guard composition unproven.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "job_id": "24978646.pbs-m1.metacentrum.cz",
+  "raw_result_sha256": "93f1a96875adb96377f627922326003998b6d8805a7c7030e3f426bd8f6b9201",
+  "original": {
+    "methods": 16,
+    "assertion_failures": 8,
+    "controls": 8,
+    "errors": 0,
+    "skips": 0,
+    "representative_assertion_ids": [
+      "test_transpose_paths.TransposePathTests.test_cli_file_uri_alias_rejects",
+      "test_transpose_paths.TransposePathTests.test_cli_nested_output_rejects"
+    ]
+  },
+  "repaired": {
+    "methods": 16,
+    "passes": 16,
+    "assertion_failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "publication_title": "Reject overlapping local input/output trees in transpose",
+  "publication_base_commit": "39a8cf3a124bdd5540ee826e1cb30047c8dc8c85",
+  "publication_files": [
+    {
+      "path": "vesuvius/src/vesuvius/image_proc/run/zarr_tasks/tasks/transpose.py",
+      "sha256": "bba6a1c2a129712dbf5ffa66ac044672a125d73e887e868dea8f68a3c2168288",
+      "bytes": 7421
+    }
+  ],
+  "source_patch_sha256": "7cbb4d75843bedc39982a7e9ad45907c8b86e2ce888db3d38612e95b1ee4a21d",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 1431,
+      "author": "axiosdevs",
+      "credit": "selected-input routing",
+      "url": "https://github.com/ScrollPrize/villa/pull/1431"
+    },
+    {
+      "pr": 1682,
+      "author": "kadenpool",
+      "credit": "shared store creation",
+      "url": "https://github.com/ScrollPrize/villa/pull/1682"
+    },
+    {
+      "pr": 2295,
+      "author": "ChaseHendrick",
+      "credit": "separate routing, planning and defaults proposal",
+      "url": "https://github.com/ScrollPrize/villa/pull/2295"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made.",
+  "changed_context_gate": "Archived 16-method/CT comparison uses the coordinate correction 0021a in both arms. This current-main standalone guard has application/AST checks, not a new runtime result."
+}

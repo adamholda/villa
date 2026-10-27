@@ -1,0 +1,63 @@
+{
+  "id": "0073",
+  "title": "Packed labeled-prefix mapping",
+  "before": "Interleaved packed mapping can disagree with the labeled-prefix boundary.",
+  "after": "Group mappings stably and retain the correct values,positions and labeled boundary.",
+  "scope": "Generated stores and actual source loader method;combined dataset gate separate.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "job_id": "24978747.pbs-m1.metacentrum.cz",
+  "raw_result_sha256": "d1748b87bf54d1b7eec201b336aec655eb787e9f8083b827eea25d3cb8fa28f5",
+  "original": {
+    "methods": 7,
+    "assertion_failures": 3,
+    "controls": 4,
+    "errors": 0,
+    "skips": 0,
+    "representative_assertion_ids": [
+      "test_packed_mapping_order.PackedMappingOrderTests.test_mapping_metadata_partition_is_independent_of_scanner_enable",
+      "test_packed_mapping_order.PackedMappingOrderTests.test_mixed_mapping_keeps_actual_validation_labeled"
+    ]
+  },
+  "repaired": {
+    "methods": 7,
+    "passes": 7,
+    "assertion_failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "publication_title": "Map labeled packed volumes before unlabeled entries",
+  "publication_base_commit": "39a8cf3a124bdd5540ee826e1cb30047c8dc8c85",
+  "publication_files": [
+    {
+      "path": "vesuvius/src/vesuvius/models/datasets/zarr_dataset.py",
+      "sha256": "7ad8ec037160d525e5c7559446b5240f7b96ea19ba6b7f87f234ce913c9e43c9",
+      "bytes": 38875
+    },
+    {
+      "path": "vesuvius/tests/models/datasets/test_packed_mapping_order.py",
+      "sha256": "7f67ae4d3de88e07761aa9745659a78e85e653e20695a60aed9a5974ccad772b",
+      "bytes": 7467
+    }
+  ],
+  "source_patch_sha256": "1fcdcf8a36a343c7cbf91d3fc261a6166fa220817a7ffcd1ee2e37639f6124a1",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 1682,
+      "author": "kadenpool",
+      "credit": "packed-store creation",
+      "url": "https://github.com/ScrollPrize/villa/pull/1682"
+    },
+    {
+      "pr": 652,
+      "author": "bruniss",
+      "credit": "existing trainer behavior",
+      "url": "https://github.com/ScrollPrize/villa/pull/652"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made."
+}

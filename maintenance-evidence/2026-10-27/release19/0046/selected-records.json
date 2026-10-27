@@ -1,0 +1,63 @@
+{
+  "id": "0046",
+  "title": "Positive explicit worker argument",
+  "before": "Explicit zero/negative worker counts pass argument parsing.",
+  "after": "Reject explicit nonpositive counts;leave default/quota selection unchanged.",
+  "scope": "Parser scope;proposal context also separately8/8;selector/default/affinity work excluded.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "job_id": "24978838.pbs-m1.metacentrum.cz",
+  "raw_result_sha256": "fced529e759b6d1cf899242d704feb03f90b4757a8ff89a9920d44962447a2f4",
+  "original": {
+    "methods": 8,
+    "assertion_failures": 2,
+    "controls": 6,
+    "errors": 0,
+    "skips": 0,
+    "representative_assertion_ids": [
+      "test_zarr_worker_positivity.WorkerArgumentTests.test_negative_workers_rejected",
+      "test_zarr_worker_positivity.WorkerArgumentTests.test_zero_workers_rejected"
+    ]
+  },
+  "repaired": {
+    "methods": 8,
+    "passes": 8,
+    "assertion_failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "publication_title": "Reject nonpositive explicit Zarr worker counts",
+  "publication_base_commit": "39a8cf3a124bdd5540ee826e1cb30047c8dc8c85",
+  "publication_files": [
+    {
+      "path": "vesuvius/src/vesuvius/image_proc/run/zarr_tasks/base.py",
+      "sha256": "9ba81a13290ac5133124f2e7b15987ad83ae435f4b3a4adc0f9aaf6ea9abed93",
+      "bytes": 9682
+    },
+    {
+      "path": "vesuvius/tests/image_proc/test_zarr_worker_positivity.py",
+      "sha256": "aaea525c4e5b1aee8f5443e7f324c3995a50849735e81f74838daa1091347845",
+      "bytes": 1914
+    }
+  ],
+  "source_patch_sha256": "1c634fdc5ee9dbd9ae663a068b37699c172012f2d75575815db9a0dd5be43e56",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 2295,
+      "author": "ChaseHendrick",
+      "credit": "default/quota/selector proposal, excluded from this delta",
+      "url": "https://github.com/ScrollPrize/villa/pull/2295"
+    },
+    {
+      "pr": 2064,
+      "author": null,
+      "credit": "different ink-worker zero behavior, unchanged",
+      "url": "https://github.com/ScrollPrize/villa/pull/2064"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made."
+}

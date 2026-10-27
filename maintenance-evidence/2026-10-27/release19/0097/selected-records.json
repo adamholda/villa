@@ -1,0 +1,39 @@
+{
+  "id": "0097",
+  "title": "Finalizer diagnostic channel-name order",
+  "before": "Printed target channel names are alphabetized while data channels follow start_channel.",
+  "after": "Print names in actual channel order;numeric finalization is unchanged.",
+  "scope": "Isolated metadata/text branch;numeric finalizer unchanged.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "source_only": true,
+  "no_actual_module_or_array_runtime": true,
+  "source_example": {
+    "before": "Output will have 2 channels: [a_surface_softmax_fg, z_ink_softmax_fg]",
+    "after": "Output will have 2 channels: [z_ink_softmax_fg, a_surface_softmax_fg]",
+    "expected": "Output will have 2 channels: [z_ink_softmax_fg, a_surface_softmax_fg]"
+  },
+  "publication_title": "Print finalizer names in data channel order",
+  "publication_base_commit": "39a8cf3a124bdd5540ee826e1cb30047c8dc8c85",
+  "publication_files": [
+    {
+      "path": "vesuvius/src/vesuvius/models/run/finalize_outputs.py",
+      "sha256": "e9df268c117086bb37f8cba9fa4e64563fb762639ac75f19e13de2815ab3c371",
+      "bytes": 27414
+    }
+  ],
+  "source_patch_sha256": "56b859383ee20b77fb0d05f51c94bc83b111a335d7901dbd8ffe611cbe98b0f2",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 1156,
+      "author": "BuraChuhadar",
+      "credit": "separate numeric finalizer-mask proposal, excluded here",
+      "url": "https://github.com/ScrollPrize/villa/pull/1156"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made."
+}

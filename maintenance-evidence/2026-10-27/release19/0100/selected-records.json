@@ -1,0 +1,69 @@
+{
+  "id": "0100",
+  "title": "Recent checkpoint/debug-history retention",
+  "before": "Repeated registration of the same epoch can prune extra checkpoint/debug history.",
+  "after": "Retain distinct recent epochs and preserve older best/unrelated files.",
+  "scope": "Small real checkpoints/sentinel debug files;not training.",
+  "archived_view_not_live_execution": true,
+  "human_personal_review_claim": false,
+  "raw_CT_weights_predictions_or_full_cluster_logs_included": false,
+  "publication_draft": true,
+  "job_id": "25026371.pbs-m1.metacentrum.cz",
+  "raw_result_sha256": "6853671945549b920b6a241329aa99120a5712bc25fcff30d1bf188571c374b9",
+  "original": {
+    "methods": 6,
+    "assertion_failures": 2,
+    "controls": 4,
+    "errors": 0,
+    "skips": 0,
+    "representative_assertion_ids": [
+      "test_checkpoint_history_registration.CheckpointHistoryRegistrationTests.test_debug_caller_keeps_three_recent_files",
+      "test_checkpoint_history_registration.CheckpointHistoryRegistrationTests.test_trainer_keeps_three_recent_checkpoints"
+    ]
+  },
+  "repaired": {
+    "methods": 6,
+    "passes": 6,
+    "assertion_failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "publication_title": "Register existing checkpoint history before pruning",
+  "publication_base_commit": "39a8cf3a124bdd5540ee826e1cb30047c8dc8c85",
+  "publication_files": [
+    {
+      "path": "vesuvius/src/vesuvius/models/training/save_checkpoint.py",
+      "sha256": "1357a9d087c6871c444ef3364b2564eeeab3c242502e9155447a893cb51a9f43",
+      "bytes": 10407
+    },
+    {
+      "path": "vesuvius/tests/models/training/test_checkpoint_history_registration.py",
+      "sha256": "9c0688013d85ee5b894f6a8165bcb925408c538515456e6d138688b952d7a859",
+      "bytes": 5286
+    }
+  ],
+  "source_patch_sha256": "28b9339ba6b740ca52b99efcb765523454632409a0589f9549785a61b4a60911",
+  "publication_source_preparation": "Exact patch application and text/AST checks only; no new runtime during publication preparation. Archived runtime scope is stated separately.",
+  "prior_work": [
+    {
+      "pr": 652,
+      "author": "bruniss",
+      "credit": "trainer groundwork",
+      "url": "https://github.com/ScrollPrize/villa/pull/652"
+    },
+    {
+      "pr": 806,
+      "author": "giorgioangel",
+      "credit": "trainer/EMA groundwork",
+      "url": "https://github.com/ScrollPrize/villa/pull/806"
+    },
+    {
+      "pr": 2252,
+      "author": "campbelltron1",
+      "credit": "distinct auxiliary work",
+      "url": "https://github.com/ScrollPrize/villa/pull/2252"
+    }
+  ],
+  "prior_search_limit": "Focused current source and PR checks; not an exhaustive novelty guarantee.",
+  "author_review_and_real_scroll_workflow_gate": "Pending; no personal review or human-written relevance attestation is made."
+}
