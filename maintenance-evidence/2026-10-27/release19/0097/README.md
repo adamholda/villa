@@ -1,6 +1,6 @@
-# 0097 � Finalizer diagnostic channel-name order
+# 0097 — Finalizer diagnostic channel-name order
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 **Before,actual extracted print block:**
 ```text

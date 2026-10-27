@@ -1,6 +1,6 @@
-# 0081 � Honor configured rotation axes
+# 0081 — Honor configured rotation axes
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 |Recorded result|Original|Repaired|
 |---|---:|---:|

@@ -1,6 +1,6 @@
-# 0050 � Threshold local-tree guard
+# 0050 — Threshold local-tree guard
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 |Recorded result|Original|Repaired|
 |---|---:|---:|

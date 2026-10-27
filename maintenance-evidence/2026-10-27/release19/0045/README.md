@@ -1,6 +1,6 @@
-# 0045 � Transpose local-tree guard
+# 0045 — Transpose local-tree guard
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 **Context limit:** the16-method/CT proof has0021a coordinate work common. This branch contains the standalone guard;changed-context validation remains a draft gate.
 

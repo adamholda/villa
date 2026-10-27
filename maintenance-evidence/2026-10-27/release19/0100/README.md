@@ -1,6 +1,6 @@
-# 0100 � Recent checkpoint/debug-history retention
+# 0100 — Recent checkpoint/debug-history retention
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 |Recorded result|Original|Repaired|
 |---|---:|---:|

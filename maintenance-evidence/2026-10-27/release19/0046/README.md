@@ -1,6 +1,6 @@
-# 0046 � Positive explicit worker argument
+# 0046 — Positive explicit worker argument
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 |Recorded result|Original|Repaired|
 |---|---:|---:|

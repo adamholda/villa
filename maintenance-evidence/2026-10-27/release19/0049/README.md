@@ -1,6 +1,6 @@
-# 0049 � Named-axis/full-frame transpose planning
+# 0049 — Named-axis/full-frame transpose planning
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 **Dependency:** follows unmerged PR2295 by ChaseHendrick at209d3b794. Only our final increment is new here;the original author retains credit for all common routing/pitch/planning/default work.
 

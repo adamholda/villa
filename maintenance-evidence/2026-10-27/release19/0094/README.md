@@ -1,6 +1,6 @@
-# 0094 � Scheduler horizon with gradient accumulation
+# 0094 — Scheduler horizon with gradient accumulation
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 |Recorded result|Original|Repaired|
 |---|---:|---:|

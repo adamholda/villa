@@ -1,6 +1,6 @@
-# 0090 � Generic weights-only EMA reset
+# 0090 — Generic weights-only EMA reset
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 |Recorded result|Original|Repaired|
 |---|---:|---:|

@@ -1,6 +1,6 @@
-# 0102 � Inference guide/help contract
+# 0102 — Inference guide/help contract
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 |Contract|Before text|After text / actual code|
 |---|---|---|

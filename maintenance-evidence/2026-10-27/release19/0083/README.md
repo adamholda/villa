@@ -1,6 +1,6 @@
-# 0083 � Generic AMP successful-update consumers
+# 0083 — Generic AMP successful-update consumers
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 |Recorded result|Original|Repaired|
 |---|---:|---:|

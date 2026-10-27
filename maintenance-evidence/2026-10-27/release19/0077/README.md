@@ -1,6 +1,6 @@
-# 0077 � Packed neighbor normalization isolation
+# 0077 — Packed neighbor normalization isolation
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 |Recorded result|Original|Repaired|
 |---|---:|---:|

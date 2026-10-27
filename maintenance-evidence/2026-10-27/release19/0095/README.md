@@ -1,6 +1,6 @@
-# 0095 � Saved minmax/rescale aliases reach inference
+# 0095 — Saved minmax/rescale aliases reach inference
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 |Recorded result|Original|Repaired|
 |---|---:|---:|

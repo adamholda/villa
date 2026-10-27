@@ -1,6 +1,6 @@
-# 0027 � Zero-range output-argument guard
+# 0027 — Zero-range output-argument guard
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 Actual fixed S3/S5 CLI gate:32 records. Eight original wrong-output calls exit0/change input;all eight repaired calls reject before prompting/preserve trees. Eight valid in-place controls per arm remain exact.
 

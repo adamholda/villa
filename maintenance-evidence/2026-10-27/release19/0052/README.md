@@ -1,6 +1,6 @@
-# 0052 � Native confusion per-sample count rows
+# 0052 — Native confusion per-sample count rows
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 |Recorded result|Original|Repaired|
 |---|---:|---:|

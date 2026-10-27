@@ -1,6 +1,6 @@
-# 0073 � Packed labeled-prefix mapping
+# 0073 — Packed labeled-prefix mapping
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 |Recorded result|Original|Repaired|
 |---|---:|---:|

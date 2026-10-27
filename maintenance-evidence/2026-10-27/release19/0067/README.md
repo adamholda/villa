@@ -1,6 +1,6 @@
-# 0067 � Coherent cache target/selection/value packet
+# 0067 — Coherent cache target/selection/value packet
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 |Recorded result|Original|Repaired|
 |---|---:|---:|

@@ -1,6 +1,6 @@
-# 0089 � Saved AMP-policy YAML/CLI roundtrip
+# 0089 — Saved AMP-policy YAML/CLI roundtrip
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 |Recorded result|Original|Repaired|
 |---|---:|---:|

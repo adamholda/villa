@@ -1,6 +1,6 @@
-# 0093 � Final checkpoint completed-epoch metadata
+# 0093 — Final checkpoint completed-epoch metadata
 
-**ARCHIVED EVIDENCE VIEW � not a new terminal run.**
+**ARCHIVED EVIDENCE VIEW — not a new terminal run.**
 
 |Recorded result|Original|Repaired|
 |---|---:|---:|
