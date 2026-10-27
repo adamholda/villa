@@ -1,0 +1,192 @@
+[
+  {
+    "id": "0045",
+    "path": "maintenance-evidence/2026-10-27/release19/0045/evidence.jpg",
+    "bytes": 85512,
+    "sha256": "0eb27a5284f6bdc9dcac9d610fab526b62632b11e120da92b677d88b36ee3e11",
+    "git_blob_sha1": "788ac3dee943aac26808eebf7cf35ad49241d601",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  },
+  {
+    "id": "0050",
+    "path": "maintenance-evidence/2026-10-27/release19/0050/evidence.jpg",
+    "bytes": 83917,
+    "sha256": "f0209f9452d317857adea2a4b37408fde017315931c95c81f997cc7c750ac3a2",
+    "git_blob_sha1": "5c83671a99919b54c5180b223a7e97dfeb3b3a01",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  },
+  {
+    "id": "0049",
+    "path": "maintenance-evidence/2026-10-27/release19/0049/evidence.jpg",
+    "bytes": 92205,
+    "sha256": "9f6b86ef0515e685faf2fbb4b4fce1dd77c9c649c0c4bb901b9d1c4436b40c40",
+    "git_blob_sha1": "a27ba37a8ee3adb7049fbdb2c631cf1e92b6b77a",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  },
+  {
+    "id": "0046",
+    "path": "maintenance-evidence/2026-10-27/release19/0046/evidence.jpg",
+    "bytes": 86434,
+    "sha256": "141af601e7212c44369476febc92bc9b52c1403a3459276f177fa8520a335e4c",
+    "git_blob_sha1": "0bad2f6e849b7a2d47bbf196d5d9e35c6425dafd",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  },
+  {
+    "id": "0067",
+    "path": "maintenance-evidence/2026-10-27/release19/0067/evidence.jpg",
+    "bytes": 88703,
+    "sha256": "dfc4b1c5f7c5ce4ddbe29a46d99c47ce4db6dd43fb516b650765d89d59ea92d8",
+    "git_blob_sha1": "fd3a10dd735ffa812b32aa20064184a18206a86d",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  },
+  {
+    "id": "0052",
+    "path": "maintenance-evidence/2026-10-27/release19/0052/evidence.jpg",
+    "bytes": 92058,
+    "sha256": "b89ae278cac58c384e049f98bf8d4c4670d984e151593f5ad63f963c9da2cd38",
+    "git_blob_sha1": "52d73f9419d20162080467cf98e21dcf75f88e03",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  },
+  {
+    "id": "0073",
+    "path": "maintenance-evidence/2026-10-27/release19/0073/evidence.jpg",
+    "bytes": 84667,
+    "sha256": "1127ec88183656ef54eb969ed8e88e5912a7b8481039441f47d35fd282933cbc",
+    "git_blob_sha1": "05a5ec186bbaba3a0f66b882f86604dd92b11bc5",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  },
+  {
+    "id": "0077",
+    "path": "maintenance-evidence/2026-10-27/release19/0077/evidence.jpg",
+    "bytes": 89331,
+    "sha256": "5c669a1b6fdb8fef27f0e121b423501763d171c48270d153deb1d87bca1ae5e3",
+    "git_blob_sha1": "c72fdd15d4508f32412c07181ba3ad34170f000b",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  },
+  {
+    "id": "0081",
+    "path": "maintenance-evidence/2026-10-27/release19/0081/evidence.jpg",
+    "bytes": 87844,
+    "sha256": "54e82cdf07c5444e6d0254ca032d9c67870c9cb22c1e547abffc93473e496277",
+    "git_blob_sha1": "de3e95d4b91643556bc8e4bdc3a47182b277c70a",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  },
+  {
+    "id": "0083",
+    "path": "maintenance-evidence/2026-10-27/release19/0083/evidence.jpg",
+    "bytes": 89773,
+    "sha256": "f20b38b0bbb5b0039e31de7dbd194ab1651b62882ddd8fd25965531692458ae4",
+    "git_blob_sha1": "886f29eb48f2c700fe6df51a8f31bdc2770d88c0",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  },
+  {
+    "id": "0093",
+    "path": "maintenance-evidence/2026-10-27/release19/0093/evidence.jpg",
+    "bytes": 88880,
+    "sha256": "bd565d4e8abece1ceb43330d306f366ce66ae4725f0eda37e554b82999be35c7",
+    "git_blob_sha1": "01c422516527bc084c8c908c590dabdc7327d7a0",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  },
+  {
+    "id": "0095",
+    "path": "maintenance-evidence/2026-10-27/release19/0095/evidence.jpg",
+    "bytes": 91534,
+    "sha256": "0da79c835e33da52413788db51afb7e98889d310ec72c4179b057bad2214f929",
+    "git_blob_sha1": "4290a04ca99bedeb5bcc64764c3c3ac626622cf0",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  },
+  {
+    "id": "0100",
+    "path": "maintenance-evidence/2026-10-27/release19/0100/evidence.jpg",
+    "bytes": 87100,
+    "sha256": "abdcc287b072ea3b82ee0a7f4966d009bb8961a080165df66466785d26b07f87",
+    "git_blob_sha1": "10300d7fe5dbd92d45637f4cd18fcb521dd511de",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  },
+  {
+    "id": "0089",
+    "path": "maintenance-evidence/2026-10-27/release19/0089/evidence.jpg",
+    "bytes": 85214,
+    "sha256": "fb955e62e7ac65f41f1341dc3db58d0a477ac3919871b8e659ec15489e823833",
+    "git_blob_sha1": "b98c258548eefea55a77661341b816c27714d3ce",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  },
+  {
+    "id": "0090",
+    "path": "maintenance-evidence/2026-10-27/release19/0090/evidence.jpg",
+    "bytes": 85098,
+    "sha256": "898853ab7d782c78ad7d87f4f46a7e2d8c2c01a18a352ae260d64fc89556a883",
+    "git_blob_sha1": "086aa64cc2d1b5f00a56d59ea65fdc804e1fbe26",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  },
+  {
+    "id": "0094",
+    "path": "maintenance-evidence/2026-10-27/release19/0094/evidence.jpg",
+    "bytes": 91394,
+    "sha256": "912c9e6fabe8862b06b5c2fc8a345dfb4ac541d2d1e9590fa48d33b9fc8f7504",
+    "git_blob_sha1": "f1d124102927e053e3e0e3da9a1651b750bc0980",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  },
+  {
+    "id": "0027",
+    "path": "maintenance-evidence/2026-10-27/release19/0027/evidence.jpg",
+    "bytes": 88892,
+    "sha256": "293e90972f78c0dc462d14125fe1b84f293e9a77657ea93c5b3b04dc9aa4bc6a",
+    "git_blob_sha1": "76a398b316077593db83c9df6d678e70ebb814ac",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  },
+  {
+    "id": "0097",
+    "path": "maintenance-evidence/2026-10-27/release19/0097/evidence.jpg",
+    "bytes": 92421,
+    "sha256": "41f86d62bc9e38b3107e1fadf9fb3b784e958eb7d7700d33b0eff8e1992926f6",
+    "git_blob_sha1": "65ca92174b0e4bf590d7ba1f2d04af4941b76ac0",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  },
+  {
+    "id": "0102",
+    "path": "maintenance-evidence/2026-10-27/release19/0102/evidence.jpg",
+    "bytes": 101341,
+    "sha256": "627bc3b05958b55673ed82f279655b17e9bf3c9b376e86112d5c140982818e39",
+    "git_blob_sha1": "2e38b6903396ddd24f72e787b12d68e277f69393",
+    "mime_type": "image/jpeg",
+    "source_commit": "a1fb10177f5987dfec2ee727b20bfdbfc1c31b0b",
+    "type": "Actual browser screenshot of public archived scalar/source report; not a terminal execution or CT image."
+  }
+]
