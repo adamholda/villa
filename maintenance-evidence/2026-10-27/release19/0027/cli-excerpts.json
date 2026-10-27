@@ -1,0 +1,312 @@
+{
+  "PR": 2342,
+  "PBS_job_id": "25051344.pbs-m1.metacentrum.cz",
+  "protocol": "0112",
+  "raw_result_sha256": "d17b23e7a83169c5c34e2146eb3981a640695f0c6bf52ab72cc74c0d44badc8b",
+  "evidence_type": "Direct excerpts of archived actual CLI output plus recorded tree checks; not a live terminal capture. Interpreter/scratch paths and progress redraws redacted; no outcome/value substitution.",
+  "real_data_scope": "Fixed S3/S5 CT values in constructed isotropic format2 fixtures; no native depth/frame/model quality proof.",
+  "selected": [
+    {
+      "id": "s3-bare-new_output-baseline",
+      "command_with_interpreter_and_scratch_paths_redacted": "<python> -m vesuvius.image_proc.run.zarr_tasks <case>/input.zarr <case>/output.zarr --task zero-range --z-start 8 --z-end 15 --num-workers 1",
+      "recorded_combined_output_excerpt": "Using 1 worker processes\nInput array shape: (32, 32, 32)\nInput array chunks: (8, 8, 8)\nInput array dtype: uint8\nTask: zero-range | z=[8, 15] | replace_value=0\n  Shape: (32, 32, 32), Chunks: (8, 8, 8)\n  Z-range: [8, 15]\n  Chunks to process: 16\nZero-range complete: <case>/input.zarr\nFilled z-range: [8, 15] with value 0\n",
+      "raw_log_sha256": "ce852cfa48261a7473e2222072042f2ea47bdd5ef5bdc31e266706ca42a21873",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "metadata_unchanged": true,
+      "array_checks": [
+        {
+          "level": 0,
+          "shape": [
+            32,
+            32,
+            32
+          ],
+          "dtype": "uint8",
+          "actual_sha256": "a5fd12bfda71b3ca16f0808678f1d894601a23739bf5f645a14d694205878f73",
+          "expected_sha256": "a5fd12bfda71b3ca16f0808678f1d894601a23739bf5f645a14d694205878f73",
+          "exact": true
+        }
+      ],
+      "gate_passed": true
+    },
+    {
+      "id": "s3-bare-new_output-patched",
+      "command_with_interpreter_and_scratch_paths_redacted": "<python> -m vesuvius.image_proc.run.zarr_tasks <case>/input.zarr <case>/output.zarr --task zero-range --z-start 8 --z-end 15 --num-workers 1",
+      "recorded_combined_output_excerpt": "Error: zero-range operates in place; omit output_zarr and use --inplace\n",
+      "raw_log_sha256": "a2b12d8a0fa2af0d895fa39ad9363938f44f626ca32593a5c00a9eb8aed973e9",
+      "exit_code": 1,
+      "input_tree_unchanged": true,
+      "output_tree_unchanged": true,
+      "metadata_unchanged": true,
+      "array_checks": [
+        {
+          "level": 0,
+          "shape": [
+            32,
+            32,
+            32
+          ],
+          "dtype": "uint8",
+          "actual_sha256": "589b8f30ec3e74496d4aa38251e39c02e4aaedabf687e45e2113a2e9cdd21562",
+          "expected_sha256": "589b8f30ec3e74496d4aa38251e39c02e4aaedabf687e45e2113a2e9cdd21562",
+          "exact": true
+        }
+      ],
+      "gate_passed": true
+    },
+    {
+      "id": "s3-bare-explicit_inplace-patched",
+      "command_with_interpreter_and_scratch_paths_redacted": "<python> -m vesuvius.image_proc.run.zarr_tasks <case>/input.zarr --task zero-range --z-start 8 --z-end 15 --num-workers 1 --inplace",
+      "recorded_combined_output_excerpt": "Using 1 worker processes\nInput array shape: (32, 32, 32)\nInput array chunks: (8, 8, 8)\nInput array dtype: uint8\nTask: zero-range | z=[8, 15] | replace_value=0\n  Shape: (32, 32, 32), Chunks: (8, 8, 8)\n  Z-range: [8, 15]\n  Chunks to process: 16\nZero-range complete: <case>/input.zarr\nFilled z-range: [8, 15] with value 0\n",
+      "raw_log_sha256": "241f2f7746ab58d1ddfeb021ee613b3ecc975e9fc433f7ec0a1b1c351c1259c0",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "metadata_unchanged": true,
+      "array_checks": [
+        {
+          "level": 0,
+          "shape": [
+            32,
+            32,
+            32
+          ],
+          "dtype": "uint8",
+          "actual_sha256": "a5fd12bfda71b3ca16f0808678f1d894601a23739bf5f645a14d694205878f73",
+          "expected_sha256": "a5fd12bfda71b3ca16f0808678f1d894601a23739bf5f645a14d694205878f73",
+          "exact": true
+        }
+      ],
+      "gate_passed": true
+    }
+  ],
+  "all_32_records": [
+    {
+      "id": "s3-bare-new_output-baseline",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s3-bare-new_output-patched",
+      "exit_code": 1,
+      "input_tree_unchanged": true,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s3-bare-existing_output-baseline",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s3-bare-existing_output-patched",
+      "exit_code": 1,
+      "input_tree_unchanged": true,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s3-bare-explicit_inplace-baseline",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s3-bare-explicit_inplace-patched",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s3-bare-implicit_inplace-baseline",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s3-bare-implicit_inplace-patched",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s3-group-new_output-baseline",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s3-group-new_output-patched",
+      "exit_code": 1,
+      "input_tree_unchanged": true,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s3-group-existing_output-baseline",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s3-group-existing_output-patched",
+      "exit_code": 1,
+      "input_tree_unchanged": true,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s3-group-explicit_inplace-baseline",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s3-group-explicit_inplace-patched",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s3-group-implicit_inplace-baseline",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s3-group-implicit_inplace-patched",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s5-bare-new_output-baseline",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s5-bare-new_output-patched",
+      "exit_code": 1,
+      "input_tree_unchanged": true,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s5-bare-existing_output-baseline",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s5-bare-existing_output-patched",
+      "exit_code": 1,
+      "input_tree_unchanged": true,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s5-bare-explicit_inplace-baseline",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s5-bare-explicit_inplace-patched",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s5-bare-implicit_inplace-baseline",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s5-bare-implicit_inplace-patched",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s5-group-new_output-baseline",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s5-group-new_output-patched",
+      "exit_code": 1,
+      "input_tree_unchanged": true,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s5-group-existing_output-baseline",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s5-group-existing_output-patched",
+      "exit_code": 1,
+      "input_tree_unchanged": true,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s5-group-explicit_inplace-baseline",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s5-group-explicit_inplace-patched",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s5-group-implicit_inplace-baseline",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    },
+    {
+      "id": "s5-group-implicit_inplace-patched",
+      "exit_code": 0,
+      "input_tree_unchanged": false,
+      "output_tree_unchanged": true,
+      "gate_passed": true
+    }
+  ],
+  "author_verification_checkbox": "Checked by author at the live follow-up; not an inferred user incident or independent human-written workflow narrative."
+}
