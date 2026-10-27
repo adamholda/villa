@@ -1,0 +1,52 @@
+[
+  {
+    "name": "2326-summary",
+    "path": "maintenance-evidence/2026-10-27/release19/0045/standalone-evidence.jpg",
+    "sha": "1ab643e70e7aa132ad8ae375762d3f6645cbb783",
+    "sha256": "d23bb9bc7c36114e23a3f72052b67494081e7639ed4061840e09953d9b4cd48c",
+    "bytes": 105452,
+    "mime_type": "image/jpeg",
+    "source_commit": "2fd691ba1f72d356cde739ab9b99b5c2ced181b8",
+    "unmodified_browser_capture": true
+  },
+  {
+    "name": "2326-cli-output",
+    "path": "maintenance-evidence/2026-10-27/release19/0045/standalone-cli-output.jpg",
+    "sha": "dfacdfaeb28062d9641e314a38568b315fd7e0a5",
+    "sha256": "fe17796385ec023dd728b62185edff3d9412868d53a6b6df1e82da443ce3450f",
+    "bytes": 105796,
+    "mime_type": "image/jpeg",
+    "source_commit": "2fd691ba1f72d356cde739ab9b99b5c2ced181b8",
+    "unmodified_browser_capture": true
+  },
+  {
+    "name": "2342-before",
+    "path": "maintenance-evidence/2026-10-27/release19/0027/cli-before.jpg",
+    "sha": "f1eec5fce96168a2725427559af334955bd641b9",
+    "sha256": "aa7e6bede4e84780c8f49c5b2bddefa92a474643a182bf1de343a3f4e5ae2140",
+    "bytes": 89637,
+    "mime_type": "image/jpeg",
+    "source_commit": "2fd691ba1f72d356cde739ab9b99b5c2ced181b8",
+    "unmodified_browser_capture": true
+  },
+  {
+    "name": "2342-rejection",
+    "path": "maintenance-evidence/2026-10-27/release19/0027/cli-rejection.jpg",
+    "sha": "e28fd6935c8e24dad6b87fab4d386dc4166e749b",
+    "sha256": "55c1c5fe462beecaafa30156fbc5aed5771ed2ebd2a6ddd3b2b590012c3a1e52",
+    "bytes": 83762,
+    "mime_type": "image/jpeg",
+    "source_commit": "2fd691ba1f72d356cde739ab9b99b5c2ced181b8",
+    "unmodified_browser_capture": true
+  },
+  {
+    "name": "2342-success",
+    "path": "maintenance-evidence/2026-10-27/release19/0027/cli-success.jpg",
+    "sha": "c4eafca088828e1ffcb38cf3e77e830dfcab9186",
+    "sha256": "ac2961d830be5c4770d8e5f1c9ae16f43df25eb4adc18ed7fbd7c37e6084a3db",
+    "bytes": 105842,
+    "mime_type": "image/jpeg",
+    "source_commit": "2fd691ba1f72d356cde739ab9b99b5c2ced181b8",
+    "unmodified_browser_capture": true
+  }
+]
