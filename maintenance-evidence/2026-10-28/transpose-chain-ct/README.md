@@ -7,3 +7,12 @@ Final133s x1CPU/0GPU. These are repeated workflows on two fixed CT crops,not18un
 Common PR2295 at209d3b794 by ChaseHendrick supplies the actual producer,routing,pitch/planning/default context;only the final2328 transpose increment is ours. PR1431/1682/2266 and merged Zarr3 creator compatibility2244/stantheman0128 remain separately credited.416current-main non-fiber files are checked before the exact four-file overlay;not full2295/repository or fresh environment validation.
 
 Canonical headers are written by the actual common metadata helper over real CT values;the actual CLI produces xzy headers. No hand-edited producer input,native physical-frame/registration,translation/crop proof,higher pyramid,remoteURI,race or0045guard composition. Existing generated/source frame results retain their separate scope. No personal author review,human-written relevance,training/quality,adoption,acceptance or prize result inferred. AI assistance supported test preparation,orchestration,analysis and technical drafting. Computational resources were provided by e-INFRA CZ(ID90254),supported by the Ministry of Education,Youth and Sports of the Czech Republic. Villa MIT/data rights and EduceLab-Scrolls attribution remain separate.
+
+
+## Actual archived-output screenshots
+
+![Original plan and wrong named-axis result](2328-before.jpg)
+
+![Repaired plan and exact CT roundtrip](2328-after.jpg)
+
+![Unchanged supported output control](2328-control.jpg)

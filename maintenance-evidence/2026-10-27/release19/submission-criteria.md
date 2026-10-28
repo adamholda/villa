@@ -4,7 +4,7 @@ All27 proposals are public and open. Three are ready for review and24 are drafts
 
 This is an evidence inventory,not certification that all27 satisfy [Villa's contribution rules](https://github.com/ScrollPrize/villa/blob/39a8cf3a124bdd5540ee826e1cb30047c8dc8c85/CONTRIBUTING.md). Those rules require real-scroll use and before/after tool evidence,actual workflow motivation,human-written relevance for AI-assisted PRs,and personal code review. Original checked author statements are preserved;they do not invent an earlier human encounter or establish that AI-drafted prose was human-written. Later supplements do not imply a fresh personal review.
 
-The archived images have correct source/context labels. A test-summary image can be accurate while still leaving the real-scroll tool demonstration requirement unmet. Six packets have direct archived CT CLI evidence;three have partial/instrumented CT evidence;18 use CPU/generated-store/source-only checks. These are evidence classes,not accepted fixes or prize counts. No full training/CUDA-overflow/DDP performance or model-quality result is claimed.
+The archived images have correct source/context labels. A test-summary image can be accurate while still leaving the real-scroll tool demonstration requirement unmet. Seven packets have direct archived CT CLI evidence;three have partial/instrumented CT evidence;17 use CPU/generated-store/source-only checks. These are evidence classes,not accepted fixes or prize counts. No full training/CUDA-overflow/DDP performance or model-quality result is claimed.
 
 |PR|GitHub stage|Evidence scope / unresolved technical limit|
 |---|---|---|
@@ -18,7 +18,7 @@ The archived images have correct source/context labels. A test-summary image can
 |[#2307](https://github.com/ScrollPrize/villa/pull/2307) Wire background patch requests through cache generation and dataset loading|Draft|CT-backed cache wiring with engineered labels; general scanner remains held.|
 |[#2326](https://github.com/ScrollPrize/villa/pull/2326) Reject overlapping local input/output trees in transpose|Draft|Original hazards are prepare-only; repaired rejection and valid selected-array controls are real CT CLI. Later0114 review not inferred.|
 |[#2327](https://github.com/ScrollPrize/villa/pull/2327) Reject overlapping local input/output trees in threshold|Draft|0119 full real-CT CLI:2 original silent input replacements,2 repaired pre-prompt rejections,8 valid exact masks. Earlier0116 path failure is preserved.|
-|[#2328](https://github.com/ScrollPrize/villa/pull/2328) Preserve declared axes and transforms in transpose planning|Draft|Generated-store planning/frame tests; depends on unmerged2295 by ChaseHendrick.|
+|[#2328](https://github.com/ScrollPrize/villa/pull/2328) Preserve declared axes and transforms in transpose planning|Draft|0120 actual CT producer/plan/consumer CLI:2original named-axis nonmatches/2controls,repaired4/4;18calls. Depends on unmerged2295 by ChaseHendrick;no native registration/global-translation claim.|
 |[#2329](https://github.com/ScrollPrize/villa/pull/2329) Reject nonpositive explicit Zarr worker counts|Draft|0117 real S3/S5 CT CLI:2 original late -1 failures,2 repaired early rejections,4 valid exact one-worker masks. Zero/default expansion not run.|
 |[#2330](https://github.com/ScrollPrize/villa/pull/2330) Keep dataset cache targets, selections and values consistent|Draft|Generated-store cache integration including0055; separate46-method composition is not real training.|
 |[#2331](https://github.com/ScrollPrize/villa/pull/2331) Gather validation confusion counts at sample granularity|Draft|CPU tensors/counts and actual gather with supplied collective/state; no actual DDP.|
@@ -49,3 +49,8 @@ Existing2329 production code is unchanged. [Actual archived CLI evidence](../../
 ## Authorized threshold successor0119
 
 After Adam's explicit post-failure approval,exactly two test-driver checkout paths were corrected in a separate frozen successor;all12 inputs/cases/scientific oracles were unchanged. [Actual archived CT CLI evidence](../../2026-10-28/threshold-ct/README.md) records completed PBS25069058:original calls lose245760nonzero input voxels per disposable crop despite exit0;repaired calls preserve the whole tree before prompting. Eight valid controls remain exact.98s x1CPU/0GPU final/reconciled. The old0116 failure is preserved/charged2seconds and is not marked passed. No new production repair,incident,human-written relevance or personal-review attestation. No blanket upstream compliance.
+
+
+## Actual named-axis producer/consumer follow-up
+
+[0120/PBS25069083](../../2026-10-28/transpose-chain-ct/README.md) uses the actual common2295 CLI to produce xzy CT stores,then actual paired dry-run/fullCLI consumers. Original plans and writes the wrong named-axis shape while exiting0;repair restores every CT voxel to the expected shape and preserves valid controls. Eight compound consumers plus two producers are18calls,not18unit methods/incidents.133s x1CPU/0GPU;native inputs unchanged. Four-file common proposal context is explicit,not full2295 or native physical-frame proof. New supplement is not presumed personally reviewed;genuine human-written relevance and other workflow gates remain. No blanket compliance.

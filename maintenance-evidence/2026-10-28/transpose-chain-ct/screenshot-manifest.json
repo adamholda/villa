@@ -1,0 +1,24 @@
+{
+  "source_commit": "8916158861ea7e7dc107ee9c8813650b717f35db",
+  "scope": "Unmodified browser captures of actual archived0120 CLI output. Paths/omissions disclosed in the source markdown. No image editing or CT pixels.",
+  "files": [
+    {
+      "filename": "2328-after.jpg",
+      "sha256": "f3229063b99a0607375c01a096d3453c7626416cb7d72f6684c8b97694aa3fb7",
+      "bytes": 85499,
+      "git_blob_sha": "13072c5920d009b7f0a385c7e621cda2acc26bcd"
+    },
+    {
+      "filename": "2328-before.jpg",
+      "sha256": "cc65a4bf847649182905ddc712d4bda100d7db7911ac5ca41d7f896711cc10ec",
+      "bytes": 115730,
+      "git_blob_sha": "ed1764a5774b331630120d569768837a600d575c"
+    },
+    {
+      "filename": "2328-control.jpg",
+      "sha256": "3caa83e246f04102eeab4d39a7e4a0a8668049c0537625c8bfa43a9749c2ff61",
+      "bytes": 115175,
+      "git_blob_sha": "92767191dc40e7dd4ca38704a991177cbc82f15f"
+    }
+  ]
+}
