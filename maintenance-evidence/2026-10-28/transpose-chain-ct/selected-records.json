@@ -1,0 +1,748 @@
+{
+  "protocol": "0120",
+  "job_id": "25069083.pbs-m1.metacentrum.cz",
+  "summary": {
+    "protocol": "0120",
+    "job_id": "25069083.pbs-m1.metacentrum.cz",
+    "gate_passed": true,
+    "compound_plan_run_records": 8,
+    "common_producer_records": 2,
+    "CLI_calls": 18,
+    "scheduler_exit_status": 0,
+    "scheduler_seconds": 133,
+    "ncpus": 1,
+    "ngpus": 0,
+    "driver_seconds": 130.31199260195717,
+    "error": null,
+    "collection_files": 26,
+    "collection_bytes": 81358,
+    "raw_result_sha256": "7d05277808313339b57fd72c88a4571584882f042977f873c78d49044691c77a",
+    "original_contract_nonmatches": 2,
+    "original_controls": 2,
+    "repaired_contract_matches": 4,
+    "native_inputs_unchanged": true,
+    "nonfiber_files_verified_before_overlay": 416,
+    "GNU_time_peak_RSS_kB": 1039468,
+    "scheduler_memory": "1282752kb"
+  },
+  "inputs": [
+    {
+      "fixture": "s5",
+      "decoded_sha256": "180bf694ebd175b56f5a21803b90bc0143c77684ef1c7e580b78981415c5d133",
+      "crop_sha256": "c38243b48405ec195cb8de534403e0da8780dfb9692eecae1911be12a5682450",
+      "canonical_header_written_by_actual_common_helper": true,
+      "native_unchanged": true
+    },
+    {
+      "fixture": "s3",
+      "decoded_sha256": "8f908c585363ed5b9c6c4cf826d28f893483feccd5db1fad88226506b9b46b76",
+      "crop_sha256": "dec95b6a2c47aaf91c8f2db98fe53cfd8b6fbca258655ded10eee1ad17ebc1d6",
+      "canonical_header_written_by_actual_common_helper": true,
+      "native_unchanged": true
+    }
+  ],
+  "producers": [
+    {
+      "exit_code": 0,
+      "log": "cli-s5-common-producer-run.log",
+      "log_sha256": "a950b7287e21905ba052d76dd74f9572f15f0ecb6dad8e84705219afe50e7fbc",
+      "elapsed_seconds": 7.780068917199969,
+      "command": [
+        "<case>/s5-seed.zarr",
+        "<case>/s5-producer-xzy.zarr",
+        "--task",
+        "transpose",
+        "--transpose-order",
+        "xzy",
+        "--num-levels",
+        "1",
+        "--num-workers",
+        "1",
+        "--level",
+        "0"
+      ],
+      "fixture": "s5",
+      "exact_values": true,
+      "axes": [
+        "x",
+        "z",
+        "y"
+      ],
+      "shape": [
+        80,
+        48,
+        64
+      ],
+      "output_sha256": "e66bb2e85f6b28be64985ee494b13f52201978fc87d14ccf59eac5cfb3a57da3",
+      "input_unchanged": true
+    },
+    {
+      "exit_code": 0,
+      "log": "cli-s3-common-producer-run.log",
+      "log_sha256": "75cea088efaf0840dbd7ddc82f6e81cec2ecdaf769df5c0100cb4275fa03bfcc",
+      "elapsed_seconds": 11.895077316090465,
+      "command": [
+        "<case>/s3-seed.zarr",
+        "<case>/s3-producer-xzy.zarr",
+        "--task",
+        "transpose",
+        "--transpose-order",
+        "xzy",
+        "--num-levels",
+        "1",
+        "--num-workers",
+        "1",
+        "--level",
+        "0"
+      ],
+      "fixture": "s3",
+      "exact_values": true,
+      "axes": [
+        "x",
+        "z",
+        "y"
+      ],
+      "shape": [
+        80,
+        48,
+        64
+      ],
+      "output_sha256": "0e28c74114fa6a4a2f359efb94fa7a99a2e1571a6d391bc023f4e2b781abfee4",
+      "input_unchanged": true
+    }
+  ],
+  "compound_records": [
+    {
+      "fixture": "s5",
+      "arm": "original",
+      "recipe": "producer_xzy_to_zyx",
+      "scope": "full_CLI_plan_and_run",
+      "plan": {
+        "exit_code": 0,
+        "log": "cli-s5-original-producer_xzy_to_zyx-plan.log",
+        "log_sha256": "549dcb33a1488cf39a46bb98f2cfc71d584dae5ead1ccee5efe664fa582d5424",
+        "elapsed_seconds": 3.804382633883506,
+        "command": [
+          "<case>/s5-producer-xzy.zarr",
+          "<case>/s5-original-producer_xzy_to_zyx.zarr",
+          "--task",
+          "transpose",
+          "--transpose-order",
+          "zyx",
+          "--num-levels",
+          "1",
+          "--num-workers",
+          "1",
+          "--level",
+          "0",
+          "--dry-run"
+        ]
+      },
+      "run": {
+        "exit_code": 0,
+        "log": "cli-s5-original-producer_xzy_to_zyx-run.log",
+        "log_sha256": "6bbd9cbc6fe27e254807323a792fcb088bcfc1674a52d177ff03ac983add25ac",
+        "elapsed_seconds": 7.192618224769831,
+        "command": [
+          "<case>/s5-producer-xzy.zarr",
+          "<case>/s5-original-producer_xzy_to_zyx.zarr",
+          "--task",
+          "transpose",
+          "--transpose-order",
+          "zyx",
+          "--num-levels",
+          "1",
+          "--num-workers",
+          "1",
+          "--level",
+          "0"
+        ]
+      },
+      "planned_shape": [
+        80,
+        48,
+        64
+      ],
+      "actual_shape": [
+        80,
+        48,
+        64
+      ],
+      "expected_named_axis_shape": [
+        48,
+        64,
+        80
+      ],
+      "actual_sha256": "e66bb2e85f6b28be64985ee494b13f52201978fc87d14ccf59eac5cfb3a57da3",
+      "expected_named_axis_sha256": "c38243b48405ec195cb8de534403e0da8780dfb9692eecae1911be12a5682450",
+      "input_unchanged": true,
+      "plan_read_only": true,
+      "plan_matches_actual_shape": true,
+      "named_axis_contract_matches": false,
+      "actual_axes": [
+        "z",
+        "y",
+        "x"
+      ]
+    },
+    {
+      "fixture": "s5",
+      "arm": "repaired",
+      "recipe": "producer_xzy_to_zyx",
+      "scope": "full_CLI_plan_and_run",
+      "plan": {
+        "exit_code": 0,
+        "log": "cli-s5-repaired-producer_xzy_to_zyx-plan.log",
+        "log_sha256": "10c401d30f020107a9b5e111b2965939f91d42b597cc1e47ad92ecb5a791e82a",
+        "elapsed_seconds": 3.8149545858614147,
+        "command": [
+          "<case>/s5-producer-xzy.zarr",
+          "<case>/s5-repaired-producer_xzy_to_zyx.zarr",
+          "--task",
+          "transpose",
+          "--transpose-order",
+          "zyx",
+          "--num-levels",
+          "1",
+          "--num-workers",
+          "1",
+          "--level",
+          "0",
+          "--dry-run"
+        ]
+      },
+      "run": {
+        "exit_code": 0,
+        "log": "cli-s5-repaired-producer_xzy_to_zyx-run.log",
+        "log_sha256": "1859850efbd466b95b6b516a6ed2de7dde79d543f0e30f38717b07991f9b8cde",
+        "elapsed_seconds": 7.3177779330872,
+        "command": [
+          "<case>/s5-producer-xzy.zarr",
+          "<case>/s5-repaired-producer_xzy_to_zyx.zarr",
+          "--task",
+          "transpose",
+          "--transpose-order",
+          "zyx",
+          "--num-levels",
+          "1",
+          "--num-workers",
+          "1",
+          "--level",
+          "0"
+        ]
+      },
+      "planned_shape": [
+        48,
+        64,
+        80
+      ],
+      "actual_shape": [
+        48,
+        64,
+        80
+      ],
+      "expected_named_axis_shape": [
+        48,
+        64,
+        80
+      ],
+      "actual_sha256": "c38243b48405ec195cb8de534403e0da8780dfb9692eecae1911be12a5682450",
+      "expected_named_axis_sha256": "c38243b48405ec195cb8de534403e0da8780dfb9692eecae1911be12a5682450",
+      "input_unchanged": true,
+      "plan_read_only": true,
+      "plan_matches_actual_shape": true,
+      "named_axis_contract_matches": true,
+      "actual_axes": [
+        "z",
+        "y",
+        "x"
+      ]
+    },
+    {
+      "fixture": "s5",
+      "arm": "original",
+      "recipe": "canonical_zyx_to_xzy",
+      "scope": "full_CLI_plan_and_run",
+      "plan": {
+        "exit_code": 0,
+        "log": "cli-s5-original-canonical_zyx_to_xzy-plan.log",
+        "log_sha256": "32c6569557a4f658fe8f935e7e59512d37f78e3248bd01201bdfdc1033de2775",
+        "elapsed_seconds": 3.899065835401416,
+        "command": [
+          "<case>/s5-seed.zarr",
+          "<case>/s5-original-canonical_zyx_to_xzy.zarr",
+          "--task",
+          "transpose",
+          "--transpose-order",
+          "xzy",
+          "--num-levels",
+          "1",
+          "--num-workers",
+          "1",
+          "--level",
+          "0",
+          "--dry-run"
+        ]
+      },
+      "run": {
+        "exit_code": 0,
+        "log": "cli-s5-original-canonical_zyx_to_xzy-run.log",
+        "log_sha256": "5cfc3d4ffcd9a243c23a4c0ce0bfb5c2dd23436b3fa56a2c1514ad22d7f24486",
+        "elapsed_seconds": 7.365756003186107,
+        "command": [
+          "<case>/s5-seed.zarr",
+          "<case>/s5-original-canonical_zyx_to_xzy.zarr",
+          "--task",
+          "transpose",
+          "--transpose-order",
+          "xzy",
+          "--num-levels",
+          "1",
+          "--num-workers",
+          "1",
+          "--level",
+          "0"
+        ]
+      },
+      "planned_shape": [
+        80,
+        48,
+        64
+      ],
+      "actual_shape": [
+        80,
+        48,
+        64
+      ],
+      "expected_named_axis_shape": [
+        80,
+        48,
+        64
+      ],
+      "actual_sha256": "e66bb2e85f6b28be64985ee494b13f52201978fc87d14ccf59eac5cfb3a57da3",
+      "expected_named_axis_sha256": "e66bb2e85f6b28be64985ee494b13f52201978fc87d14ccf59eac5cfb3a57da3",
+      "input_unchanged": true,
+      "plan_read_only": true,
+      "plan_matches_actual_shape": true,
+      "named_axis_contract_matches": true,
+      "actual_axes": [
+        "x",
+        "z",
+        "y"
+      ]
+    },
+    {
+      "fixture": "s5",
+      "arm": "repaired",
+      "recipe": "canonical_zyx_to_xzy",
+      "scope": "full_CLI_plan_and_run",
+      "plan": {
+        "exit_code": 0,
+        "log": "cli-s5-repaired-canonical_zyx_to_xzy-plan.log",
+        "log_sha256": "a8ac14c4f1eb83beee2a56eb90893aa14db7e1808381fafc89fae83685366d88",
+        "elapsed_seconds": 4.00592785095796,
+        "command": [
+          "<case>/s5-seed.zarr",
+          "<case>/s5-repaired-canonical_zyx_to_xzy.zarr",
+          "--task",
+          "transpose",
+          "--transpose-order",
+          "xzy",
+          "--num-levels",
+          "1",
+          "--num-workers",
+          "1",
+          "--level",
+          "0",
+          "--dry-run"
+        ]
+      },
+      "run": {
+        "exit_code": 0,
+        "log": "cli-s5-repaired-canonical_zyx_to_xzy-run.log",
+        "log_sha256": "274f723fb66f79c3bb59cbdc850baa5dc4c261e4c786c36df8631f2f4f502c8b",
+        "elapsed_seconds": 9.519382614642382,
+        "command": [
+          "<case>/s5-seed.zarr",
+          "<case>/s5-repaired-canonical_zyx_to_xzy.zarr",
+          "--task",
+          "transpose",
+          "--transpose-order",
+          "xzy",
+          "--num-levels",
+          "1",
+          "--num-workers",
+          "1",
+          "--level",
+          "0"
+        ]
+      },
+      "planned_shape": [
+        80,
+        48,
+        64
+      ],
+      "actual_shape": [
+        80,
+        48,
+        64
+      ],
+      "expected_named_axis_shape": [
+        80,
+        48,
+        64
+      ],
+      "actual_sha256": "e66bb2e85f6b28be64985ee494b13f52201978fc87d14ccf59eac5cfb3a57da3",
+      "expected_named_axis_sha256": "e66bb2e85f6b28be64985ee494b13f52201978fc87d14ccf59eac5cfb3a57da3",
+      "input_unchanged": true,
+      "plan_read_only": true,
+      "plan_matches_actual_shape": true,
+      "named_axis_contract_matches": true,
+      "actual_axes": [
+        "x",
+        "z",
+        "y"
+      ]
+    },
+    {
+      "fixture": "s3",
+      "arm": "original",
+      "recipe": "producer_xzy_to_zyx",
+      "scope": "full_CLI_plan_and_run",
+      "plan": {
+        "exit_code": 0,
+        "log": "cli-s3-original-producer_xzy_to_zyx-plan.log",
+        "log_sha256": "d974aa80b42077c705c30a75423c47b6fda170a7f473232b451486015d513a6b",
+        "elapsed_seconds": 3.8321651914156973,
+        "command": [
+          "<case>/s3-producer-xzy.zarr",
+          "<case>/s3-original-producer_xzy_to_zyx.zarr",
+          "--task",
+          "transpose",
+          "--transpose-order",
+          "zyx",
+          "--num-levels",
+          "1",
+          "--num-workers",
+          "1",
+          "--level",
+          "0",
+          "--dry-run"
+        ]
+      },
+      "run": {
+        "exit_code": 0,
+        "log": "cli-s3-original-producer_xzy_to_zyx-run.log",
+        "log_sha256": "aa6119b232f7b572c123373ab823ba9b06b07d46db242b476ea75058e4d0e3e8",
+        "elapsed_seconds": 7.278105775825679,
+        "command": [
+          "<case>/s3-producer-xzy.zarr",
+          "<case>/s3-original-producer_xzy_to_zyx.zarr",
+          "--task",
+          "transpose",
+          "--transpose-order",
+          "zyx",
+          "--num-levels",
+          "1",
+          "--num-workers",
+          "1",
+          "--level",
+          "0"
+        ]
+      },
+      "planned_shape": [
+        80,
+        48,
+        64
+      ],
+      "actual_shape": [
+        80,
+        48,
+        64
+      ],
+      "expected_named_axis_shape": [
+        48,
+        64,
+        80
+      ],
+      "actual_sha256": "0e28c74114fa6a4a2f359efb94fa7a99a2e1571a6d391bc023f4e2b781abfee4",
+      "expected_named_axis_sha256": "dec95b6a2c47aaf91c8f2db98fe53cfd8b6fbca258655ded10eee1ad17ebc1d6",
+      "input_unchanged": true,
+      "plan_read_only": true,
+      "plan_matches_actual_shape": true,
+      "named_axis_contract_matches": false,
+      "actual_axes": [
+        "z",
+        "y",
+        "x"
+      ]
+    },
+    {
+      "fixture": "s3",
+      "arm": "repaired",
+      "recipe": "producer_xzy_to_zyx",
+      "scope": "full_CLI_plan_and_run",
+      "plan": {
+        "exit_code": 0,
+        "log": "cli-s3-repaired-producer_xzy_to_zyx-plan.log",
+        "log_sha256": "dbe37441edbbf92db231d2cc67e24c63225722f27b092dea2fa7fbc514066610",
+        "elapsed_seconds": 3.8242951603606343,
+        "command": [
+          "<case>/s3-producer-xzy.zarr",
+          "<case>/s3-repaired-producer_xzy_to_zyx.zarr",
+          "--task",
+          "transpose",
+          "--transpose-order",
+          "zyx",
+          "--num-levels",
+          "1",
+          "--num-workers",
+          "1",
+          "--level",
+          "0",
+          "--dry-run"
+        ]
+      },
+      "run": {
+        "exit_code": 0,
+        "log": "cli-s3-repaired-producer_xzy_to_zyx-run.log",
+        "log_sha256": "93f41f12c36b9a6cf9ab6e8c213ca88859db6467ce6e8d6e4df538eb2511d7c6",
+        "elapsed_seconds": 7.231383719947189,
+        "command": [
+          "<case>/s3-producer-xzy.zarr",
+          "<case>/s3-repaired-producer_xzy_to_zyx.zarr",
+          "--task",
+          "transpose",
+          "--transpose-order",
+          "zyx",
+          "--num-levels",
+          "1",
+          "--num-workers",
+          "1",
+          "--level",
+          "0"
+        ]
+      },
+      "planned_shape": [
+        48,
+        64,
+        80
+      ],
+      "actual_shape": [
+        48,
+        64,
+        80
+      ],
+      "expected_named_axis_shape": [
+        48,
+        64,
+        80
+      ],
+      "actual_sha256": "dec95b6a2c47aaf91c8f2db98fe53cfd8b6fbca258655ded10eee1ad17ebc1d6",
+      "expected_named_axis_sha256": "dec95b6a2c47aaf91c8f2db98fe53cfd8b6fbca258655ded10eee1ad17ebc1d6",
+      "input_unchanged": true,
+      "plan_read_only": true,
+      "plan_matches_actual_shape": true,
+      "named_axis_contract_matches": true,
+      "actual_axes": [
+        "z",
+        "y",
+        "x"
+      ]
+    },
+    {
+      "fixture": "s3",
+      "arm": "original",
+      "recipe": "canonical_zyx_to_xzy",
+      "scope": "full_CLI_plan_and_run",
+      "plan": {
+        "exit_code": 0,
+        "log": "cli-s3-original-canonical_zyx_to_xzy-plan.log",
+        "log_sha256": "8f2995f87357a2f06809b12156c65a193222c3aed26b43d6772245a2defdc8bf",
+        "elapsed_seconds": 3.8545675850473344,
+        "command": [
+          "<case>/s3-seed.zarr",
+          "<case>/s3-original-canonical_zyx_to_xzy.zarr",
+          "--task",
+          "transpose",
+          "--transpose-order",
+          "xzy",
+          "--num-levels",
+          "1",
+          "--num-workers",
+          "1",
+          "--level",
+          "0",
+          "--dry-run"
+        ]
+      },
+      "run": {
+        "exit_code": 0,
+        "log": "cli-s3-original-canonical_zyx_to_xzy-run.log",
+        "log_sha256": "b579dc5956ea494042f57d447bd7d75a03286540d14617932fdca328acfb794f",
+        "elapsed_seconds": 7.1898075100034475,
+        "command": [
+          "<case>/s3-seed.zarr",
+          "<case>/s3-original-canonical_zyx_to_xzy.zarr",
+          "--task",
+          "transpose",
+          "--transpose-order",
+          "xzy",
+          "--num-levels",
+          "1",
+          "--num-workers",
+          "1",
+          "--level",
+          "0"
+        ]
+      },
+      "planned_shape": [
+        80,
+        48,
+        64
+      ],
+      "actual_shape": [
+        80,
+        48,
+        64
+      ],
+      "expected_named_axis_shape": [
+        80,
+        48,
+        64
+      ],
+      "actual_sha256": "0e28c74114fa6a4a2f359efb94fa7a99a2e1571a6d391bc023f4e2b781abfee4",
+      "expected_named_axis_sha256": "0e28c74114fa6a4a2f359efb94fa7a99a2e1571a6d391bc023f4e2b781abfee4",
+      "input_unchanged": true,
+      "plan_read_only": true,
+      "plan_matches_actual_shape": true,
+      "named_axis_contract_matches": true,
+      "actual_axes": [
+        "x",
+        "z",
+        "y"
+      ]
+    },
+    {
+      "fixture": "s3",
+      "arm": "repaired",
+      "recipe": "canonical_zyx_to_xzy",
+      "scope": "full_CLI_plan_and_run",
+      "plan": {
+        "exit_code": 0,
+        "log": "cli-s3-repaired-canonical_zyx_to_xzy-plan.log",
+        "log_sha256": "315636faec266933505b7269383906cd79c63668f9798827063fb5819062a898",
+        "elapsed_seconds": 3.655233975034207,
+        "command": [
+          "<case>/s3-seed.zarr",
+          "<case>/s3-repaired-canonical_zyx_to_xzy.zarr",
+          "--task",
+          "transpose",
+          "--transpose-order",
+          "xzy",
+          "--num-levels",
+          "1",
+          "--num-workers",
+          "1",
+          "--level",
+          "0",
+          "--dry-run"
+        ]
+      },
+      "run": {
+        "exit_code": 0,
+        "log": "cli-s3-repaired-canonical_zyx_to_xzy-run.log",
+        "log_sha256": "4acc78a3c923a179a7adad8fbe78a8f7eaf573645df0e31d2acde19f3a3ad484",
+        "elapsed_seconds": 7.895204211119562,
+        "command": [
+          "<case>/s3-seed.zarr",
+          "<case>/s3-repaired-canonical_zyx_to_xzy.zarr",
+          "--task",
+          "transpose",
+          "--transpose-order",
+          "xzy",
+          "--num-levels",
+          "1",
+          "--num-workers",
+          "1",
+          "--level",
+          "0"
+        ]
+      },
+      "planned_shape": [
+        80,
+        48,
+        64
+      ],
+      "actual_shape": [
+        80,
+        48,
+        64
+      ],
+      "expected_named_axis_shape": [
+        80,
+        48,
+        64
+      ],
+      "actual_sha256": "0e28c74114fa6a4a2f359efb94fa7a99a2e1571a6d391bc023f4e2b781abfee4",
+      "expected_named_axis_sha256": "0e28c74114fa6a4a2f359efb94fa7a99a2e1571a6d391bc023f4e2b781abfee4",
+      "input_unchanged": true,
+      "plan_read_only": true,
+      "plan_matches_actual_shape": true,
+      "named_axis_contract_matches": true,
+      "actual_axes": [
+        "x",
+        "z",
+        "y"
+      ]
+    }
+  ],
+  "captures": [
+    {
+      "phase": "before",
+      "selections": {
+        "plan": "task       transpose\ninput      <case>/s3-producer-xzy.zarr (level 0)\n           shape (80, 48, 64), chunks (16, 16, 16), uint8, 60 chunks, 0.2 MB uncompressed\noutput     <case>/s3-original-producer_xzy_to_zyx.zarr\n           level 0 shape (80, 48, 64), uint8, 0.2 MB uncompressed, 1 levels\nworkers    1, about 60 chunks each\nDry run: nothing was written.",
+        "run": "Using 1 worker processes\nInput array shape: (80, 48, 64)\nInput array chunks: (16, 16, 16)\nInput array dtype: uint8\nTask: transpose | order=zyx | perm=[0, 1, 2]\nOutput array shape: (80, 48, 64)\nOutput array chunks: (16, 16, 16)\nTranspose complete. OME-Zarr pyramid saved to: <case>/s3-original-producer_xzy_to_zyx.zarr"
+      },
+      "plan_log_sha256": "d974aa80b42077c705c30a75423c47b6fda170a7f473232b451486015d513a6b",
+      "run_log_sha256": "aa6119b232f7b572c123373ab823ba9b06b07d46db242b476ea75058e4d0e3e8"
+    },
+    {
+      "phase": "after",
+      "selections": {
+        "plan": "task       transpose\ninput      <case>/s3-producer-xzy.zarr (level 0)\n           shape (80, 48, 64), chunks (16, 16, 16), uint8, 60 chunks, 0.2 MB uncompressed\noutput     <case>/s3-repaired-producer_xzy_to_zyx.zarr\n           level 0 shape (48, 64, 80), uint8, 0.2 MB uncompressed, 1 levels\nworkers    1, about 60 chunks each\nDry run: nothing was written.",
+        "run": "Using 1 worker processes\nInput array shape: (80, 48, 64)\nInput array chunks: (16, 16, 16)\nInput array dtype: uint8\nTask: transpose | order=zyx | perm=[1, 2, 0]\nOutput array shape: (48, 64, 80)\nOutput array chunks: (16, 16, 16)\nTranspose complete. OME-Zarr pyramid saved to: <case>/s3-repaired-producer_xzy_to_zyx.zarr"
+      },
+      "plan_log_sha256": "dbe37441edbbf92db231d2cc67e24c63225722f27b092dea2fa7fbc514066610",
+      "run_log_sha256": "93f41f12c36b9a6cf9ab6e8c213ca88859db6467ce6e8d6e4df538eb2511d7c6"
+    },
+    {
+      "phase": "control",
+      "selections": {
+        "plan": "task       transpose\ninput      <case>/s3-seed.zarr (level 0)\n           shape (48, 64, 80), chunks (16, 16, 16), uint8, 60 chunks, 0.2 MB uncompressed\noutput     <case>/s3-repaired-canonical_zyx_to_xzy.zarr\n           level 0 shape (80, 48, 64), uint8, 0.2 MB uncompressed, 1 levels\nworkers    1, about 60 chunks each\nDry run: nothing was written.",
+        "run": "Using 1 worker processes\nInput array shape: (48, 64, 80)\nInput array chunks: (16, 16, 16)\nInput array dtype: uint8\nTask: transpose | order=xzy | perm=[2, 0, 1]\nOutput array shape: (80, 48, 64)\nOutput array chunks: (16, 16, 16)\nTranspose complete. OME-Zarr pyramid saved to: <case>/s3-repaired-canonical_zyx_to_xzy.zarr"
+      },
+      "plan_log_sha256": "315636faec266933505b7269383906cd79c63668f9798827063fb5819062a898",
+      "run_log_sha256": "4acc78a3c923a179a7adad8fbe78a8f7eaf573645df0e31d2acde19f3a3ad484"
+    }
+  ],
+  "public_production_head": "3312036e7cbe01d1f10c08d4c678822d77f726e7",
+  "common_prior_PR": 2295,
+  "common_prior_head": "209d3b7940af2768fb8a796249d19c969e608e5f",
+  "common_prior_author": "ChaseHendrick",
+  "common_overlay_sha256": {
+    "vesuvius/image_proc/run/zarr_tasks/base.py": "97e76909ef2a6c7c44fe2fa6d53a230a973a2eca9e0db09cffecdc22f1144cbb",
+    "vesuvius/image_proc/run/zarr_tasks/utils.py": "4cc024726972531e816511b0be3b6a3a56b8809c811affc53c4a0090d11c99d2",
+    "vesuvius/image_proc/run/zarr_tasks/__main__.py": "f488ad94a3b37948c1328c49536e68e43623a3dc78fab5921bd48b301a61d2c0"
+  },
+  "transpose_arm_sha256": {
+    "original": "adc39679e0beb634c4a205618a3d47d2927c463f13be5eb80de2afa64e02ff3d",
+    "repaired": "de1dc1845ec8b6949047def2a7c7a7aab947d36de294e93781a7eefaae540d6e"
+  },
+  "scope": "416non-fiber files verified before an explicit four-core-file overlay;only transpose differs between arms. Not full2295/repository/installer validation. Eight compound consumer records plus two producers equal18CLI calls,not18unit methods or incidents.",
+  "limits": [
+    "Real CT in constructed canonical format2 containers;no crop/global-origin/native-registration claim.",
+    "One level/one worker;no0045guard composition,remoteURI,higher pyramid,race,training/quality or adoption proof.",
+    "No new human-written relevance,personal author review,maintainer acceptance or award inferred."
+  ]
+}
