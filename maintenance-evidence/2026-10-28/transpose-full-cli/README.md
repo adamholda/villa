@@ -7,3 +7,14 @@
 Screenshots are unmodified browser captures of actual archived CLI output plus separately labeled actual verifier measurements,not live terminal sessions or CT pixels. Original destructive routes use zyx identity to isolate overwrite behavior;valid controls use xzy and independent whole-array permutations. Reused real crops have constructed format2 headers;no physical registration/group routing/higher-pyramid/race or training/quality claim. Old0114generated methods and prepare-only hazard records remain unchanged history. New supplement is not presumed personally reviewed and does not create human-written relevance.
 
 Current main39a8cf3a non-fiber closure416files matches existinge2254ebe environment;no fresh installer/full-repository proof. Common creator work from1682/kadenpool is credited;our only production delta is the existing0045guard. AI assisted preparation,orchestration,analysis and drafting. Computational resources were provided by the e-INFRA CZ project(ID90254),supported by the Ministry of Education,Youth and Sports of the Czech Republic. Villa MIT and scan/EduceLab-Scrolls rights remain separate.
+
+
+## Archived CLI captures
+
+![Original exit0 and measured input loss](before.jpg)
+
+![Repaired pre-prompt rejection and tree preservation](rejection.jpg)
+
+![Successful separate-output transpose and exact values](success.jpg)
+
+[Capture hashes](screenshots.json). Terminal output and post-run measurements are labeled separately.

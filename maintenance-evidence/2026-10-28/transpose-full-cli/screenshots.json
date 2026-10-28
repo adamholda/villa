@@ -1,0 +1,31 @@
+{
+  "PR": 2326,
+  "protocol": "0123",
+  "job_id": "25071129.pbs-m1.metacentrum.cz",
+  "capture_scope": "Unmodified browser captures of actual archived CLI output and separately labeled actual post-run verifier measurements. Not a live terminal or raw CT pixel image.",
+  "images": [
+    {
+      "name": "before.jpg",
+      "bytes": 103883,
+      "sha256": "e15de1064c6374880f15305c8da13afd654bf8b9b95907c5b506f0e78b811fa5",
+      "git_sha": "e6d53fb1d268e714e027b2a6fc26a67e5c0670e5",
+      "source_url": "https://github.com/adamholda/villa/blob/66d704bc78e753dc680c185031f2e184ee3e3e6c/maintenance-evidence/2026-10-28/transpose-full-cli/before.md"
+    },
+    {
+      "name": "rejection.jpg",
+      "bytes": 100427,
+      "sha256": "b0be4da416112be76d371e1be554f96fbe4d6fe1833c6382272b4c99ac8ba768",
+      "git_sha": "4e58ededa592f70b43308bde3f66dd501ba4a271",
+      "source_url": "https://github.com/adamholda/villa/blob/66d704bc78e753dc680c185031f2e184ee3e3e6c/maintenance-evidence/2026-10-28/transpose-full-cli/rejection.md"
+    },
+    {
+      "name": "success.jpg",
+      "bytes": 110213,
+      "sha256": "a6a16068e33988aae899a6a0e72273904e564a5818392135dba1f30dc9287570",
+      "git_sha": "726e80927a76fc2130d5b91194317f50a597786f",
+      "source_url": "https://github.com/adamholda/villa/blob/66d704bc78e753dc680c185031f2e184ee3e3e6c/maintenance-evidence/2026-10-28/transpose-full-cli/success.md"
+    }
+  ],
+  "all_visually_reviewed": true,
+  "scientific_rerun": false
+}
