@@ -1,0 +1,30 @@
+{
+  "captured_at": "2026-10-28T01:12:56.685Z",
+  "source_commit": "d05fb96ed1ab5682b3e93e3cca593dacf128dc20",
+  "capture_method": "Unmodified browser captures of public GitHub-rendered archived CLI excerpts. Not terminal captures or new runtime.",
+  "images": [
+    {
+      "phase": "before",
+      "filename": "2302-before.jpg",
+      "sha256": "cec5b689d052b28fbf0751b065bdaf9237aec7844f07bc666e7f5b29cd11beb4",
+      "size": 95768,
+      "blob_sha": "f8536f907584bf20e2f25793d7b4c111387e12b6"
+    },
+    {
+      "phase": "rejection",
+      "filename": "2302-rejection.jpg",
+      "sha256": "91acce0437267327af54b2062cb0d110dcbb4dc221fbe7b305fcf6b9959f885d",
+      "size": 106007,
+      "blob_sha": "cf5b400e832c99045ccd6ef0526125f587e2f16f"
+    },
+    {
+      "phase": "success",
+      "filename": "2302-success.jpg",
+      "sha256": "383127580d360c33382e9e874b2bf7006b4d30da6b3e3771005058b032c6c49f",
+      "size": 97180,
+      "blob_sha": "0ef8483b1249de96055d3a6c1818bb321177f465"
+    }
+  ],
+  "new_runtime": false,
+  "original_artifacts_unchanged": true
+}

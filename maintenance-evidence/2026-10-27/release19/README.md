@@ -52,3 +52,10 @@ All38 originally embedded image links were checked to load,and all38 images were
 The one October form draft covers all27 public URLs with these limits. No form entry,terms acceptance or submission has occurred. No personal incident,novel letter/text discovery,quality/performance gain,adoption,acceptance or award is claimed. Four failed/held candidates and prior scientific STOPs stay excluded.
 
 AI assistance was used for source investigation,implementation,tests,validation orchestration,analysis and technical drafting. Computational resources were provided by the e-INFRA CZ project (ID:90254),supported by the Ministry of Education,Youth and Sports of the Czech Republic. Villa's MIT code and CT data rights/attribution remain separate.
+
+
+## Submission criteria check,28 October2026
+
+All27 PRs are already public and open. The author cannot mark24 drafts ready because of GitHub's open-PR limit;maintainers can still inspect their diffs,tests and evidence. This is separate from unresolved real-scroll demonstration and human-written workflow requirements. **Not all27 are certified to satisfy every contribution criterion.** See the [per-PR criteria/evidence inventory](submission-criteria.md).
+
+PR2302 now has [direct archived CLI excerpts](../../2026-10-28/merge-cli/README.md) and before/rejection/supported-success captures,from the completed PBS24944947 run with exact log hashes. No rerun or new user incident. The screenshot scope and cleanup warning are disclosed. The one monthly form draft records the public-draft access note and these evidence gaps;it remains unsubmitted.

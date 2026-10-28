@@ -48,3 +48,14 @@ Recorded checks: `{"arm": "patched", "case": "valid_sibling_prefix", "changed_en
 The baseline exits0 while losing8192 nonzero input voxels; the same unsupported alias rejects safely after the guard. A supported separate-output run exits0 with exact CT values and unchanged inputs. A resource_tracker cleanup warning also exists in both exit0 logs; it is not hidden as a new clean-environment claim. These are controlled disposable copies, not an observed human data-loss incident. This supplement does not establish human-written workflow motivation or personal review of this later capture. Common Zarr3 dependency PR2244 by stantheman0128 remains credited.
 
 AI assistance supported implementation, validation orchestration and evidence preparation. Computational resources were provided by the e-INFRA CZ project (ID:90254), supported by the Ministry of Education, Youth and Sports of the Czech Republic. Scan data rights and Villa MIT code rights remain separate.
+
+
+## Actual browser captures
+
+![Archived original silent input loss](2302-before.jpg)
+
+![Archived repaired overlap rejection](2302-rejection.jpg)
+
+![Archived supported separate-output completion](2302-success.jpg)
+
+[Capture hashes and source commit](screenshot-manifest.json). These later28October views do not imply a new personal review of evidence by the author.
