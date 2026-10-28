@@ -1,0 +1,32 @@
+{
+  "protocol": "0128",
+  "job_id": "25084792.pbs-m1.metacentrum.cz",
+  "scope": "Unmodified full-page browser captures of verbatim archived module-CLI output and separately labeled actual dataset diagnostic records. Long log lines retain the browser's horizontal clipping;exact logs remain linked. Not a live human session or model/training proof.",
+  "capture_source_commit": "dded521ef3b12acfdf4774dfe3c7d2a3bd0d0a8e",
+  "files": [
+    {
+      "path": "before.png",
+      "bytes": 193758,
+      "sha256": "970625581c075ddfbb3039d5d95fc827f9af8e7f90973363647e2331b9590725",
+      "git_blob_sha": "b2e538ed9e6f23078833ef52b6bc0f4095092f06",
+      "source": "https://github.com/adamholda/villa/blob/dded521ef3b12acfdf4774dfe3c7d2a3bd0d0a8e/maintenance-evidence/2026-10-28/cache-real-ct-selection/diagnostic-before.md"
+    },
+    {
+      "path": "after.png",
+      "bytes": 283679,
+      "sha256": "e092a021853e651651839a1545abe2bb1ae8fb12a7f690e3ee81b1143dc86f18",
+      "git_blob_sha": "d82bb9050cc6c84c43bba5f7398d02328463e757",
+      "source": "https://github.com/adamholda/villa/blob/dded521ef3b12acfdf4774dfe3c7d2a3bd0d0a8e/maintenance-evidence/2026-10-28/cache-real-ct-selection/diagnostic-after.md"
+    },
+    {
+      "path": "control.png",
+      "bytes": 200388,
+      "sha256": "5bbb6f94fb7c71773a7f23ff25c2cd6ff2320eb23ed73537c3210a714fd57459",
+      "git_blob_sha": "347a56995e5ac8133acbdcfb4557ec9086fd93a4",
+      "source": "https://github.com/adamholda/villa/blob/dded521ef3b12acfdf4774dfe3c7d2a3bd0d0a8e/maintenance-evidence/2026-10-28/cache-real-ct-selection/diagnostic-control.md"
+    }
+  ],
+  "raw_result_sha256": "b5c9cf6195a98d02b581c89feeac72c4e6f14d6daedb3762821900bcbdbb3cf2",
+  "raw_CT_or_labels_or_arrays_published": false,
+  "personally_reviewed_inferred": false
+}
