@@ -1,0 +1,32 @@
+{
+  "protocol": "0124",
+  "job_id": "25080112.pbs-m1.metacentrum.cz",
+  "scope": "Unmodified full-page browser captures of selected actual archived diagnostic fields;full composed dataset augmentation kept enabled with return-preserving spatial observers;not a raw human CLI or trainer session.",
+  "capture_source_commit": "6b0b1ee404356299b15a46e19a1019fb60da5816",
+  "files": [
+    {
+      "path": "before.png",
+      "bytes": 228497,
+      "sha256": "40c6c4e5e1be4a3a7eba25290df49d789e169eb2f33778d5798e4c347ab347b3",
+      "git_blob_sha": "f9a7dfa2db91d08e2ab488ab0ed52df86abbba66",
+      "source": "https://github.com/adamholda/villa/blob/6b0b1ee404356299b15a46e19a1019fb60da5816/maintenance-evidence/2026-10-28/rotation-composed-ct/diagnostic-before.md"
+    },
+    {
+      "path": "after.png",
+      "bytes": 217423,
+      "sha256": "f0e4ead2f7ba6e6c2e4bace664ffa2c25eccc168009df5cde50fac064145c9ad",
+      "git_blob_sha": "7a3e0286108ba4f86a0e8f330c6c3fd72eaca9be",
+      "source": "https://github.com/adamholda/villa/blob/6b0b1ee404356299b15a46e19a1019fb60da5816/maintenance-evidence/2026-10-28/rotation-composed-ct/diagnostic-after.md"
+    },
+    {
+      "path": "control.png",
+      "bytes": 212084,
+      "sha256": "9b13249eb1f02ffef1845f3f3bb3fec78de50dfc6cd2d3920f64cfe22324f030",
+      "git_blob_sha": "cf684c3b6d1f6fb465fc82bb812d6f5eb6d8c268",
+      "source": "https://github.com/adamholda/villa/blob/6b0b1ee404356299b15a46e19a1019fb60da5816/maintenance-evidence/2026-10-28/rotation-composed-ct/diagnostic-control.md"
+    }
+  ],
+  "raw_result_sha256": "90d1d34a7aff2f78b33b7fc7483843890e46fc147d3d7079d08782cd5ee0bfe7",
+  "raw_CT_or_labels_or_arrays_published": false,
+  "personally_reviewed_inferred": false
+}
