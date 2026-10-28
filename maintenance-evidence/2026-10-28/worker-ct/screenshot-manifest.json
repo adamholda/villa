@@ -1,0 +1,28 @@
+{
+  "captured_at": "2026-10-28T02:12:07.265Z",
+  "source_commit": "31a9aa9be94590edd717b775769e4f1d3bdee3d0",
+  "method": "Unmodified browser captures of actual archived full-CLI output and frozen checks. No new run or image editing.",
+  "images": [
+    {
+      "phase": "before",
+      "name": "2329-before.jpg",
+      "size": 106467,
+      "sha256": "a93671bbf182b7d6a4ebdc0b038d792475597c7be1ca99778d1a8b05d7daf5ad",
+      "blob_sha": "0a06bef0a471e8f0036cd181ec43a44fd3b530d6"
+    },
+    {
+      "phase": "rejection",
+      "name": "2329-rejection.jpg",
+      "size": 105050,
+      "sha256": "0223dde918fb50559529053542c10e5a3114deee221c02bcd1c986f1d59c8fe5",
+      "blob_sha": "2126881d3a9f7f47a2f3038fbf0fcec064f1ce21"
+    },
+    {
+      "phase": "success",
+      "name": "2329-success.jpg",
+      "size": 104901,
+      "sha256": "bb7d0bc9de04fc673f40713b4211077f8dd60f0e4646db74637b5337807058c1",
+      "blob_sha": "7556a7129b85c1b6922be2bfaff9c00d4f2409e4"
+    }
+  ]
+}

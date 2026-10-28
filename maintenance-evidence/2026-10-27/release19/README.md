@@ -59,3 +59,10 @@ AI assistance was used for source investigation,implementation,tests,validation 
 All27 PRs are already public and open. The author cannot mark24 drafts ready because of GitHub's open-PR limit;maintainers can still inspect their diffs,tests and evidence. This is separate from unresolved real-scroll demonstration and human-written workflow requirements. **Not all27 are certified to satisfy every contribution criterion.** See the [per-PR criteria/evidence inventory](submission-criteria.md).
 
 PR2302 now has [direct archived CLI excerpts](../../2026-10-28/merge-cli/README.md) and before/rejection/supported-success captures,from the completed PBS24944947 run with exact log hashes. No rerun or new user incident. The screenshot scope and cleanup warning are disclosed. The one monthly form draft records the public-draft access note and these evidence gaps;it remains unsubmitted.
+
+
+## Actual worker CT CLI follow-up,28October2026
+
+PR2329 now has [actual original/rejection/supported-success output](../../2026-10-28/worker-ct/README.md) from0117/PBS25068983:2 original late negative-worker errors,2 repaired pre-write argument rejections,4 valid exact real-CT masks.72s x1CPU/0GPU final/reconciled;native input hashes unchanged. Original zero/default worker expansion is excluded. The existing production helper and original checked statement stay unchanged;later evidence is not represented as newly personally reviewed. The all27 [criteria inventory](submission-criteria.md) now has5 direct CT CLI packets,3partial/instrumented CT packets and19CPU/generated/source-only packets. This is not blanket upstream compliance or an extra repair.
+
+The separate threshold0116 attempt stopped at a test-driver checkout-path check before scientific imports/CT/CLI records. Its failed result and2CPU-seconds remain preserved and deferred. No threshold outcome screenshots or success claim.73final records charge29904CPU coreseconds/6332GPU seconds,no active project reservation. All27PRs remain public/open with3ready/24draft;the author-limit restriction and unresolved genuine workflow requirements remain. One form draft is still unsubmitted.
