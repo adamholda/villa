@@ -1,0 +1,1526 @@
+{
+  "protocol": "0122",
+  "job_id": "25069581.pbs-m1.metacentrum.cz",
+  "summary": {
+    "protocol": "0122",
+    "job_id": "25069581.pbs-m1.metacentrum.cz",
+    "gate_passed": true,
+    "scope": "PARTIAL/INSTRUMENTED actual config/parser/dataset getter/factory and selected joint orientation members on real CT and a released binary fiber mask. No full composed augmentation,trainer,model,ink-quality or biological-instance proof.",
+    "scheduler_exit_status": 0,
+    "scheduler_seconds": 96,
+    "ncpus": 1,
+    "ngpus": 0,
+    "driver_seconds": 94.55675753066316,
+    "error": null,
+    "collection_files": 10,
+    "collection_bytes": 209006,
+    "raw_result_sha256": "21b2becd774e0526647a53703ae9c561e02b96c4f5848fb2c5d22c1b314c8a10",
+    "configuration_records": 6,
+    "original_factory_nonmatches": 2,
+    "original_factory_controls": 1,
+    "repaired_factory_matches": 3,
+    "original_kernel_observations": 24,
+    "repaired_kernel_observations": 16,
+    "native_inputs_unchanged": true,
+    "constructed_inputs_unchanged": true,
+    "unrestricted_control_exact": true,
+    "verified_nonfiber_source_files": 416,
+    "input": {
+      "raw_label_sha256": "afb8809df65c7eb06cb7c26afafbe83095242bd7d9bb2347a78a8bae8780835f",
+      "decoded_label_sha256": "bb6811673f58da2dd6b9f5927156943ca10fc723bc200a66a30cc8e4ce40877a",
+      "decoded_CT_sha256": "180bf694ebd175b56f5a21803b90bc0143c77684ef1c7e580b78981415c5d133",
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "dtype": "uint8",
+      "released_label_values_and_counts": {
+        "0": 16476137,
+        "1": 301079
+      },
+      "whole_fixed_S5_cube_no_positive_crop_search": true,
+      "biological_or_physical_registration_claim": false
+    },
+    "GNU_time_peak_RSS_kB": 1771992,
+    "scheduler_memory": "1729736kb"
+  },
+  "input": {
+    "raw_label_sha256": "afb8809df65c7eb06cb7c26afafbe83095242bd7d9bb2347a78a8bae8780835f",
+    "decoded_label_sha256": "bb6811673f58da2dd6b9f5927156943ca10fc723bc200a66a30cc8e4ce40877a",
+    "decoded_CT_sha256": "180bf694ebd175b56f5a21803b90bc0143c77684ef1c7e580b78981415c5d133",
+    "shape": [
+      256,
+      256,
+      256
+    ],
+    "dtype": "uint8",
+    "released_label_values_and_counts": {
+      "0": 16476137,
+      "1": 301079
+    },
+    "whole_fixed_S5_cube_no_positive_crop_search": true,
+    "biological_or_physical_registration_claim": false
+  },
+  "arms": {
+    "original": {
+      "result": {
+        "arm": "original",
+        "records": [
+          {
+            "mode": "z",
+            "manager_axes": [
+              0
+            ],
+            "factory_signature": [
+              [
+                "Rot90Transform",
+                [
+                  0,
+                  1,
+                  2
+                ]
+              ],
+              [
+                "TransposeAxesTransform",
+                [
+                  0,
+                  1,
+                  2
+                ]
+              ]
+            ],
+            "expected_signature": [
+              [
+                "Rot90Transform",
+                [
+                  1,
+                  2
+                ]
+              ],
+              [
+                "TransposeAxesTransform",
+                [
+                  1,
+                  2
+                ]
+              ]
+            ],
+            "factory_contract_matches": false,
+            "dataset_items": 1,
+            "getter_image_mask_padding_exact": true,
+            "kernel_observations": [
+              {
+                "kind": "Rot90Transform",
+                "seed": 0,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    1
+                  ],
+                  "axis_combinations": [
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "c800444b4a0d48a2bfbb1d2970c7dfed34db3b524dfa10d688db3a81412e473a",
+                  "fiber": "2b71438d4a91d15e5dae20d9aab70272bfe92532489b80d1e941d99e806f8567",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "Rot90Transform",
+                "seed": 1,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    2
+                  ],
+                  "axis_combinations": [
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "98b3b29fdbe0612eb8d87bc7a79275cced55d0ee57a4be778ea37b0526d982c2",
+                  "fiber": "c987a9bb00b57040c98d38929f5d5a008c565b4f99db8d02250729d3bde70fde",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "Rot90Transform",
+                "seed": 2,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    1
+                  ],
+                  "axis_combinations": [
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "c800444b4a0d48a2bfbb1d2970c7dfed34db3b524dfa10d688db3a81412e473a",
+                  "fiber": "2b71438d4a91d15e5dae20d9aab70272bfe92532489b80d1e941d99e806f8567",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "Rot90Transform",
+                "seed": 3,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    3
+                  ],
+                  "axis_combinations": [
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "cde4d7c2b90319ded23232ade017a91365bb3aeacf0faeca24b44d7ee8cd918f",
+                  "fiber": "98abb3040c37a4f6d199c3ab952de766f12d0b0e8d331bc7b942fe0994562be8",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 0,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    3,
+                    2,
+                    1
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "7fbf428a99391d5c6c745a57d5f599d626d6d79cf229abb640619d49df099017",
+                  "fiber": "4164435cb63456e1e964cd88109b55c868076ed52d891f3885d55df9ce174428",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 1,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    1,
+                    3,
+                    2
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "d2545e18586848808de76ecbceb55a986d59bce36d3ab2692e34426a882278ca",
+                  "fiber": "ee27cd20917abfad1ccb9572613fe647a06b29760e218e437e36c6694fec53a9",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 2,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    3,
+                    2,
+                    1
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "7fbf428a99391d5c6c745a57d5f599d626d6d79cf229abb640619d49df099017",
+                  "fiber": "4164435cb63456e1e964cd88109b55c868076ed52d891f3885d55df9ce174428",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 3,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    2,
+                    1,
+                    3
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "cf44f437cc181c889a5441db04ab0b9ac98ec925dabfa4622cb8acd160197a50",
+                  "fiber": "42eeed0af7d6241b55fcc9dee3caf6054b44781e658cf109c27a29cbc464cc90",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              }
+            ],
+            "scope": "Instrumented actual dataset getter/factory and selected quarter-turn/transpose leaves;not the full composed augmentation pipeline or training."
+          },
+          {
+            "mode": "none",
+            "manager_axes": [],
+            "factory_signature": [
+              [
+                "Rot90Transform",
+                [
+                  0,
+                  1,
+                  2
+                ]
+              ],
+              [
+                "TransposeAxesTransform",
+                [
+                  0,
+                  1,
+                  2
+                ]
+              ]
+            ],
+            "expected_signature": [],
+            "factory_contract_matches": false,
+            "dataset_items": 1,
+            "getter_image_mask_padding_exact": true,
+            "kernel_observations": [
+              {
+                "kind": "Rot90Transform",
+                "seed": 0,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    1
+                  ],
+                  "axis_combinations": [
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "c800444b4a0d48a2bfbb1d2970c7dfed34db3b524dfa10d688db3a81412e473a",
+                  "fiber": "2b71438d4a91d15e5dae20d9aab70272bfe92532489b80d1e941d99e806f8567",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "Rot90Transform",
+                "seed": 1,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    2
+                  ],
+                  "axis_combinations": [
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "98b3b29fdbe0612eb8d87bc7a79275cced55d0ee57a4be778ea37b0526d982c2",
+                  "fiber": "c987a9bb00b57040c98d38929f5d5a008c565b4f99db8d02250729d3bde70fde",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "Rot90Transform",
+                "seed": 2,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    1
+                  ],
+                  "axis_combinations": [
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "c800444b4a0d48a2bfbb1d2970c7dfed34db3b524dfa10d688db3a81412e473a",
+                  "fiber": "2b71438d4a91d15e5dae20d9aab70272bfe92532489b80d1e941d99e806f8567",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "Rot90Transform",
+                "seed": 3,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    3
+                  ],
+                  "axis_combinations": [
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "cde4d7c2b90319ded23232ade017a91365bb3aeacf0faeca24b44d7ee8cd918f",
+                  "fiber": "98abb3040c37a4f6d199c3ab952de766f12d0b0e8d331bc7b942fe0994562be8",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 0,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    3,
+                    2,
+                    1
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "7fbf428a99391d5c6c745a57d5f599d626d6d79cf229abb640619d49df099017",
+                  "fiber": "4164435cb63456e1e964cd88109b55c868076ed52d891f3885d55df9ce174428",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 1,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    1,
+                    3,
+                    2
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "d2545e18586848808de76ecbceb55a986d59bce36d3ab2692e34426a882278ca",
+                  "fiber": "ee27cd20917abfad1ccb9572613fe647a06b29760e218e437e36c6694fec53a9",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 2,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    3,
+                    2,
+                    1
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "7fbf428a99391d5c6c745a57d5f599d626d6d79cf229abb640619d49df099017",
+                  "fiber": "4164435cb63456e1e964cd88109b55c868076ed52d891f3885d55df9ce174428",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 3,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    2,
+                    1,
+                    3
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "cf44f437cc181c889a5441db04ab0b9ac98ec925dabfa4622cb8acd160197a50",
+                  "fiber": "42eeed0af7d6241b55fcc9dee3caf6054b44781e658cf109c27a29cbc464cc90",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              }
+            ],
+            "scope": "Instrumented actual dataset getter/factory and selected quarter-turn/transpose leaves;not the full composed augmentation pipeline or training."
+          },
+          {
+            "mode": "unrestricted",
+            "manager_axes": null,
+            "factory_signature": [
+              [
+                "Rot90Transform",
+                [
+                  0,
+                  1,
+                  2
+                ]
+              ],
+              [
+                "TransposeAxesTransform",
+                [
+                  0,
+                  1,
+                  2
+                ]
+              ]
+            ],
+            "expected_signature": [
+              [
+                "Rot90Transform",
+                [
+                  0,
+                  1,
+                  2
+                ]
+              ],
+              [
+                "TransposeAxesTransform",
+                [
+                  0,
+                  1,
+                  2
+                ]
+              ]
+            ],
+            "factory_contract_matches": true,
+            "dataset_items": 1,
+            "getter_image_mask_padding_exact": true,
+            "kernel_observations": [
+              {
+                "kind": "Rot90Transform",
+                "seed": 0,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    1
+                  ],
+                  "axis_combinations": [
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "c800444b4a0d48a2bfbb1d2970c7dfed34db3b524dfa10d688db3a81412e473a",
+                  "fiber": "2b71438d4a91d15e5dae20d9aab70272bfe92532489b80d1e941d99e806f8567",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "Rot90Transform",
+                "seed": 1,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    2
+                  ],
+                  "axis_combinations": [
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "98b3b29fdbe0612eb8d87bc7a79275cced55d0ee57a4be778ea37b0526d982c2",
+                  "fiber": "c987a9bb00b57040c98d38929f5d5a008c565b4f99db8d02250729d3bde70fde",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "Rot90Transform",
+                "seed": 2,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    1
+                  ],
+                  "axis_combinations": [
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "c800444b4a0d48a2bfbb1d2970c7dfed34db3b524dfa10d688db3a81412e473a",
+                  "fiber": "2b71438d4a91d15e5dae20d9aab70272bfe92532489b80d1e941d99e806f8567",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "Rot90Transform",
+                "seed": 3,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    3
+                  ],
+                  "axis_combinations": [
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "cde4d7c2b90319ded23232ade017a91365bb3aeacf0faeca24b44d7ee8cd918f",
+                  "fiber": "98abb3040c37a4f6d199c3ab952de766f12d0b0e8d331bc7b942fe0994562be8",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 0,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    3,
+                    2,
+                    1
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "7fbf428a99391d5c6c745a57d5f599d626d6d79cf229abb640619d49df099017",
+                  "fiber": "4164435cb63456e1e964cd88109b55c868076ed52d891f3885d55df9ce174428",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 1,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    1,
+                    3,
+                    2
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "d2545e18586848808de76ecbceb55a986d59bce36d3ab2692e34426a882278ca",
+                  "fiber": "ee27cd20917abfad1ccb9572613fe647a06b29760e218e437e36c6694fec53a9",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 2,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    3,
+                    2,
+                    1
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "7fbf428a99391d5c6c745a57d5f599d626d6d79cf229abb640619d49df099017",
+                  "fiber": "4164435cb63456e1e964cd88109b55c868076ed52d891f3885d55df9ce174428",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 3,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    2,
+                    1,
+                    3
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "cf44f437cc181c889a5441db04ab0b9ac98ec925dabfa4622cb8acd160197a50",
+                  "fiber": "42eeed0af7d6241b55fcc9dee3caf6054b44781e658cf109c27a29cbc464cc90",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              }
+            ],
+            "scope": "Instrumented actual dataset getter/factory and selected quarter-turn/transpose leaves;not the full composed augmentation pipeline or training."
+          }
+        ],
+        "kernel_observations": 24,
+        "elapsed_seconds": 56.80016258312389
+      },
+      "returncode": 0,
+      "log_sha256": "46256106b498d8d1e25c09fdbe0e4c0907d01abb063f3ce1b2de0c403e591a75"
+    },
+    "repaired": {
+      "result": {
+        "arm": "repaired",
+        "records": [
+          {
+            "mode": "z",
+            "manager_axes": [
+              0
+            ],
+            "factory_signature": [
+              [
+                "Rot90Transform",
+                [
+                  1,
+                  2
+                ]
+              ],
+              [
+                "TransposeAxesTransform",
+                [
+                  1,
+                  2
+                ]
+              ]
+            ],
+            "expected_signature": [
+              [
+                "Rot90Transform",
+                [
+                  1,
+                  2
+                ]
+              ],
+              [
+                "TransposeAxesTransform",
+                [
+                  1,
+                  2
+                ]
+              ]
+            ],
+            "factory_contract_matches": true,
+            "dataset_items": 1,
+            "getter_image_mask_padding_exact": true,
+            "kernel_observations": [
+              {
+                "kind": "Rot90Transform",
+                "seed": 0,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    1
+                  ],
+                  "axis_combinations": [
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "1f3c946c1fafc40c82cfac1335c3721c74c6b86ea0ad38d80a92c8f2d07bfeec",
+                  "fiber": "9f2099800ff0b5d2432456adb75ffc81a9cda4fce49c7a7194de498f2c01916d",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "Rot90Transform",
+                "seed": 1,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    2
+                  ],
+                  "axis_combinations": [
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "98b3b29fdbe0612eb8d87bc7a79275cced55d0ee57a4be778ea37b0526d982c2",
+                  "fiber": "c987a9bb00b57040c98d38929f5d5a008c565b4f99db8d02250729d3bde70fde",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "Rot90Transform",
+                "seed": 2,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    1
+                  ],
+                  "axis_combinations": [
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "1f3c946c1fafc40c82cfac1335c3721c74c6b86ea0ad38d80a92c8f2d07bfeec",
+                  "fiber": "9f2099800ff0b5d2432456adb75ffc81a9cda4fce49c7a7194de498f2c01916d",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "Rot90Transform",
+                "seed": 3,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    3
+                  ],
+                  "axis_combinations": [
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "cde4d7c2b90319ded23232ade017a91365bb3aeacf0faeca24b44d7ee8cd918f",
+                  "fiber": "98abb3040c37a4f6d199c3ab952de766f12d0b0e8d331bc7b942fe0994562be8",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 0,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    1,
+                    3,
+                    2
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "d2545e18586848808de76ecbceb55a986d59bce36d3ab2692e34426a882278ca",
+                  "fiber": "ee27cd20917abfad1ccb9572613fe647a06b29760e218e437e36c6694fec53a9",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 1,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "e01b885465c0267d93d4bd449b9b0dd44e2b7d6e49bfe7f80132421ae979e8d7",
+                  "fiber": "82ce89b0ee3cfcf01b8e120051bf5732860f09c46c6c5f2e78877cd85077ef7d",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": false
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 2,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    1,
+                    3,
+                    2
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "d2545e18586848808de76ecbceb55a986d59bce36d3ab2692e34426a882278ca",
+                  "fiber": "ee27cd20917abfad1ccb9572613fe647a06b29760e218e437e36c6694fec53a9",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 3,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    1,
+                    3,
+                    2
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "d2545e18586848808de76ecbceb55a986d59bce36d3ab2692e34426a882278ca",
+                  "fiber": "ee27cd20917abfad1ccb9572613fe647a06b29760e218e437e36c6694fec53a9",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              }
+            ],
+            "scope": "Instrumented actual dataset getter/factory and selected quarter-turn/transpose leaves;not the full composed augmentation pipeline or training."
+          },
+          {
+            "mode": "none",
+            "manager_axes": [],
+            "factory_signature": [],
+            "expected_signature": [],
+            "factory_contract_matches": true,
+            "dataset_items": 1,
+            "getter_image_mask_padding_exact": true,
+            "kernel_observations": [],
+            "scope": "Instrumented actual dataset getter/factory and selected quarter-turn/transpose leaves;not the full composed augmentation pipeline or training."
+          },
+          {
+            "mode": "unrestricted",
+            "manager_axes": null,
+            "factory_signature": [
+              [
+                "Rot90Transform",
+                [
+                  0,
+                  1,
+                  2
+                ]
+              ],
+              [
+                "TransposeAxesTransform",
+                [
+                  0,
+                  1,
+                  2
+                ]
+              ]
+            ],
+            "expected_signature": [
+              [
+                "Rot90Transform",
+                [
+                  0,
+                  1,
+                  2
+                ]
+              ],
+              [
+                "TransposeAxesTransform",
+                [
+                  0,
+                  1,
+                  2
+                ]
+              ]
+            ],
+            "factory_contract_matches": true,
+            "dataset_items": 1,
+            "getter_image_mask_padding_exact": true,
+            "kernel_observations": [
+              {
+                "kind": "Rot90Transform",
+                "seed": 0,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    1
+                  ],
+                  "axis_combinations": [
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "c800444b4a0d48a2bfbb1d2970c7dfed34db3b524dfa10d688db3a81412e473a",
+                  "fiber": "2b71438d4a91d15e5dae20d9aab70272bfe92532489b80d1e941d99e806f8567",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "Rot90Transform",
+                "seed": 1,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    2
+                  ],
+                  "axis_combinations": [
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "98b3b29fdbe0612eb8d87bc7a79275cced55d0ee57a4be778ea37b0526d982c2",
+                  "fiber": "c987a9bb00b57040c98d38929f5d5a008c565b4f99db8d02250729d3bde70fde",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "Rot90Transform",
+                "seed": 2,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    1
+                  ],
+                  "axis_combinations": [
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "c800444b4a0d48a2bfbb1d2970c7dfed34db3b524dfa10d688db3a81412e473a",
+                  "fiber": "2b71438d4a91d15e5dae20d9aab70272bfe92532489b80d1e941d99e806f8567",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "Rot90Transform",
+                "seed": 3,
+                "parameters": {
+                  "num_rot_per_combination": [
+                    3
+                  ],
+                  "axis_combinations": [
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  "crop_shape": [
+                    256,
+                    256,
+                    256
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "cde4d7c2b90319ded23232ade017a91365bb3aeacf0faeca24b44d7ee8cd918f",
+                  "fiber": "98abb3040c37a4f6d199c3ab952de766f12d0b0e8d331bc7b942fe0994562be8",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 0,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    3,
+                    2,
+                    1
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "7fbf428a99391d5c6c745a57d5f599d626d6d79cf229abb640619d49df099017",
+                  "fiber": "4164435cb63456e1e964cd88109b55c868076ed52d891f3885d55df9ce174428",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 1,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    1,
+                    3,
+                    2
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "d2545e18586848808de76ecbceb55a986d59bce36d3ab2692e34426a882278ca",
+                  "fiber": "ee27cd20917abfad1ccb9572613fe647a06b29760e218e437e36c6694fec53a9",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": false,
+                "per_depth_sums_preserved": {
+                  "image": true,
+                  "fiber": true,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 2,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    3,
+                    2,
+                    1
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "7fbf428a99391d5c6c745a57d5f599d626d6d79cf229abb640619d49df099017",
+                  "fiber": "4164435cb63456e1e964cd88109b55c868076ed52d891f3885d55df9ce174428",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              },
+              {
+                "kind": "TransposeAxesTransform",
+                "seed": 3,
+                "parameters": {
+                  "axis_order": [
+                    0,
+                    2,
+                    1,
+                    3
+                  ]
+                },
+                "joint_values_equal_independent_numpy_reference": true,
+                "output_sha256": {
+                  "image": "cf44f437cc181c889a5441db04ab0b9ac98ec925dabfa4622cb8acd160197a50",
+                  "fiber": "42eeed0af7d6241b55fcc9dee3caf6054b44781e658cf109c27a29cbc464cc90",
+                  "padding_mask": "17270ffba329a90f158af707bc812e60abbe019cf99957e8a6786bd86aff51ae"
+                },
+                "moves_or_flips_depth_axis": true,
+                "per_depth_sums_preserved": {
+                  "image": false,
+                  "fiber": false,
+                  "padding_mask": true
+                },
+                "image_changes": true
+              }
+            ],
+            "scope": "Instrumented actual dataset getter/factory and selected quarter-turn/transpose leaves;not the full composed augmentation pipeline or training."
+          }
+        ],
+        "kernel_observations": 16,
+        "elapsed_seconds": 29.49985263729468
+      },
+      "returncode": 0,
+      "log_sha256": "9a612c7b7528708bebb86dbe8277f500d6e4873df718a768be17215ae631c2ee"
+    }
+  },
+  "production_head": "0f9ba937b2cc52ffafe399a3eb295c10c52590e5",
+  "production_sources": {
+    "vesuvius/models/augmentation/pipelines/training_transforms.py": {
+      "original": "2072ec1c1575367a3ea59417bccd528b0496ef31b66478f12a7629d776255d9d",
+      "repaired": "b56cd15c34a4d86d85989da69d474cb0c14311de0517043ad5a773a168f87e87"
+    },
+    "vesuvius/models/datasets/zarr_dataset.py": {
+      "original": "5b393cdb59b07b8a1aef696b512e0420ef5be1ca36ef266032df6658bea16f41",
+      "repaired": "e22a45e326e11a1c5a47d373e8b5d6e636c64051cc54be7f485144327e1153b6"
+    },
+    "vesuvius/models/datasets/cross_frame_dataset.py": {
+      "original": "f58bbd929f71bdffe521c1fb1c2e1f7a2d7aafab14646ef9c8f87bcf6b2b272f",
+      "repaired": "247ecbdb0224e2b2d3316fefc9a88cfc475dc11e13e68c3b81ae4af7a0d17c45"
+    },
+    "vesuvius/models/datasets/mutex_affinity_dataset.py": {
+      "original": "7e148f1b7cbb6314d722809d557fae79841b24a54a4a46fb27ca5a10da5a43f0",
+      "repaired": "7d972fe75447f7937d050b8ab02b28835bf306a7c9e6cad3ca98adeccd8eb22b"
+    }
+  },
+  "common_source_sha256": {
+    "vesuvius/models/configuration/config_manager.py": "817da9637c2581f1db2ac5fd51596c406fba32558bd0aecf0d55e73893df59aa",
+    "vesuvius/models/training/cli.py": "dc9338aa1a5c66315c6bd56da000287005c28a5b6ec1e02d07d2e0053f82e13c",
+    "vesuvius/models/utilities/cli_utils.py": "f6598736600a72eb6f9d69ff92928e3bea131206df8c8f59b0e69b48e63abdb0",
+    "vesuvius/models/augmentation/transforms/utils/compose.py": "510f1579b50fe7bf1183ce33b78b34b7f08a791a6ae2868bd221bd9bd93e06d4",
+    "vesuvius/models/augmentation/transforms/utils/random.py": "a3cd0b31e383675dd7dadb9ce513c0b40321435618fddbd2d3a77af7ddba5dab",
+    "vesuvius/models/augmentation/transforms/utils/oneoftransform.py": "c4fd3a3acf2156ffb0c51ffacbb67f19212cbc0e135f405c084f5aebb0cfa758",
+    "vesuvius/image_proc/run/zarr_tasks/utils.py": "d3bdb34da1ff46b8a77c83c9619d75c2a7071e0c2bc04c5a0e7526af44c3b549",
+    "vesuvius/models/training/train.py": "04bcaafb1b57f0ef4bd344152f4c9a255b50d51224f2e35916be99639ac60212",
+    "vesuvius/models/augmentation/transforms/spatial/rot90.py": "c662e53fd245cd0922d1bca146039be8db3861bc132a55c90e24a721f1002ab8",
+    "vesuvius/models/augmentation/transforms/spatial/transpose.py": "43cd82d47e395d19e85c5a96a57ba3db5e574ee54361c3b220a81f24befdd7cb",
+    "vesuvius/models/augmentation/transforms/spatial/low_resolution.py": "6f7d5ac8b2364d6dbf0c1426f0381c490b6fcd6709593cbc797dab05901a9566",
+    "vesuvius/models/augmentation/transforms/base/basic_transform.py": "adcba4986dc723c0088a610fdee054f449b1c46151166a2c89e5b46db9834949",
+    "vesuvius/models/augmentation/transforms/spatial/mirroring.py": "2c65519e009eed5220938df1f5b75bad8e33f1589a212ed981d0f74693a69671"
+  },
+  "modes": [
+    "z",
+    "none",
+    "unrestricted"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "scope": "PARTIAL/INSTRUMENTED actual config/parser/dataset getter/factory and selected joint orientation members on real CT and a released binary fiber mask. No full composed augmentation,trainer,model,ink-quality or biological-instance proof.",
+  "private_native_inputs_unchanged": true,
+  "constructed_input_trees_unchanged": true,
+  "unrestricted_control_exact": true,
+  "limits": [
+    "6configuration observations/40repeated selected-member operations on one pair,not6/40unittest methods or independent discoveries.",
+    "Actual loader/factory and selected joint members;not full composed augmentation or human CLI/trainer workflow.",
+    "No raw CT/mask/Tensors,anatomical interpretation,training/quality,adoption,acceptance or award.",
+    "No new personal author review or human-written relevance inferred."
+  ]
+}
