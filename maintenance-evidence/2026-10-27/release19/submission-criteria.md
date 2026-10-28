@@ -4,7 +4,7 @@ All27 proposals are public and open. Three are ready for review and24 are drafts
 
 This is an evidence inventory,not certification that all27 satisfy [Villa's contribution rules](https://github.com/ScrollPrize/villa/blob/39a8cf3a124bdd5540ee826e1cb30047c8dc8c85/CONTRIBUTING.md). Those rules require real-scroll use and before/after tool evidence,actual workflow motivation,human-written relevance for AI-assisted PRs,and personal code review. Original checked author statements are preserved;they do not invent an earlier human encounter or establish that AI-drafted prose was human-written. Later supplements do not imply a fresh personal review.
 
-The archived images have correct source/context labels. A test-summary image can be accurate while still leaving the real-scroll tool demonstration requirement unmet. Five packets have direct archived CT CLI evidence;three have partial/instrumented CT evidence;19 use CPU/generated-store/source-only checks. These are evidence classes,not accepted fixes or prize counts. No full training/CUDA-overflow/DDP performance or model-quality result is claimed.
+The archived images have correct source/context labels. A test-summary image can be accurate while still leaving the real-scroll tool demonstration requirement unmet. Six packets have direct archived CT CLI evidence;three have partial/instrumented CT evidence;18 use CPU/generated-store/source-only checks. These are evidence classes,not accepted fixes or prize counts. No full training/CUDA-overflow/DDP performance or model-quality result is claimed.
 
 |PR|GitHub stage|Evidence scope / unresolved technical limit|
 |---|---|---|
@@ -17,7 +17,7 @@ The archived images have correct source/context labels. A test-summary image can
 |[#2306](https://github.com/ScrollPrize/villa/pull/2306) Handle polynomial and short-run learning-rate scheduler boundaries|Draft|CPU scheduler boundary microcases.|
 |[#2307](https://github.com/ScrollPrize/villa/pull/2307) Wire background patch requests through cache generation and dataset loading|Draft|CT-backed cache wiring with engineered labels; general scanner remains held.|
 |[#2326](https://github.com/ScrollPrize/villa/pull/2326) Reject overlapping local input/output trees in transpose|Draft|Original hazards are prepare-only; repaired rejection and valid selected-array controls are real CT CLI. Later0114 review not inferred.|
-|[#2327](https://github.com/ScrollPrize/villa/pull/2327) Reject overlapping local input/output trees in threshold|Draft|Generated-store proof remains;0116 CT attempt failed at a driver checkout-path check before arrays/CLI records and is deferred.|
+|[#2327](https://github.com/ScrollPrize/villa/pull/2327) Reject overlapping local input/output trees in threshold|Draft|0119 full real-CT CLI:2 original silent input replacements,2 repaired pre-prompt rejections,8 valid exact masks. Earlier0116 path failure is preserved.|
 |[#2328](https://github.com/ScrollPrize/villa/pull/2328) Preserve declared axes and transforms in transpose planning|Draft|Generated-store planning/frame tests; depends on unmerged2295 by ChaseHendrick.|
 |[#2329](https://github.com/ScrollPrize/villa/pull/2329) Reject nonpositive explicit Zarr worker counts|Draft|0117 real S3/S5 CT CLI:2 original late -1 failures,2 repaired early rejections,4 valid exact one-worker masks. Zero/default expansion not run.|
 |[#2330](https://github.com/ScrollPrize/villa/pull/2330) Keep dataset cache targets, selections and values consistent|Draft|Generated-store cache integration including0055; separate46-method composition is not real training.|
@@ -44,3 +44,8 @@ One October maintenance-bundle form draft includes all27 URLs with these limits.
 ## Worker CT follow-up,28October2026
 
 Existing2329 production code is unchanged. [Actual archived CLI evidence](../../2026-10-28/worker-ct/README.md) comes from completed PBS25068983/0117:8 records,72s x1CPU/0GPU,inputs unchanged. This adds a real-data context to the existing parser repair,not another independent fix or a test-method count. The old summary remains historical. New screenshots do not infer personal review or human-written workflow commentary. Separately,0116 failed before CT because of a driver source-path error;that run remains preserved/deferred with zero CT outcomes and2CPU-seconds charged. No silent retry.
+
+
+## Authorized threshold successor0119
+
+After Adam's explicit post-failure approval,exactly two test-driver checkout paths were corrected in a separate frozen successor;all12 inputs/cases/scientific oracles were unchanged. [Actual archived CT CLI evidence](../../2026-10-28/threshold-ct/README.md) records completed PBS25069058:original calls lose245760nonzero input voxels per disposable crop despite exit0;repaired calls preserve the whole tree before prompting. Eight valid controls remain exact.98s x1CPU/0GPU final/reconciled. The old0116 failure is preserved/charged2seconds and is not marked passed. No new production repair,incident,human-written relevance or personal-review attestation. No blanket upstream compliance.

@@ -7,3 +7,13 @@ Existing PR2327/protocol0119/PBS25069058 completed the12 frozen full CLI records
 The earlier0116 attempt failed before arrays because of a driver path error and remains preserved/charged2CPU-seconds. Adam explicitly authorized one corrected successor. Only two checkout-prefix expressions changed;all scientific inputs/oracles and production code stayed unchanged. Genuine human-written relevance and new personal review of this later supplement are not inferred. No full installer,higher pyramid,remote-URI,race,physical-registration,training,model-quality,adoption or prize claim.
 
 PR1682 by kadenpool provides the existing creator compatibility;2295 by ChaseHendrick separately provides routing,pitch/planning/default work. AI assistance supported implementation,validation orchestration,analysis and drafting. Computational resources were provided by the e-INFRA CZ project(ID:90254),supported by the Ministry of Education,Youth and Sports of the Czech Republic. Villa MIT and CT/data rights/EduceLab-Scrolls attribution remain separate.
+
+## Actual browser captures
+
+![Original silent CT input overwrite](2327-before.jpg)
+
+![Repaired pre-write rejection](2327-rejection.jpg)
+
+![Valid exact mask completion](2327-success.jpg)
+
+[Capture hashes/source commit](screenshot-manifest.json). These later captures do not imply a new personal author review.
