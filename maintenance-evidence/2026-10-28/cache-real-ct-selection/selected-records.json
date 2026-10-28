@@ -1,0 +1,260 @@
+{
+  "protocol": "0128",
+  "job_id": "25084792.pbs-m1.metacentrum.cz",
+  "gate_passed": true,
+  "arms": {
+    "original": {
+      "returncode": 0,
+      "result": {
+        "arm": "original",
+        "records": [
+          {
+            "arm": "original",
+            "scenario": "selection_change",
+            "step": "select_s3",
+            "selection": [
+              "s3"
+            ],
+            "requested_ids": [
+              "s3"
+            ],
+            "actual_cache_and_dataset_ids": [
+              "s3"
+            ],
+            "selection_contract_matches": true,
+            "written_caches": 1,
+            "scanned_volumes": 2,
+            "skipped_volumes": 0,
+            "cache_files": 1,
+            "reuse_preserves_bytes": false,
+            "exact_raw_CT_item_hashes": {
+              "s3": "8acf79e601eb1846db80e42d7380c3a5d6de1f2e8e2071eaa459174691db06ad"
+            },
+            "image_tree_unchanged": true,
+            "missing_labels_stay_unlabeled": true,
+            "actual_CLI_and_ConfigManager_and_dataset": true,
+            "model_or_training": false
+          },
+          {
+            "arm": "original",
+            "scenario": "selection_change",
+            "step": "select_s5_without_force",
+            "selection": [
+              "s5"
+            ],
+            "requested_ids": [
+              "s5"
+            ],
+            "actual_cache_and_dataset_ids": [
+              "s3"
+            ],
+            "selection_contract_matches": false,
+            "written_caches": 0,
+            "scanned_volumes": 0,
+            "skipped_volumes": 2,
+            "cache_files": 1,
+            "reuse_preserves_bytes": true,
+            "exact_raw_CT_item_hashes": {
+              "s3": "8acf79e601eb1846db80e42d7380c3a5d6de1f2e8e2071eaa459174691db06ad"
+            },
+            "image_tree_unchanged": true,
+            "missing_labels_stay_unlabeled": true,
+            "actual_CLI_and_ConfigManager_and_dataset": true,
+            "model_or_training": false
+          },
+          {
+            "arm": "original",
+            "scenario": "unrestricted_control",
+            "step": "unrestricted_first",
+            "selection": null,
+            "requested_ids": [
+              "s3",
+              "s5"
+            ],
+            "actual_cache_and_dataset_ids": [
+              "s3",
+              "s5"
+            ],
+            "selection_contract_matches": true,
+            "written_caches": 1,
+            "scanned_volumes": 2,
+            "skipped_volumes": 0,
+            "cache_files": 1,
+            "reuse_preserves_bytes": false,
+            "exact_raw_CT_item_hashes": {
+              "s3": "8acf79e601eb1846db80e42d7380c3a5d6de1f2e8e2071eaa459174691db06ad",
+              "s5": "65e39496172ffd6f678f77d5b3f7d80cc31e68750295b2cdfc3ad2eeb364d4ac"
+            },
+            "image_tree_unchanged": true,
+            "missing_labels_stay_unlabeled": true,
+            "actual_CLI_and_ConfigManager_and_dataset": true,
+            "model_or_training": false
+          },
+          {
+            "arm": "original",
+            "scenario": "unrestricted_control",
+            "step": "unrestricted_repeat",
+            "selection": [],
+            "requested_ids": [
+              "s3",
+              "s5"
+            ],
+            "actual_cache_and_dataset_ids": [
+              "s3",
+              "s5"
+            ],
+            "selection_contract_matches": true,
+            "written_caches": 0,
+            "scanned_volumes": 0,
+            "skipped_volumes": 2,
+            "cache_files": 1,
+            "reuse_preserves_bytes": true,
+            "exact_raw_CT_item_hashes": {
+              "s3": "8acf79e601eb1846db80e42d7380c3a5d6de1f2e8e2071eaa459174691db06ad",
+              "s5": "65e39496172ffd6f678f77d5b3f7d80cc31e68750295b2cdfc3ad2eeb364d4ac"
+            },
+            "image_tree_unchanged": true,
+            "missing_labels_stay_unlabeled": true,
+            "actual_CLI_and_ConfigManager_and_dataset": true,
+            "model_or_training": false
+          }
+        ]
+      },
+      "log_sha256": "2468642f0e9fd36348e46be608b2b548d28bc479fd333b7923feaf5b6d093669"
+    },
+    "repaired": {
+      "returncode": 0,
+      "result": {
+        "arm": "repaired",
+        "records": [
+          {
+            "arm": "repaired",
+            "scenario": "selection_change",
+            "step": "select_s3",
+            "selection": [
+              "s3"
+            ],
+            "requested_ids": [
+              "s3"
+            ],
+            "actual_cache_and_dataset_ids": [
+              "s3"
+            ],
+            "selection_contract_matches": true,
+            "written_caches": 1,
+            "scanned_volumes": 2,
+            "skipped_volumes": 0,
+            "cache_files": 1,
+            "reuse_preserves_bytes": false,
+            "exact_raw_CT_item_hashes": {
+              "s3": "8acf79e601eb1846db80e42d7380c3a5d6de1f2e8e2071eaa459174691db06ad"
+            },
+            "image_tree_unchanged": true,
+            "missing_labels_stay_unlabeled": true,
+            "actual_CLI_and_ConfigManager_and_dataset": true,
+            "model_or_training": false
+          },
+          {
+            "arm": "repaired",
+            "scenario": "selection_change",
+            "step": "select_s5_without_force",
+            "selection": [
+              "s5"
+            ],
+            "requested_ids": [
+              "s5"
+            ],
+            "actual_cache_and_dataset_ids": [
+              "s5"
+            ],
+            "selection_contract_matches": true,
+            "written_caches": 1,
+            "scanned_volumes": 2,
+            "skipped_volumes": 0,
+            "cache_files": 2,
+            "reuse_preserves_bytes": false,
+            "exact_raw_CT_item_hashes": {
+              "s5": "65e39496172ffd6f678f77d5b3f7d80cc31e68750295b2cdfc3ad2eeb364d4ac"
+            },
+            "image_tree_unchanged": true,
+            "missing_labels_stay_unlabeled": true,
+            "actual_CLI_and_ConfigManager_and_dataset": true,
+            "model_or_training": false
+          },
+          {
+            "arm": "repaired",
+            "scenario": "unrestricted_control",
+            "step": "unrestricted_first",
+            "selection": null,
+            "requested_ids": [
+              "s3",
+              "s5"
+            ],
+            "actual_cache_and_dataset_ids": [
+              "s3",
+              "s5"
+            ],
+            "selection_contract_matches": true,
+            "written_caches": 1,
+            "scanned_volumes": 2,
+            "skipped_volumes": 0,
+            "cache_files": 1,
+            "reuse_preserves_bytes": false,
+            "exact_raw_CT_item_hashes": {
+              "s3": "8acf79e601eb1846db80e42d7380c3a5d6de1f2e8e2071eaa459174691db06ad",
+              "s5": "65e39496172ffd6f678f77d5b3f7d80cc31e68750295b2cdfc3ad2eeb364d4ac"
+            },
+            "image_tree_unchanged": true,
+            "missing_labels_stay_unlabeled": true,
+            "actual_CLI_and_ConfigManager_and_dataset": true,
+            "model_or_training": false
+          },
+          {
+            "arm": "repaired",
+            "scenario": "unrestricted_control",
+            "step": "unrestricted_repeat",
+            "selection": [],
+            "requested_ids": [
+              "s3",
+              "s5"
+            ],
+            "actual_cache_and_dataset_ids": [
+              "s3",
+              "s5"
+            ],
+            "selection_contract_matches": true,
+            "written_caches": 0,
+            "scanned_volumes": 0,
+            "skipped_volumes": 2,
+            "cache_files": 1,
+            "reuse_preserves_bytes": true,
+            "exact_raw_CT_item_hashes": {
+              "s3": "8acf79e601eb1846db80e42d7380c3a5d6de1f2e8e2071eaa459174691db06ad",
+              "s5": "65e39496172ffd6f678f77d5b3f7d80cc31e68750295b2cdfc3ad2eeb364d4ac"
+            },
+            "image_tree_unchanged": true,
+            "missing_labels_stay_unlabeled": true,
+            "actual_CLI_and_ConfigManager_and_dataset": true,
+            "model_or_training": false
+          }
+        ]
+      },
+      "log_sha256": "8ea1d2e769cc35bfbae3e4e281da55c708cf8aa613051bc15843cd9d6630b050"
+    }
+  },
+  "scope": "Actual image-only find_patches CLI and dataset/cache selection on two fixed CT crops;no annotations,model,training or quality proof.",
+  "verified_nonfiber_source_files": 416,
+  "fixed_input_references": {
+    "s5.npy": "ad76ec93582abf16a71a3acb9fe66fcfbc66ee505a845686a6230f2678e1250d",
+    "s3.npy": "4fc596c5cc993f567256c2b49ceb35ce038746189640a662048caab5e8d5285e"
+  },
+  "workflow_records": 8,
+  "actual_cli_calls": 8,
+  "original_nonmatches": 1,
+  "original_controls": 3,
+  "repaired_matches": 4,
+  "native_inputs_unchanged": true,
+  "annotations_or_model_or_training": false,
+  "finished_utc": "2026-10-28T15:12:54.535936+00:00",
+  "elapsed_seconds": 109.77288936590776
+}

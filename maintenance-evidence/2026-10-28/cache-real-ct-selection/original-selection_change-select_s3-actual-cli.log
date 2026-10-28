@@ -1,0 +1,26 @@
+Detected 3D patch size (48, 64, 80), setting 3D operations
+Finding valid patches of size: (48, 64, 80) at full resolution with bounding box coverage >= 0.95 and labeled fraction >= 0.1.
+
+Processing volumes:   0%|          | 0/2 [00:00<?, ?it/s][2026-10-28 16:11:46,910] INFO:vesuvius.models.datasets.find_valid_patches: Volume 's3' has no labels at index 0; collecting unlabeled FG patches from image data
+[2026-10-28 16:11:46,910] INFO:vesuvius.models.datasets.find_valid_patches: DEBUG: image_array type=Group, hasattr(keys)=True, hasattr(shape)=False
+[2026-10-28 16:11:46,911] INFO:vesuvius.models.datasets.find_valid_patches: DEBUG: image_array keys=['0']
+[2026-10-28 16:11:46,913] INFO:vesuvius.models.datasets.find_valid_patches: Using image level 0 for unlabeled volume 's3' with patch size (48, 64, 80)
+[2026-10-28 16:11:46,913] INFO:vesuvius.models.datasets.find_valid_patches: Unlabeled volume 's3': image shape (48, 64, 80), target patch (48, 64, 80), candidate positions 1
+
+Processing volume 's3' (1/2)
+
+
+  s3 (unlabeled):   0%|          | 0/1 [00:00<?, ?it/s][A
+
+                                                       [A[2026-10-28 16:11:46,921] INFO:vesuvius.models.datasets.find_valid_patches: Unlabeled volume 's3': 1 unlabeled FG patches identified (100.00% of candidates) in 0.01s
+[2026-10-28 16:11:46,921] WARNING:vesuvius.models.datasets.find_valid_patches: Volume 's5' has no label array available at index 1; skipping validation
+
+Processing volumes: 100%|██████████| 2/2 [00:00<00:00, 170.05it/s]
+Found 1 unlabeled foreground patches in 's3'
+
+Processing volume 's5' (2/2)
+
+Total valid patches found across all 2 volumes: 0
+Total unlabeled foreground patches found: 1
+Patch cache generation complete: 1 cache(s) written, 2 volumes scanned, 0 skipped.
+Patches found: 0 FG, 0 BG, 1 unlabeled FG.
