@@ -4,7 +4,7 @@ All27 proposals are public and open. Three are ready for review and24 are drafts
 
 This is an evidence inventory,not certification that all27 satisfy [Villa's contribution rules](https://github.com/ScrollPrize/villa/blob/39a8cf3a124bdd5540ee826e1cb30047c8dc8c85/CONTRIBUTING.md). Those rules require real-scroll use and before/after tool evidence,actual workflow motivation,human-written relevance for AI-assisted PRs,and personal code review. Original checked author statements are preserved;they do not invent an earlier human encounter or establish that AI-drafted prose was human-written. Later supplements do not imply a fresh personal review.
 
-The archived images have correct source/context labels. A test-summary image can be accurate while still leaving the real-scroll tool demonstration requirement unmet. Seven packets have direct archived CT CLI evidence;three have partial/instrumented CT evidence;17 use CPU/generated-store/source-only checks. These are evidence classes,not accepted fixes or prize counts. No full training/CUDA-overflow/DDP performance or model-quality result is claimed.
+The archived images have correct source/context labels. A test-summary image can be accurate while still leaving the real-scroll tool demonstration requirement unmet. Seven packets have direct archived CT CLI evidence;four have partial/instrumented CT evidence;16 use CPU/generated-store/source-only checks. These are evidence classes,not accepted fixes or prize counts. No full training/CUDA-overflow/DDP performance or model-quality result is claimed.
 
 |PR|GitHub stage|Evidence scope / unresolved technical limit|
 |---|---|---|
@@ -24,7 +24,7 @@ The archived images have correct source/context labels. A test-summary image can
 |[#2331](https://github.com/ScrollPrize/villa/pull/2331) Gather validation confusion counts at sample granularity|Draft|CPU tensors/counts and actual gather with supplied collective/state; no actual DDP.|
 |[#2332](https://github.com/ScrollPrize/villa/pull/2332) Map labeled packed volumes before unlabeled entries|Draft|Generated-store packed mapping and loader method.|
 |[#2333](https://github.com/ScrollPrize/villa/pull/2333) Exclude neighboring packed volumes from patch normalization|Draft|Generated-store packed normalization/item reads.|
-|[#2334](https://github.com/ScrollPrize/villa/pull/2334) Pass configured rotation axes to training augmentation|Draft|Config/CLI/augmentation forwarding; no training run.|
+|[#2334](https://github.com/ScrollPrize/villa/pull/2334) Pass configured rotation axes to training augmentation|Draft|0122 actual CT + released binary mask:config/parser/dataset loader and selected joint members;6 configuration records/40 repeated operations. Partial/instrumented;not full composed pipeline/trainer. Old9-method CPU result remains history.|
 |[#2335](https://github.com/ScrollPrize/villa/pull/2335) Advance generic AMP consumers only after successful updates|Draft|CPU successful-update consumers with supplied skip flags; no actual CUDA overflow.|
 |[#2336](https://github.com/ScrollPrize/villa/pull/2336) Save the completed epoch in the final checkpoint|Draft|CPU checkpoint/reduced epoch loop; no full trainer.|
 |[#2337](https://github.com/ScrollPrize/villa/pull/2337) Restore saved minmax normalization aliases for inference|Draft|CPU normalization alias checks; failed control and corrected successor retained.|
@@ -54,3 +54,8 @@ After Adam's explicit post-failure approval,exactly two test-driver checkout pat
 ## Actual named-axis producer/consumer follow-up
 
 [0120/PBS25069083](../../2026-10-28/transpose-chain-ct/README.md) uses the actual common2295 CLI to produce xzy CT stores,then actual paired dry-run/fullCLI consumers. Original plans and writes the wrong named-axis shape while exiting0;repair restores every CT voxel to the expected shape and preserves valid controls. Eight compound consumers plus two producers are18calls,not18unit methods/incidents.133s x1CPU/0GPU;native inputs unchanged. Four-file common proposal context is explicit,not full2295 or native physical-frame proof. New supplement is not presumed personally reviewed;genuine human-written relevance and other workflow gates remain. No blanket compliance.
+
+
+## Partial actual annotated-pair orientation follow-up
+
+[0122/PBS25069581](../../2026-10-28/rotation-real-ct/README.md) supplements2334 using one whole fixed S5 CT cube and its released binary fiber mask. Actual loader/factory plus selected member calls honor z/none after repair,retain unrestricted behavior,and match independent joint permutations.6 configuration records and40 repeated member observations are not independent data samples or unittest methods.96s x1CPU/0GPU final/reconciled. Three browser captures show selected actual diagnostic fields,not raw CLI error/success or a full trainer. The pipeline is bypassed for loading,restored,and selected members execute with an unchanged-parameter observer. No ink-quality,anatomical-instance,full augmentation or personal-review claim. Current classification7direct/4partial/16CPU-source;47current embeds/6historical links,53cumulative unique reviewed images. All author/workflow gates remain.

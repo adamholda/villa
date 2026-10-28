@@ -1,0 +1,31 @@
+{
+  "PR": 2334,
+  "protocol": "0122",
+  "job_id": "25069581.pbs-m1.metacentrum.cz",
+  "capture_type": "Unmodified browser screenshots of selected actual instrumented diagnostic fields; not raw CLI errors/success, live terminal sessions, CT pixels or full-training evidence.",
+  "images": [
+    {
+      "name": "before.jpg",
+      "bytes": 102651,
+      "sha256": "09fa8e54051869ace744d47304812163f664a35975a76555ac987f47a482bfaf",
+      "git_blob_sha": "37b9d8c2c6aea8014947f3740b1a83f0db31f4de",
+      "source_diagnostic_url": "https://github.com/adamholda/villa/blob/1d961629aca711aef383bea690ee31b33b4a3ecc/maintenance-evidence/2026-10-28/rotation-real-ct/diagnostic-before.md"
+    },
+    {
+      "name": "after.jpg",
+      "bytes": 101714,
+      "sha256": "acbed3faddafbe96e6ee9d823652d9cd6b7152b8cf9b2d5bbd9b177e5bca2ada",
+      "git_blob_sha": "e6c74f312900f353e99eb59b0cef28e9f315fc98",
+      "source_diagnostic_url": "https://github.com/adamholda/villa/blob/1d961629aca711aef383bea690ee31b33b4a3ecc/maintenance-evidence/2026-10-28/rotation-real-ct/diagnostic-after.md"
+    },
+    {
+      "name": "control.jpg",
+      "bytes": 99252,
+      "sha256": "28308abbe43030737996374cec87990dd978ab99647b25f67947fe107b8d65de",
+      "git_blob_sha": "8b15ede9c5c847013a3a14ae8792268fbc0bad8d",
+      "source_diagnostic_url": "https://github.com/adamholda/villa/blob/1d961629aca711aef383bea690ee31b33b4a3ecc/maintenance-evidence/2026-10-28/rotation-real-ct/diagnostic-control.md"
+    }
+  ],
+  "visually_reviewed": true,
+  "raw_data_public": false
+}

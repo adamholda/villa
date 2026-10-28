@@ -7,3 +7,14 @@ Existing2334/protocol0122/PBS25069581 completed six configured dataset/factory r
 **Partial/instrumented scope:** actual ConfigManager/parser/ZarrDataset loading/factory, followed by selected actual quarter-turn/transpose members. The composed stochastic pipeline is bypassed for loading, restored, and its selected members executed with a transparent observer. No full training, model, DDP, intensity/low-resolution execution, other dataset constructors, physical registration, anatomical instance or ink-quality claim. Binary 0/1 labels come from official Dataset004; zero is not asserted human-reviewed ink-negative truth. Raw data and constructed inputs remain private/unchanged. Existing 9-method CPU evidence is historical and was not rerun.
 
 Source closure 416 current non-fiber files matches the existing environment; the exact four-file 0081 patch matches existing 2334 head 0f9ba937. The existing allowed-axes API and other work by bruniss (#509/#666) remain credited; other inspected search results are merged/distinct, not an exhaustive novelty proof. No new human-written relevance, personal review, maintainer acceptance or award is inferred. AI assistance supported test preparation, orchestration, analysis and drafting. Computational resources were provided by e-INFRA CZ project (ID 90254), supported by the Ministry of Education, Youth and Sports of the Czech Republic. Villa MIT and CT/annotation rights/EduceLab-Scrolls attribution remain separate.
+
+
+## Selected diagnostic captures
+
+![Original z/none nonmatch: selected actual diagnostic fields](before.jpg)
+
+![Repaired z/none match: selected actual diagnostic fields](after.jpg)
+
+![Unrestricted control: selected actual diagnostic fields](control.jpg)
+
+[Image hashes and capture scope](screenshots.json). These are partial instrumented records,not a full human CLI/training demonstration.
