@@ -1,0 +1,103 @@
+{
+  "job_id": "24944947.pbs-m1.metacentrum.cz",
+  "report_sha256": "d50a63393e4b87f5f97f4ce5ac755775f40717ce8d2517900c476f8a3bf727df",
+  "data_scope": "Fixed S3 real CT values; disposable 32-cube complementary-coverage stores. S5 and remaining routes remain in the linked complete evidence; these are not user incidents.",
+  "new_runtime": false,
+  "records": [
+    {
+      "phase": "before",
+      "log": "cli-s3-baseline-equal_first.log",
+      "log_sha256": "20dc047429bf8d7a7470c06254124c15e2a038a32477315959210bc064cd8932",
+      "record": {
+        "exit_code": 0,
+        "elapsed_seconds": 7.197929716669023,
+        "log_sha256": "20dc047429bf8d7a7470c06254124c15e2a038a32477315959210bc064cd8932",
+        "fixture": "s3",
+        "arm": "baseline",
+        "case": "equal_first",
+        "tree_unchanged": false,
+        "inputs_unchanged": false,
+        "removed_entries": [
+          "inputs/a.zarr/keep.txt",
+          "inputs/a.zarr/metadata.json"
+        ],
+        "changed_entries": [
+          "inputs/a.zarr/0/.zarray",
+          "inputs/a.zarr/0/0/0/0",
+          "inputs/a.zarr/0/0/1/0",
+          "inputs/a.zarr/0/1/0/0",
+          "inputs/a.zarr/0/1/1/0"
+        ],
+        "output_alias_preserved": null,
+        "intended_rejection": false,
+        "overwrite_prompt": true,
+        "input_markers_present": [
+          false,
+          true
+        ],
+        "lost_nonzero_input_voxels": 8192
+      },
+      "selected_tool_output": "Shape: (32, 32, 32)\nChunks: (16, 16, 16)\nDtype: uint8\nMerge statistics:\n  Empty (both inputs): 0\n  Copied from input1: 0\n  Copied from input2: 8\n  Merged (maximum): 0\nWriting OME-Zarr metadata...\nDone! Output saved to <case>/inputs/a.zarr",
+      "selection": "Listed output lines only; exact messages retained. Owned scratch-case prefix replaced with <case>; progress redraws and unrelated lines omitted.",
+      "cleanup_warning": "Non-rejection logs also contain an existing multiprocessing resource_tracker cleanup warning; exit0 and exact-value checks are separate recorded facts."
+    },
+    {
+      "phase": "rejection",
+      "log": "cli-s3-patched-equal_first.log",
+      "log_sha256": "84a30984734c0e64a4ee7e2e42c40351b0e4c0b7d5bfd144c4de13ed458ae2ba",
+      "record": {
+        "exit_code": 1,
+        "elapsed_seconds": 3.64313653903082,
+        "log_sha256": "84a30984734c0e64a4ee7e2e42c40351b0e4c0b7d5bfd144c4de13ed458ae2ba",
+        "fixture": "s3",
+        "arm": "patched",
+        "case": "equal_first",
+        "tree_unchanged": true,
+        "inputs_unchanged": true,
+        "removed_entries": [],
+        "changed_entries": [],
+        "output_alias_preserved": null,
+        "intended_rejection": true,
+        "overwrite_prompt": false,
+        "input_markers_present": [
+          true,
+          true
+        ]
+      },
+      "selected_tool_output": "Error: merge output overlaps an input; use a separate output directory: '<case>/inputs/a.zarr' and '<case>/inputs/a.zarr'",
+      "selection": "Listed output lines only; exact messages retained. Owned scratch-case prefix replaced with <case>; progress redraws and unrelated lines omitted.",
+      "cleanup_warning": "Non-rejection logs also contain an existing multiprocessing resource_tracker cleanup warning; exit0 and exact-value checks are separate recorded facts."
+    },
+    {
+      "phase": "success",
+      "log": "cli-s3-patched-valid_sibling_prefix.log",
+      "log_sha256": "52a2e02906a655542a445dc213435c9d69e7931aa03206a828d820ba926044f9",
+      "record": {
+        "exit_code": 0,
+        "elapsed_seconds": 6.728039141744375,
+        "log_sha256": "52a2e02906a655542a445dc213435c9d69e7931aa03206a828d820ba926044f9",
+        "fixture": "s3",
+        "arm": "patched",
+        "case": "valid_sibling_prefix",
+        "tree_unchanged": false,
+        "inputs_unchanged": true,
+        "removed_entries": [
+          "inputs/a.zarr.merged/stale.txt"
+        ],
+        "changed_entries": [],
+        "output_alias_preserved": null,
+        "intended_rejection": false,
+        "overwrite_prompt": true,
+        "input_markers_present": [
+          true,
+          true
+        ],
+        "exact_values": true,
+        "output_sha256": "589b8f30ec3e74496d4aa38251e39c02e4aaedabf687e45e2113a2e9cdd21562"
+      },
+      "selected_tool_output": "Shape: (32, 32, 32)\nChunks: (16, 16, 16)\nDtype: uint8\nMerge statistics:\n  Empty (both inputs): 0\n  Copied from input1: 0\n  Copied from input2: 4\n  Merged (maximum): 4\nWriting OME-Zarr metadata...\nCopied metadata.json from input1\nDone! Output saved to <case>/inputs/a.zarr.merged",
+      "selection": "Listed output lines only; exact messages retained. Owned scratch-case prefix replaced with <case>; progress redraws and unrelated lines omitted.",
+      "cleanup_warning": "Non-rejection logs also contain an existing multiprocessing resource_tracker cleanup warning; exit0 and exact-value checks are separate recorded facts."
+    }
+  ]
+}
