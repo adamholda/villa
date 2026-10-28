@@ -1,0 +1,15 @@
+Output path input.zarr already exists. Overwrite? (y/n): Using 1 worker processes
+Input array shape: (48, 64, 80)
+Input array chunks: (16, 16, 16)
+Input array dtype: uint8
+Task: transpose | order=zyx | perm=[0, 1, 2]
+Output array shape: (48, 64, 80)
+Output array chunks: (16, 16, 16)
+Total items to process: 60
+
+transpose:   0%|          | 0/60 [00:00<?, ?it/s]
+transpose:   2%|▏         | 1/60 [00:03<03:01,  3.08s/it]
+transpose:  52%|█████▏    | 31/60 [00:03<00:02, 13.59it/s]
+transpose:  95%|█████████▌| 57/60 [00:03<00:00, 28.23it/s]
+transpose: 100%|██████████| 60/60 [00:03<00:00, 18.24it/s]
+Transpose complete. OME-Zarr pyramid saved to: input.zarr
