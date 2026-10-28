@@ -1,34 +1,54 @@
-# Villa maintenance draft PRs, 27 October 2026
+# October 2026 Villa maintenance: 27 public proposals
 
-## Evidence follow-up, 27 October 2026
+Updated28October2026. This index covers one monthly maintenance bundle,not27 accepted or independent prize contributions.
 
-- PR2326 now includes an unchanged production guard plus independently executed standalone regression tests:8/8 repaired versus4 original assertion failures/4controls,zero errors/skips,and24 fixed CT records. [Standalone report](0045/standalone-README.md),[records](0045/standalone-records.json),[summary image](0045/standalone-evidence.jpg),[actual CLI output](0045/standalone-cli-output.jpg). This closes the bounded standalone technical context gate. No common coordinate/routing patch was used;the existing environment and current-main non-fiber source context are explicit.
-- PR2342 has [direct archived actual CLI output](0027/cli-proof.md) and [source hashes/all32 case outcomes](0027/cli-excerpts.json):[before](0027/cli-before.jpg),[rejection after the fix](0027/cli-rejection.jpg),and[successful supported use](0027/cli-success.jpg). These excerpts retain messages/outcomes and redact interpreter/scratch paths and progress redraws.
-- The screenshots are unmodified browser captures of those archived records,not live terminal captures or CT pixels. Existing test-summary images remain available as historical views. No human incident or missing real-workflow evidence has been invented.
-- The normal loaded author UI for2342 still disables Ready for review;no repeated denied transition or access workaround was attempted. The public set remains27 unmerged PRs:3ready/24draft at the check. PR2328 still depends on ChaseHendrick2295. Human-written workflow commentary and any missing real-data demonstration remain separate requirements.
+## Current review state
 
-All 19 requested packets remain public drafts. The author has checked their original personal-verification statements. The new evidence/test supplement below postdates those checks and is not represented as personally reviewed by the author. This is a technical evidence index, not a human-use attestation or an award claim. Each PR discloses its actual validation context and pending requirements. PR2328 follows ChaseHendrick PR2295; the common proposal is not attributed to the follow-up.
+All27 PRs are open and unmerged. **Three are ready for review;24 remain drafts.** All original author-verification boxes are checked. The normal signed-in author UI identifies the stage restriction as **“Author has reached the open pull request limit.”** This prevents further author draft-to-ready transitions. The configured numeric cap was not read. Keeping all27 PRs open requires upstream capacity to be freed or a maintainer change/exception to this restriction. No ready-state bypass or repeated denied mutation was attempted.
 
-|Packet|Draft PR|Archived evidence|Screenshot|
-|---|---|---|---|
-|0045 Reject overlapping local input/output trees in transpose|[#2326](https://github.com/ScrollPrize/villa/pull/2326)|[Standalone report](0045/standalone-README.md) / [records and hashes](0045/standalone-records.json)|[Summary](0045/standalone-evidence.jpg) / [CLI](0045/standalone-cli-output.jpg)|
-|0050 Reject overlapping local input/output trees in threshold|[#2327](https://github.com/ScrollPrize/villa/pull/2327)|[Report](0050/README.md) / [records and hashes](0050/selected-records.json)|[Image](0050/evidence.jpg)|
-|0049 Preserve declared axes and transforms in transpose planning|[#2328](https://github.com/ScrollPrize/villa/pull/2328)|[Report](0049/README.md) / [records and hashes](0049/selected-records.json)|[Image](0049/evidence.jpg)|
-|0046 Reject nonpositive explicit Zarr worker counts|[#2329](https://github.com/ScrollPrize/villa/pull/2329)|[Report](0046/README.md) / [records and hashes](0046/selected-records.json)|[Image](0046/evidence.jpg)|
-|0067 Keep dataset cache targets, selections and values consistent|[#2330](https://github.com/ScrollPrize/villa/pull/2330)|[Report](0067/README.md) / [records and hashes](0067/selected-records.json)|[Image](0067/evidence.jpg)|
-|0052 Gather validation confusion counts at sample granularity|[#2331](https://github.com/ScrollPrize/villa/pull/2331)|[Report](0052/README.md) / [records and hashes](0052/selected-records.json)|[Image](0052/evidence.jpg)|
-|0073 Map labeled packed volumes before unlabeled entries|[#2332](https://github.com/ScrollPrize/villa/pull/2332)|[Report](0073/README.md) / [records and hashes](0073/selected-records.json)|[Image](0073/evidence.jpg)|
-|0077 Exclude neighboring packed volumes from patch normalization|[#2333](https://github.com/ScrollPrize/villa/pull/2333)|[Report](0077/README.md) / [records and hashes](0077/selected-records.json)|[Image](0077/evidence.jpg)|
-|0081 Pass configured rotation axes to training augmentation|[#2334](https://github.com/ScrollPrize/villa/pull/2334)|[Report](0081/README.md) / [records and hashes](0081/selected-records.json)|[Image](0081/evidence.jpg)|
-|0083 Advance generic AMP consumers only after successful updates|[#2335](https://github.com/ScrollPrize/villa/pull/2335)|[Report](0083/README.md) / [records and hashes](0083/selected-records.json)|[Image](0083/evidence.jpg)|
-|0093 Save the completed epoch in the final checkpoint|[#2336](https://github.com/ScrollPrize/villa/pull/2336)|[Report](0093/README.md) / [records and hashes](0093/selected-records.json)|[Image](0093/evidence.jpg)|
-|0095 Restore saved minmax normalization aliases for inference|[#2337](https://github.com/ScrollPrize/villa/pull/2337)|[Report](0095/README.md) / [records and hashes](0095/selected-records.json)|[Image](0095/evidence.jpg)|
-|0100 Register existing checkpoint history before pruning|[#2338](https://github.com/ScrollPrize/villa/pull/2338)|[Report](0100/README.md) / [records and hashes](0100/selected-records.json)|[Image](0100/evidence.jpg)|
-|0089 Preserve saved AMP policy across YAML and CLI loading|[#2339](https://github.com/ScrollPrize/villa/pull/2339)|[Report](0089/README.md) / [records and hashes](0089/selected-records.json)|[Image](0089/evidence.jpg)|
-|0090 Reset EMA state on weights-only checkpoint loads|[#2340](https://github.com/ScrollPrize/villa/pull/2340)|[Report](0090/README.md) / [records and hashes](0090/selected-records.json)|[Image](0090/evidence.jpg)|
-|0094 Account for gradient accumulation in scheduler horizons|[#2341](https://github.com/ScrollPrize/villa/pull/2341)|[Report](0094/README.md) / [records and hashes](0094/selected-records.json)|[Image](0094/evidence.jpg)|
-|0027 Reject separate output paths for in-place zero-range edits|[#2342](https://github.com/ScrollPrize/villa/pull/2342)|[CLI proof](0027/cli-proof.md) / [records and hashes](0027/cli-excerpts.json)|[Before](0027/cli-before.jpg) / [rejection](0027/cli-rejection.jpg) / [valid use](0027/cli-success.jpg)|
-|0097 Print finalizer names in data channel order|[#2343](https://github.com/ScrollPrize/villa/pull/2343)|[Report](0097/README.md) / [records and hashes](0097/selected-records.json)|[Image](0097/evidence.jpg)|
-|0102 Align the inference guide and help with the current CLI|[#2344](https://github.com/ScrollPrize/villa/pull/2344)|[Report](0102/README.md) / [records and hashes](0102/selected-records.json)|[Image](0102/evidence.jpg)|
+The Vercel status separately says **“Authorization required to deploy.”** across the24 draft heads. This is deployment authorization,not a measured failure of the bounded code tests. The API reports no merge conflicts for the27 individual PRs. No full-portfolio runtime or complete CI pass is implied.
 
-Screenshots are unmodified browser captures of passive archived reports. No raw CT pixels, weights, predictions or complete cluster logs are included. The old0045 report uses coordinate work common to both historical arms; the new standalone gate is separately completed above. The 0067 report is one grouped cache packet including its identity foundation. The initial failed z-score control remains failed; the explicitly corrected successor is disclosed in PR2337. No full-stack runtime, real training benefit, adoption or maintainer acceptance is inferred.
+| PR | Proposal | GitHub stage |
+|---|---|---|
+| [#2271](https://github.com/ScrollPrize/villa/pull/2271) | Fix selected OME-Zarr input routing in scale workers | Ready for review |
+| [#2275](https://github.com/ScrollPrize/villa/pull/2275) | Reject paired TIFF exports outside secondary array coverage | Ready for review |
+| [#2302](https://github.com/ScrollPrize/villa/pull/2302) | Reject overlapping merge stores and incompatible declared grids | Ready for review |
+| [#2303](https://github.com/ScrollPrize/villa/pull/2303) | Honor declared depth axes in flat ink inference | Draft |
+| [#2304](https://github.com/ScrollPrize/villa/pull/2304) | Preserve successful update history and EMA state on native ink resume | Draft |
+| [#2305](https://github.com/ScrollPrize/villa/pull/2305) | Preserve best-checkpoint history across native ink resume | Draft |
+| [#2306](https://github.com/ScrollPrize/villa/pull/2306) | Handle polynomial and short-run learning-rate scheduler boundaries | Draft |
+| [#2307](https://github.com/ScrollPrize/villa/pull/2307) | Wire background patch requests through cache generation and dataset loading | Draft |
+| [#2326](https://github.com/ScrollPrize/villa/pull/2326) | Reject overlapping local input/output trees in transpose | Draft |
+| [#2327](https://github.com/ScrollPrize/villa/pull/2327) | Reject overlapping local input/output trees in threshold | Draft |
+| [#2328](https://github.com/ScrollPrize/villa/pull/2328) | Preserve declared axes and transforms in transpose planning | Draft |
+| [#2329](https://github.com/ScrollPrize/villa/pull/2329) | Reject nonpositive explicit Zarr worker counts | Draft |
+| [#2330](https://github.com/ScrollPrize/villa/pull/2330) | Keep dataset cache targets, selections and values consistent | Draft |
+| [#2331](https://github.com/ScrollPrize/villa/pull/2331) | Gather validation confusion counts at sample granularity | Draft |
+| [#2332](https://github.com/ScrollPrize/villa/pull/2332) | Map labeled packed volumes before unlabeled entries | Draft |
+| [#2333](https://github.com/ScrollPrize/villa/pull/2333) | Exclude neighboring packed volumes from patch normalization | Draft |
+| [#2334](https://github.com/ScrollPrize/villa/pull/2334) | Pass configured rotation axes to training augmentation | Draft |
+| [#2335](https://github.com/ScrollPrize/villa/pull/2335) | Advance generic AMP consumers only after successful updates | Draft |
+| [#2336](https://github.com/ScrollPrize/villa/pull/2336) | Save the completed epoch in the final checkpoint | Draft |
+| [#2337](https://github.com/ScrollPrize/villa/pull/2337) | Restore saved minmax normalization aliases for inference | Draft |
+| [#2338](https://github.com/ScrollPrize/villa/pull/2338) | Register existing checkpoint history before pruning | Draft |
+| [#2339](https://github.com/ScrollPrize/villa/pull/2339) | Preserve saved AMP policy across YAML and CLI loading | Draft |
+| [#2340](https://github.com/ScrollPrize/villa/pull/2340) | Reset EMA state on weights-only checkpoint loads | Draft |
+| [#2341](https://github.com/ScrollPrize/villa/pull/2341) | Account for gradient accumulation in scheduler horizons | Draft |
+| [#2342](https://github.com/ScrollPrize/villa/pull/2342) | Reject separate output paths for in-place zero-range edits | Draft |
+| [#2343](https://github.com/ScrollPrize/villa/pull/2343) | Print finalizer names in data channel order | Draft |
+| [#2344](https://github.com/ScrollPrize/villa/pull/2344) | Align the inference guide and help with the current CLI | Draft |
+
+## Evidence and limits
+
+- [Original19 evidence packets and screenshots](https://github.com/adamholda/villa/tree/2ed9417977547ed8b876f501147e2e24d7b6c314/maintenance-evidence/2026-10-27/release19) remain archived unchanged.
+- [PR2326 standalone0114 proof](https://github.com/adamholda/villa/blob/54e3c7803e50a9fd4f74e03137dbc9901a9fe5ad/maintenance-evidence/2026-10-27/release19/0045/standalone-README.md):8/8 repaired methods against4 original assertions/4controls and24 CT records,without the old common coordinate patch. Original hazards are prepare-only;repaired rejection/valid controls use full CLI. The PR now leads with this newer result;old16-method evidence remains linked history. Later tests/results are not claimed personally reviewed by the author.
+- [PR2342 direct archived CLI proof](https://github.com/adamholda/villa/blob/54e3c7803e50a9fd4f74e03137dbc9901a9fe5ad/maintenance-evidence/2026-10-27/release19/0027/cli-proof.md) supplements the completed6-method/32-record zero-range comparison,without a rerun.
+- PR2328 depends on ChaseHendrick's open/unmerged [#2295](https://github.com/ScrollPrize/villa/pull/2295). Only our follow-up increment is ours;the common routing,pitch,planning and default work remains credited.
+- PR2330 includes the0055 foundation. The46-method dataset composition and11-method native checkpoint composition are separate bounded integration evidence,not a full portfolio or real training result.
+- PR2337 preserves its first failed z-score control and the explicitly authorized corrected successor;the failure was not retrospectively relabeled.
+
+All38 originally embedded image links were checked to load,and all38 images were visually reviewed on28October. They are readable and correspond to their stated records. Most are **archived test/source report captures**,not actual tool-session error/success screenshots. Direct archived CLI captures are distinguished in captions. These images therefore do **not** establish blanket compliance with every [Villa contribution requirement](https://github.com/ScrollPrize/villa/blob/39a8cf3a124bdd5540ee826e1cb30047c8dc8c85/CONTRIBUTING.md);genuine human-written workflow context and any missing real-scroll demonstration remain separate. No new evidence-image assets were uploaded or substituted during this check. No CT pixels,weights,predictions or full private cluster logs are published.
+
+The one October form draft covers all27 public URLs with these limits. No form entry,terms acceptance or submission has occurred. No personal incident,novel letter/text discovery,quality/performance gain,adoption,acceptance or award is claimed. Four failed/held candidates and prior scientific STOPs stay excluded.
+
+AI assistance was used for source investigation,implementation,tests,validation orchestration,analysis and technical drafting. Computational resources were provided by the e-INFRA CZ project (ID:90254),supported by the Ministry of Education,Youth and Sports of the Czech Republic. Villa's MIT code and CT data rights/attribution remain separate.
