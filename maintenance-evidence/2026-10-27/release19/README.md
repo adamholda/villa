@@ -1,5 +1,7 @@
 # October 2026 Villa maintenance: 27 public proposals
 
+**Current motivation update (28 October 2026):** Adam has adopted the workflow statements now present in all27 PR bodies. The motivation sections contain no AI labels; technical/experiment assistance disclosures remain separate. The original checked verification statements are preserved and explicitly limited to the original review. Later supplements do not imply a new personal review. Earlier notes below about missing motivation are historical; remaining real-workflow evidence,dependency and GitHub-capacity gates still apply.
+
 Updated28October2026. This index covers one monthly maintenance bundle,not27 accepted or independent prize contributions.
 
 ## Current review state
@@ -49,7 +51,7 @@ The Vercel status separately says **“Authorization required to deploy.”** ac
 - PR2330 includes the0055 foundation. The46-method dataset composition and11-method native checkpoint composition are separate bounded integration evidence,not a full portfolio or real training result.
 - PR2337 preserves its first failed z-score control and the explicitly authorized corrected successor;the failure was not retrospectively relabeled.
 
-All38 originally embedded image links were checked to load,and all38 images were visually reviewed on28October. They are readable and correspond to their stated records. Most are **archived test/source report captures**,not actual tool-session error/success screenshots. Direct archived CLI captures are distinguished in captions. These images therefore do **not** establish blanket compliance with every [Villa contribution requirement](https://github.com/ScrollPrize/villa/blob/39a8cf3a124bdd5540ee826e1cb30047c8dc8c85/CONTRIBUTING.md);genuine human-written workflow context and any missing real-scroll demonstration remain separate. No new evidence-image assets were uploaded or substituted during this check. No CT pixels,weights,predictions or full private cluster logs are published.
+All38 originally embedded image links were checked to load,and all38 images were visually reviewed on28October. They are readable and correspond to their stated records. Most are **archived test/source report captures**,not actual tool-session error/success screenshots. Direct archived CLI captures are distinguished in captions. These images therefore do **not** establish blanket compliance with every [Villa contribution requirement](https://github.com/ScrollPrize/villa/blob/39a8cf3a124bdd5540ee826e1cb30047c8dc8c85/CONTRIBUTING.md);author-approved workflow motivation is now in the PRs;any missing real-scroll demonstration remains separate. No new evidence-image assets were uploaded or substituted during this check. No CT pixels,weights,predictions or full private cluster logs are published.
 
 The one October form draft covers all27 public URLs with these limits. No form entry,terms acceptance or submission has occurred. No personal incident,novel letter/text discovery,quality/performance gain,adoption,acceptance or award is claimed. Four failed/held candidates and prior scientific STOPs stay excluded.
 
@@ -58,7 +60,7 @@ AI assistance was used for source investigation,implementation,tests,validation 
 
 ## Submission criteria check,28 October2026
 
-All27 PRs are already public and open. The author cannot mark24 drafts ready because of GitHub's open-PR limit;maintainers can still inspect their diffs,tests and evidence. This is separate from unresolved real-scroll demonstration and human-written workflow requirements. **Not all27 are certified to satisfy every contribution criterion.** See the [per-PR criteria/evidence inventory](submission-criteria.md).
+All27 PRs are already public and open. The author cannot mark24 drafts ready because of GitHub's open-PR limit;maintainers can still inspect their diffs,tests and evidence. This is separate from unresolved real-scroll demonstration requirements;author-approved workflow motivation is now present. **Not all27 are certified to satisfy every contribution criterion.** See the [per-PR criteria/evidence inventory](submission-criteria.md).
 
 PR2302 now has [direct archived CLI excerpts](../../2026-10-28/merge-cli/README.md) and before/rejection/supported-success captures,from the completed PBS24944947 run with exact log hashes. No rerun or new user incident. The screenshot scope and cleanup warning are disclosed. The one monthly form draft records the public-draft access note and these evidence gaps;it remains unsubmitted.
 

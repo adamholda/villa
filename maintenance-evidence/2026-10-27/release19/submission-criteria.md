@@ -2,7 +2,7 @@
 
 All27 proposals are public and open. Three are ready for review and24 are drafts. GitHub's author open-PR limit blocks further draft-to-ready transitions. Maintainers can still inspect all27 public diffs,tests and evidence. The numeric configured cap was not read; no limit workaround is requested. Vercel deployment authorization is separate.
 
-This is an evidence inventory,not certification that all27 satisfy [Villa's contribution rules](https://github.com/ScrollPrize/villa/blob/39a8cf3a124bdd5540ee826e1cb30047c8dc8c85/CONTRIBUTING.md). Those rules require real-scroll use and before/after tool evidence,actual workflow motivation,human-written relevance for AI-assisted PRs,and personal code review. Original checked author statements are preserved;they do not invent an earlier human encounter or establish that AI-drafted prose was human-written. Later supplements do not imply a fresh personal review.
+This is an evidence inventory,not certification that all27 satisfy [Villa's contribution rules](https://github.com/ScrollPrize/villa/blob/39a8cf3a124bdd5540ee826e1cb30047c8dc8c85/CONTRIBUTING.md). Those rules require real-scroll use and before/after tool evidence,actual workflow motivation,human-written relevance for AI-assisted PRs,and personal code review. Adam has adopted the workflow statements now present in all27PRs;the commentary has no AI label,and technical/experiment disclosures remain separate. Original checked author statements are preserved without inventing an earlier incident. Later supplements do not imply a fresh personal review.
 
 The archived images have correct source/context labels. A test-summary image can be accurate while still leaving the real-scroll tool demonstration requirement unmet. Eight packets have direct archived CT CLI evidence;three have partial/instrumented CT evidence;16 use CPU/generated-store/source-only checks. These are evidence classes,not accepted fixes or prize counts. No full training/CUDA-overflow/DDP performance or model-quality result is claimed.
 
@@ -38,7 +38,7 @@ The archived images have correct source/context labels. A test-summary image can
 
 PR2302's [direct archived CLI records](../../2026-10-28/merge-cli/README.md) preserve original source hashes and state that baseline exit0 logs contain a cleanup warning. The controlled loss is not an observed user incident. PR2328's common routing/pitch/planning/defaults are ChaseHendrick's2295 work. Other prior-work credits and failed/held exclusions remain in each PR.
 
-One October maintenance-bundle form draft includes all27 URLs with these limits. It has not been entered or submitted,and no terms accepted. Public drafts are available to reviewers;publication alone is not proof of eligibility,acceptance or an award. Remaining genuine human-workflow requirements cannot be filled with invented prose or CT-wrapped toy demonstrations.
+One October maintenance-bundle form draft includes all27 URLs with these limits. It has not been entered or submitted,and no terms accepted. Public drafts are available to reviewers;publication alone is not proof of eligibility,acceptance or an award. Author-approved motivation is now supplied;remaining supported-workflow evidence cannot be replaced with invented incidents or CT-wrapped toy demonstrations.
 
 
 ## Worker CT follow-up,28October2026
