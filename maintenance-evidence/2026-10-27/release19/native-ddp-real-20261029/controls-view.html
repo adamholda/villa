@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>PR2331 actual native DDP controls</title><style>body{font:17px/1.4 system-ui,sans-serif;margin:30px auto;padding:0 28px;max-width:1140px;color:#19232c;background:white}h1{font-size:26px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:15px/1.35 Consolas,monospace;background:#f4f6f8;border:1px solid #cbd3d9;padding:18px}small{font-size:13px}</style><h1>PR2331 — actual paired training controls</h1><p>Selected fields from the actual archived diagnostic record. The original and repaired arms run the same complete native trainer and real Gloo collectives. Only the existing PR2331 training source differs.</p><pre>{
+  &quot;complete_original_and_repaired_training_contexts&quot;: 2,
+  &quot;real_Gloo_ranks_per_context&quot;: 2,
+  &quot;actual_replica_optimizer_updates_total&quot;: 4,
+  &quot;logical_synchronized_updates&quot;: 2,
+  &quot;actual_initial_released_state_hashes_equal&quot;: true,
+  &quot;actual_saved_trained_state_sha256_original&quot;: &quot;0eb5270af67bd5a7d2f3f3a7966d131396e69a2fa5d2e31850dc8ae31e21dd74&quot;,
+  &quot;actual_saved_trained_state_sha256_repaired&quot;: &quot;0eb5270af67bd5a7d2f3f3a7966d131396e69a2fa5d2e31850dc8ae31e21dd74&quot;,
+  &quot;original_NPY_NPZ_checkpoint_and_qualified_input_trees_unchanged&quot;: true,
+  &quot;all_actual_rank_process_origins_qualified&quot;: true,
+  &quot;validation_regions_reselected&quot;: false,
+  &quot;controlled_or_fake_collective_values&quot;: false,
+  &quot;new_personal_review_claim&quot;: false,
+  &quot;CPU_allocation_seconds&quot;: 170,
+  &quot;allocated_CPUs&quot;: 4,
+  &quot;allocated_GPUs&quot;: 0,
+  &quot;not_quality_or_performance_benchmark&quot;: true
+}</pre><p>Original written TN: 61094. Repaired and independent three-unique-sample TN: 46841. Duplicate reviewed nonink pixels: 14253. TP/FP/FN are zero and balanced accuracy is 1.0 in both arms. No positive-ink quality or speed claim.</p><p>Return-preserving instrumentation; all 64 original fixed-grid input references were qualified separately. The historical control was label-selected and exposed, not an independent held-out quality dataset. No raw arrays, masks, weights or predictions are published.</p><small>Actual archived output, not a live terminal. Raw result SHA256: a3e485531f2a542667c541ee33f6e5cf2e57471a603535114c3474ee64397f81</small></html>

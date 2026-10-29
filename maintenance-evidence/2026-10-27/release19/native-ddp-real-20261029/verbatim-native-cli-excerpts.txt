@@ -1,0 +1,11 @@
+Actual original native CLI stdout: distinct selected verbatim lines,identical rank repeats omitted
+sampling_audit={"patches": 61, "strategy": "uniform"}
+Using dimensionality (2D) from ConfigManager
+Using 2D convolutions (nn.Conv2d)
+Using 2D normalization (nn.InstanceNorm2d)
+
+Actual repaired native CLI stdout: distinct selected verbatim lines,identical rank repeats omitted
+sampling_audit={"patches": 61, "strategy": "uniform"}
+Using dimensionality (2D) from ConfigManager
+Using 2D convolutions (nn.Conv2d)
+Using 2D normalization (nn.InstanceNorm2d)

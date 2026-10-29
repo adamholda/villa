@@ -1,0 +1,13 @@
+{
+  "public_PR": 2331,
+  "production_head": "5093193dd365e1744e8a3e261f84bc91d30d3cf9",
+  "current_main": "8ff06f7620dcb663ed327028dbb8a0cf7e9a8198",
+  "original_control_sha256": "a92f593857ad5a0ec1aca5a0b2fe5b87f9c87421e8d91797533dfa0af21f8d59",
+  "original_annotation_sha256": "70e34987b9ddaba8525de32ee6c763e2a59cab26f050defdafd5181788601f28",
+  "released_Reader_sha256": "654ec5acec2b6c4788d9cb326e2f0b8c2c730584949a934ef775db7f6ab5d3a6",
+  "raw_result_sha256": "a3e485531f2a542667c541ee33f6e5cf2e57471a603535114c3474ee64397f81",
+  "private_raw_archive_not_published": true,
+  "actual_replica_updates": 4,
+  "no_new_personal_review": true,
+  "all27_ready": false
+}

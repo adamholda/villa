@@ -1,0 +1,22 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>PR2331 actual archived native DDP output</title><style>body{font:17px/1.4 system-ui,sans-serif;margin:30px auto;padding:0 28px;max-width:1140px;color:#19232c;background:#fff}h1{font-size:26px;margin-bottom:4px}h2{font-size:20px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:15px/1.35 Consolas,monospace;background:#f4f6f8;border:1px solid #cbd3d9;padding:18px}small{font-size:13px}p{margin:13px 0}</style><h1>PR2331 — actual archived native DDP training</h1><h2>Original: silent padded-sample overcount</h2><p>Actual full native CLI, two CPU/Gloo ranks, released Reader and original PHerc0841 flat control. Verbatim selected CLI lines followed by pretty-printed fields from the actual diagnostic record; return-preserving observers.</p><pre>sampling_audit={&quot;patches&quot;: 61, &quot;strategy&quot;: &quot;uniform&quot;}
+Using dimensionality (2D) from ConfigManager
+Using 2D convolutions (nn.Conv2d)
+Using 2D normalization (nn.InstanceNorm2d)
+
+{
+  &quot;actual_training_CLI_exit_code&quot;: 0,
+  &quot;real_Gloo_ranks&quot;: 2,
+  &quot;actual_optimizer_updates_per_rank&quot;: [1, 1],
+  &quot;actual_validation_draws&quot;: 4,
+  &quot;unique_fixed_validation_samples&quot;: 3,
+  &quot;actual_gather_input_shape&quot;: [1, 4],
+  &quot;actual_gather_returned_shape&quot;: [2, 4],
+  &quot;actual_gather_returned_rows_tp_fp_fn_tn&quot;: [
+    [0, 0, 0, 30457],
+    [0, 0, 0, 30637]
+  ],
+  &quot;actual_written_counts_tp_fp_fn_tn&quot;: [0, 0, 0, 61094],
+  &quot;independent_unique_sample_counts&quot;: [0, 0, 0, 46841],
+  &quot;contract_matches&quot;: false,
+  &quot;actual_balanced_accuracy&quot;: 1.0
+}</pre><p>These three fixed validation regions contain no positive ink. Balanced accuracy was 1.0 in both arms; this shows padded count weighting, not an ink-quality improvement. Original 2D annotations use a single-plane storage carrier, not volumetric ink truth.</p><small>Archived output; this is not a new live terminal or CT-pixel image. Raw result SHA256: a3e485531f2a542667c541ee33f6e5cf2e57471a603535114c3474ee64397f81</small></html>
