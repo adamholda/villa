@@ -1,0 +1,16 @@
+{
+  "protocol": "0148",
+  "raw_collection_sha256": "7fa911b2166479d300ccc2611ff7be3f010376df4d2784e45fb1901a97766bff",
+  "raw_result_sha256": "540d862bfef83f9dcf419720784f599f0d2ea6d50ac435b469e780a430f86f88",
+  "raw_logs_sha256": {
+    "packer.log": "e7224016deb38d64af6879a0216207ff6b0b93f043e47853099b912ceb7a9366",
+    "original.log": "2732a8e2ec4570e682de6ec3d3f112646beb67c439c7ef8107ee6346cab4d257",
+    "repaired.log": "ca9f5b4072dfa06f016fc00387a54185412f53018d292daf5e99f67393333437"
+  },
+  "omitted": "Private paths,account/host/per-job identifiers,precise timestamps. No raw pixels/arrays.",
+  "selection": "Actual partition/identity fields and producer message portions;no numerical changes.",
+  "public_head": "9c071c0ec3ab6a76663a4bbf888e8a09ef9c969a",
+  "original_dataset_sha256": "5b393cdb59b07b8a1aef696b512e0420ef5be1ca36ef266032df6658bea16f41",
+  "repaired_dataset_sha256": "7ad8ec037160d525e5c7559446b5240f7b96ea19ba6b7f87f234ce913c9e43c9",
+  "full_trainer_sha256": "04bcaafb1b57f0ef4bd344152f4c9a255b50d51224f2e35916be99639ac60212"
+}

@@ -1,0 +1,66 @@
+{
+  "original": [
+    {
+      "case": "actual_trainer_loader_partition",
+      "arm": "original",
+      "contract_matches": false,
+      "labeled_samples": 487,
+      "unlabeled_samples": 25,
+      "validation_samples": 244,
+      "unlabeled_validation_indices": 8,
+      "unlabeled_validation_batches": 8,
+      "all_unlabeled_in_train": false,
+      "labeled_prefix_contract": false,
+      "actual_full_BaseTrainer_constructor_and_loader_method": true,
+      "fake_trainer_or_AST_extracted_method": false
+    },
+    {
+      "case": "all512_source_identity_control",
+      "arm": "original",
+      "contract_matches": true,
+      "actual_items": 512,
+      "images_masks_padding_and_unlabeled_status_exact": true,
+      "identity_stream_sha256": "67c270e2bc534154eb4e004566317a9838eb3c4f3fd30ca243d9be821aa14ee9",
+      "records_sorted_by_original_filename_sha256": "67c270e2bc534154eb4e004566317a9838eb3c4f3fd30ca243d9be821aa14ee9",
+      "model_optimizer_or_training_used": false
+    }
+  ],
+  "repaired": [
+    {
+      "case": "actual_trainer_loader_partition",
+      "arm": "repaired",
+      "contract_matches": true,
+      "labeled_samples": 487,
+      "unlabeled_samples": 25,
+      "validation_samples": 244,
+      "unlabeled_validation_indices": 0,
+      "unlabeled_validation_batches": 0,
+      "all_unlabeled_in_train": true,
+      "labeled_prefix_contract": true,
+      "actual_full_BaseTrainer_constructor_and_loader_method": true,
+      "fake_trainer_or_AST_extracted_method": false
+    },
+    {
+      "case": "all512_source_identity_control",
+      "arm": "repaired",
+      "contract_matches": true,
+      "actual_items": 512,
+      "images_masks_padding_and_unlabeled_status_exact": true,
+      "identity_stream_sha256": "062bf4186f415af81ee95b9c21c90e06ed36b51bf235c42bf9d4fc8458be1304",
+      "records_sorted_by_original_filename_sha256": "67c270e2bc534154eb4e004566317a9838eb3c4f3fd30ca243d9be821aa14ee9",
+      "model_optimizer_or_training_used": false
+    }
+  ],
+  "native_inputs_unchanged": true,
+  "packed_input_tree_unchanged": true,
+  "source_TIFFs_unchanged": true,
+  "source_tiles": 512,
+  "released_pairs": 1,
+  "common_packer_returncode": 0,
+  "consumer_records": 4,
+  "original_nonmatches": 1,
+  "original_controls": 1,
+  "repaired_matches": 2,
+  "scope": "Actual common packingCLI plus actual ConfigManager,ZarrDataset,full BaseTrainer constructor/complete loader split;no model/optimizer/training/quality.",
+  "selection": "Actual fields only;private identifiers omitted;numeric values unchanged."
+}
