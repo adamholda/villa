@@ -1,0 +1,122 @@
+{
+  "scope": "Actual released Reader v2 and fixed real PHerc0841 CT;five full native CLI calls;geometry/equality only.",
+  "public_source_head": "6b4bcd85da5178edead85e5510f6aee056cdacf0",
+  "model_sha256": "654ec5acec2b6c4788d9cb326e2f0b8c2c730584949a934ef775db7f6ab5d3a6",
+  "control_sha256": "a92f593857ad5a0ec1aca5a0b2fe5b87f9c87421e8d91797533dfa0af21f8d59",
+  "actual_loader": {
+    "strict_factory_state_match": true,
+    "complete_configure_single_model_completed": true,
+    "state_source": "model",
+    "parameters": 34546498,
+    "crop": [
+      17,
+      128,
+      128
+    ],
+    "preprocessing": "tifxyz_robust",
+    "no_checkpoint_metadata_rewrite": true,
+    "not_old_koine_loader_result_transfer": true
+  },
+  "fixed_control_crop": {
+    "fixed_source_crop_zyx": [
+      0,
+      28,
+      256,
+      320,
+      256,
+      336
+    ],
+    "wide_shape": [
+      28,
+      64,
+      80
+    ],
+    "narrow_shape": [
+      28,
+      8,
+      80
+    ],
+    "narrow_first_eight_rows_not_selected_by_labels_or_predictions": true,
+    "wide_CT_sha256": "dadd095b8fb956b86ff35093ac24c31908c4b23e6598f85f0741c2782f1c3702",
+    "narrow_CT_sha256": "974f99f47fab5fcca7d9b0f033f58eccb0c164d36d83e7fca551c12157db9577",
+    "headers_constructed_only_for_declared_storage_axes": true,
+    "no_ink_label_or_quality_or_heldout_claim": true
+  },
+  "cases": [
+    {
+      "name": "original-wide",
+      "returncode": 0,
+      "shape": [
+        64,
+        80
+      ],
+      "dtype": "uint8",
+      "decoded_sha256": "f2fc3a803da6df64bb533785a59103395eba5e8f73f6deff510d1b8fd470a755"
+    },
+    {
+      "name": "original-narrow",
+      "returncode": 0,
+      "shape": [
+        28,
+        8
+      ],
+      "dtype": "uint8",
+      "decoded_sha256": "a041007d3897d92dcc6bd0679d755b8a3b78cd0d44f9316a6c9f8d92e7dc6e1e"
+    },
+    {
+      "name": "repaired-wide",
+      "returncode": 0,
+      "shape": [
+        64,
+        80
+      ],
+      "dtype": "uint8",
+      "decoded_sha256": "f2fc3a803da6df64bb533785a59103395eba5e8f73f6deff510d1b8fd470a755"
+    },
+    {
+      "name": "repaired-narrow-zyx",
+      "returncode": 0,
+      "shape": [
+        8,
+        80
+      ],
+      "dtype": "uint8",
+      "decoded_sha256": "0ef35266d9a52ecedea9515031a80160919d0a3827bdccddc2d93ed35dd27bca"
+    },
+    {
+      "name": "repaired-narrow-yxz",
+      "returncode": 0,
+      "shape": [
+        8,
+        80
+      ],
+      "dtype": "uint8",
+      "decoded_sha256": "0ef35266d9a52ecedea9515031a80160919d0a3827bdccddc2d93ed35dd27bca"
+    }
+  ],
+  "controls": {
+    "gate_passed": true,
+    "actual_CLI_calls": 5,
+    "original_declared_layout_nonmatches": 1,
+    "original_wide_control": 1,
+    "repaired_declared_layout_matches": 3,
+    "wide_control_exact": true,
+    "repaired_storage_permutation_predictions_exact": true,
+    "native_input_and_weights_unchanged": true,
+    "generated_input_tree_unchanged": true,
+    "output_hashes": {
+      "original-wide": "f2fc3a803da6df64bb533785a59103395eba5e8f73f6deff510d1b8fd470a755",
+      "repaired-wide": "f2fc3a803da6df64bb533785a59103395eba5e8f73f6deff510d1b8fd470a755",
+      "repaired-narrow-zyx": "0ef35266d9a52ecedea9515031a80160919d0a3827bdccddc2d93ed35dd27bca",
+      "repaired-narrow-yxz": "0ef35266d9a52ecedea9515031a80160919d0a3827bdccddc2d93ed35dd27bca"
+    }
+  },
+  "each_actual_CLI_module_library_origin_check_passed": true,
+  "private_fields_omitted": [
+    "filesystem paths",
+    "account and host identifiers",
+    "per-job IDs",
+    "precise timestamps"
+  ],
+  "quality_or_heldout_or_ink_claim": false
+}

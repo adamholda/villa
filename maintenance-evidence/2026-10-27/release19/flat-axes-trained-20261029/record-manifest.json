@@ -1,0 +1,25 @@
+{
+  "scope": "Public safe excerpts only;raw private logs not included.",
+  "files": {
+    "cli-after.md": {
+      "bytes": 1138,
+      "sha256": "7ed120eb2c6ed017e2abb2c19a5baabca53b7bd5592780b3b48a57e0b229fd4a"
+    },
+    "cli-before.md": {
+      "bytes": 1134,
+      "sha256": "9fc83e8e6eb4419f2a9d14fa201d08a4ee172d0c466eed29fdc65ea6d27d4c6e"
+    },
+    "cli-controls.md": {
+      "bytes": 1259,
+      "sha256": "a134319c4a25fdb41d1507487085a63b5dc48b2955fa752d29e2ceba9840b214"
+    },
+    "README.md": {
+      "bytes": 2726,
+      "sha256": "04f9f5d6cc08ce28dfd9fb0984c03715273a7540c49eba013b7257ea4d4b0f61"
+    },
+    "selected-fields.json": {
+      "bytes": 3675,
+      "sha256": "a9b32f9455c256cd3ce64a4680ff06bddbd62f0e3c4ef18dd73609557d604516"
+    }
+  }
+}
