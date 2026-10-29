@@ -1,0 +1,38 @@
+{
+  "before": {
+    "bytes": 175978,
+    "sha256": "8658e0b47d43fd4cf8b13913c81a083a0f8e9150c6cc5600854d9ed1f856e0da",
+    "git_blob_sha": "6d1b72fa70fbce3a95b7703c7e2646414e4c5cde",
+    "base64_length": 234640,
+    "width": 1280,
+    "height": 1500,
+    "source_view": "https://github.com/adamholda/villa/blob/b74eeb76ca4a7c41b56e195669fedfdbb3b32322/maintenance-evidence/2026-10-27/release19/guide-grid-real-20261029/before-view.md",
+    "actual_unmodified_browser_capture": true,
+    "visually_reviewed": true,
+    "private_paths_raw_data_credentials_or_contact_visible": false
+  },
+  "after": {
+    "bytes": 151670,
+    "sha256": "fed06f8112fc26ca4858b13578535ce6141d872319db873ae0c5b48f54ed3c23",
+    "git_blob_sha": "c601cf81e292bf8a4f6fe7ebe7be3550d9c43e35",
+    "base64_length": 202228,
+    "width": 1280,
+    "height": 1500,
+    "source_view": "https://github.com/adamholda/villa/blob/b74eeb76ca4a7c41b56e195669fedfdbb3b32322/maintenance-evidence/2026-10-27/release19/guide-grid-real-20261029/after-view.md",
+    "actual_unmodified_browser_capture": true,
+    "visually_reviewed": true,
+    "private_paths_raw_data_credentials_or_contact_visible": false
+  },
+  "controls": {
+    "bytes": 155632,
+    "sha256": "72bd112ef7c53d629c79e9defebea7b39c78d0cb5cbb4437bc43a652f2b73d6d",
+    "git_blob_sha": "11b8e266a47a3a275cb8cc1c5d96f0815fd1c9c7",
+    "base64_length": 207512,
+    "width": 1280,
+    "height": 1500,
+    "source_view": "https://github.com/adamholda/villa/blob/b74eeb76ca4a7c41b56e195669fedfdbb3b32322/maintenance-evidence/2026-10-27/release19/guide-grid-real-20261029/controls-view.md",
+    "actual_unmodified_browser_capture": true,
+    "visually_reviewed": true,
+    "private_paths_raw_data_credentials_or_contact_visible": false
+  }
+}

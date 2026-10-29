@@ -1,0 +1,38 @@
+{
+  "before": {
+    "bytes": 150033,
+    "sha256": "4add3d0fa07a3decb735c7d2e749e6a6c03dd8ecb71fa9796e885b6cbb7e953f",
+    "git_blob_sha": "66e6cf29329a77ff5f0b5d6e790b93087414d0c0",
+    "base64_length": 200044,
+    "width": 1280,
+    "height": 1500,
+    "source_view": "https://github.com/adamholda/villa/blob/b74eeb76ca4a7c41b56e195669fedfdbb3b32322/maintenance-evidence/2026-10-27/release19/short-scheduler-real-20261029/before-view.md",
+    "actual_unmodified_browser_capture": true,
+    "visually_reviewed": true,
+    "private_paths_raw_data_credentials_or_contact_visible": false
+  },
+  "after": {
+    "bytes": 156233,
+    "sha256": "64c0bd6034703f05313dc092ca74f969f07f2ae72dfe04afe4daebb9476a4278",
+    "git_blob_sha": "5a1837e77972abd7381cd5d5f9f07d23906b51db",
+    "base64_length": 208312,
+    "width": 1280,
+    "height": 1500,
+    "source_view": "https://github.com/adamholda/villa/blob/b74eeb76ca4a7c41b56e195669fedfdbb3b32322/maintenance-evidence/2026-10-27/release19/short-scheduler-real-20261029/after-view.md",
+    "actual_unmodified_browser_capture": true,
+    "visually_reviewed": true,
+    "private_paths_raw_data_credentials_or_contact_visible": false
+  },
+  "controls": {
+    "bytes": 152110,
+    "sha256": "780a4479e1f1f9db9d2047f09f3f9bd61612a7b9c2ec53a72b127d49d44fdf42",
+    "git_blob_sha": "f6cfa5e997db1ab47bb2905ae527246523450219",
+    "base64_length": 202816,
+    "width": 1280,
+    "height": 1500,
+    "source_view": "https://github.com/adamholda/villa/blob/b74eeb76ca4a7c41b56e195669fedfdbb3b32322/maintenance-evidence/2026-10-27/release19/short-scheduler-real-20261029/controls-view.md",
+    "actual_unmodified_browser_capture": true,
+    "visually_reviewed": true,
+    "private_paths_raw_data_credentials_or_contact_visible": false
+  }
+}

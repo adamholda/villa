@@ -1,0 +1,38 @@
+{
+  "before": {
+    "bytes": 161297,
+    "sha256": "80486e536af1a6b162ca684bfbebc175ef9d9d33e8f83173eb228fff49a11db2",
+    "git_blob_sha": "87879f41c1f64a1031a17f47b863336e063ea74e",
+    "base64_length": 215064,
+    "width": 1280,
+    "height": 1500,
+    "source_view": "https://github.com/adamholda/villa/blob/b74eeb76ca4a7c41b56e195669fedfdbb3b32322/maintenance-evidence/2026-10-27/release19/checkpoint-alias-real-20261029/before-view.md",
+    "actual_unmodified_browser_capture": true,
+    "visually_reviewed": true,
+    "private_paths_raw_data_credentials_or_contact_visible": false
+  },
+  "after": {
+    "bytes": 159200,
+    "sha256": "c1c22e086d3bc9252b0a452fd904a571584fafc5f65bf12e0e3f66654ba287e3",
+    "git_blob_sha": "c2f91bef07066ed83f0708d076cb9ef3d074627b",
+    "base64_length": 212268,
+    "width": 1280,
+    "height": 1500,
+    "source_view": "https://github.com/adamholda/villa/blob/b74eeb76ca4a7c41b56e195669fedfdbb3b32322/maintenance-evidence/2026-10-27/release19/checkpoint-alias-real-20261029/after-view.md",
+    "actual_unmodified_browser_capture": true,
+    "visually_reviewed": true,
+    "private_paths_raw_data_credentials_or_contact_visible": false
+  },
+  "controls": {
+    "bytes": 157958,
+    "sha256": "92c20527bbca5d67ab3d4f463a4b51762e520d46a716d834aa574c5ca11167f5",
+    "git_blob_sha": "31a788c9ec5dbcc54343743b65d4138d8f5f297e",
+    "base64_length": 210612,
+    "width": 1280,
+    "height": 1500,
+    "source_view": "https://github.com/adamholda/villa/blob/b74eeb76ca4a7c41b56e195669fedfdbb3b32322/maintenance-evidence/2026-10-27/release19/checkpoint-alias-real-20261029/controls-view.md",
+    "actual_unmodified_browser_capture": true,
+    "visually_reviewed": true,
+    "private_paths_raw_data_credentials_or_contact_visible": false
+  }
+}
