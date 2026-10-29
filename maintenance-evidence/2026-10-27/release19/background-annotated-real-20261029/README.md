@@ -10,3 +10,11 @@ Existing [PR2307](https://github.com/ScrollPrize/villa/pull/2307), unchanged pro
 - [Selected public-safe fields](selected-fields.json)
 
 These excerpts omit private paths,account/host identifiers,per-job IDs and precise timestamps before capture. Numeric fields and selected CLI lines are unchanged. Screenshots will be unmodified browser captures of these archived views;no live terminal/CT-pixel claim. Original author review is preserved;this new supplement is not presumed personally reviewed. AI assistance was used for implementation,validation orchestration and analysis. Computational resources provided by e-INFRA CZ90254;VillaMIT,CT and original annotation rights/credits remain separate. No new fix/family,adoption,acceptance or prize claim.
+
+## Actual archived-output captures
+
+![Actual before archived-output browser capture](before.jpg)
+
+![Actual after archived-output browser capture](after.jpg)
+
+![Actual controls archived-output browser capture](controls.jpg)

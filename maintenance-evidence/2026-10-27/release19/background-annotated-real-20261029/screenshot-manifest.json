@@ -1,0 +1,35 @@
+{
+  "capture_kind": "Unmodified in-app browser full-page JPEG captures of actual archived public-safe Markdown excerpts",
+  "not_live_terminal_or_CT_pixels": true,
+  "text_refs": {
+    "before": "2ef9e72ce7489a5d7f0a4b041520f25eecaa2b1b",
+    "after": "2ef9e72ce7489a5d7f0a4b041520f25eecaa2b1b",
+    "controls": "54c5034a4021cbbeff2507aa558809718a6127a3"
+  },
+  "images": {
+    "before.jpg": {
+      "bytes": 161913,
+      "sha256": "0494f7bb4edc7d1f0d4fc9404900a79078231620098798b3f0675c07739373d2",
+      "git_blob_sha": "75d8d31fd4ef822a44a5b2fc237f6c9872cfe85b",
+      "width": 1265,
+      "height": 1195
+    },
+    "after.jpg": {
+      "bytes": 174833,
+      "sha256": "ef436e56faa117dee22d15967705af9af1070a18b14daa45c64356f2e1888b8a",
+      "git_blob_sha": "00dc6211a258287244aa46586a0ebbb516f97e48",
+      "width": 1265,
+      "height": 1314
+    },
+    "controls.jpg": {
+      "bytes": 152032,
+      "sha256": "1ca50d7f7b94e17fdeea8984ae5302a000fb0a04c30fb51cecaddd63e7111278",
+      "git_blob_sha": "cc76168cc47ce6c4afc7107bf8bde6d26cfaa648",
+      "width": 1265,
+      "height": 1171
+    }
+  },
+  "numeric_fields_unchanged": true,
+  "raw_arrays_or_private_identifiers_published": false,
+  "new_personal_review_claim": false
+}
