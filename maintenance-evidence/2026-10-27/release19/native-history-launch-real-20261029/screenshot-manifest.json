@@ -1,0 +1,31 @@
+{
+  "source_commit": "4138d1335d52ac9895452d3010d2bae8f12cee76",
+  "actual_unmodified_browser_captures": true,
+  "raw_result_sha256": "3f9ab583c3eee9aede190ac2a5d99d2b2da25e331b298d7a73e970ece714830b",
+  "images": {
+    "before": {
+      "bytes": 190004,
+      "sha256": "3e3b90c826cfe61b451c28c4852e49f1971dc1decacc4e5ca0387ecb9026e357",
+      "git_blob": "20a318db8f51adb2bec353f3f88a5027ef943e40",
+      "base64_length": 253340,
+      "width": 1280,
+      "height": 1500
+    },
+    "after": {
+      "bytes": 192606,
+      "sha256": "22e8c566a3cfd028e6d0699d99fe040b1a45460357feb304a0fda0489cc23e5d",
+      "git_blob": "05119fd318f293320054960b22b39a0f8a034251",
+      "base64_length": 256808,
+      "width": 1280,
+      "height": 1500
+    },
+    "controls": {
+      "bytes": 219508,
+      "sha256": "bc7a60b03a860a955808577f0da20885784650c78656317729399730eaa1b4cc",
+      "git_blob": "37095f6f0f9836946a19ab9ac275b187422179e5",
+      "base64_length": 292680,
+      "width": 1280,
+      "height": 1488
+    }
+  }
+}

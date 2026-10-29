@@ -14,3 +14,13 @@ This is instrumented complete native CLI/trainer evidence: return-preserving pol
 Raw result SHA256: `3f9ab583c3eee9aede190ac2a5d99d2b2da25e331b298d7a73e970ece714830b`. All original NPY/NPZ/released checkpoint/qualified input trees and producer artifacts pass final hashes; all six actual child process origins are qualified. Raw CT, masks, checkpoints and predictions stay private. Actual output captures do not depict a new live terminal or CT pixels. Failed0155 and its explicitly charged4versus3update overrun remain private immutable history; this distinct launch-key successor uses the unchanged intended case policies and hard pre-step spending guards, with no further recovery. No AMP/GPU/other-PR success is transferred.
 
 Code, validation orchestration and evidence preparation used Codex under Adam's authorization. The adopted workflow motivation remains separate; no new personal-review attestation is claimed. e-INFRA CZ90254; VillaMIT/Reader/CT/annotation rights are separate.
+
+## Actual archived-output captures
+
+Unmodified browser captures of the actual published diagnostics and selected verbatim CLI lines. The original failure is silent lost history; the repaired restore matches the genuine producer value. No new live terminal,raw CT pixels or fresh personal review is claimed.
+
+![Original actual full-resume history nonmatch](before.jpg)
+
+![Repaired actual full-resume history](after.jpg)
+
+![Actual checkpoint-mode and input controls](controls.jpg)
