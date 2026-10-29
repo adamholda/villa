@@ -12,6 +12,6 @@ Actual archived diagnostic fields from a complete repository CLI on the fixed ex
 
 The exact captures are hash-checked and render on the actual PR. [Capture manifest](screenshot-manifest.json).
 
-The Python help-only source was tested at4e5f4a38. The subsequent [Markdown-only contract clarification](https://github.com/adamholda/villa/blob/bfe57763fa3b267e2d297be80d492ee951eb7da3/vesuvius/docs/inference.md) is published on the existing head branch; the PR API/page has not yet reflected that follow-up head.
+The Python help-only source was tested at4e5f4a38. The subsequent [Markdown-only contract clarification](https://github.com/adamholda/villa/blob/bfe57763fa3b267e2d297be80d492ee951eb7da3/vesuvius/docs/inference.md) is published on the existing head branch; the PR API now confirms that follow-up head bfe57763.
 
 Computational resources were provided by the e-INFRA CZ project(ID90254),supported by the Ministry of Education,Youth and Sports of the Czech Republic. VillaMIT/model/CT/annotation rights and attribution remain separate.
