@@ -1,0 +1,29 @@
+{
+  "before": {
+    "file": "before.jpg",
+    "bytes": 139898,
+    "sha256": "365df7fc7c30bdf9e3ab07f01cec308f8f098db2cff0223280b089f435e5a060",
+    "git_blob_sha": "9cfca26a88920c36415bfc05b920a061eb1d29cc",
+    "width": 1265,
+    "height": 989,
+    "capture": "Unmodified full-page browser JPEG of public selected actual fields;no pixel editing."
+  },
+  "after": {
+    "file": "after.jpg",
+    "bytes": 140618,
+    "sha256": "445749b28c6ff37763ec13dbb7335931fd1fdad1ce4d36e84999c54f495968ae",
+    "git_blob_sha": "c7e06fb48298017b1a3510bea66535d29fb68074",
+    "width": 1265,
+    "height": 989,
+    "capture": "Unmodified full-page browser JPEG of public selected actual fields;no pixel editing."
+  },
+  "controls": {
+    "file": "controls.jpg",
+    "bytes": 144489,
+    "sha256": "871e9418e896e00bad81d67e44b039090bd5e3d7c68a8854c5806f92dcbac772",
+    "git_blob_sha": "bab552d8d62c60d7a0175239313510412355c669",
+    "width": 1265,
+    "height": 1038,
+    "capture": "Unmodified full-page browser JPEG of public selected actual fields;no pixel editing."
+  }
+}

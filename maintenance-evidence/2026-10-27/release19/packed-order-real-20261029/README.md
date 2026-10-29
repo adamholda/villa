@@ -7,3 +7,11 @@ Actual ConfigManager,ZarrDataset,full BaseTrainer constructor and complete DataL
 Three unmodified browser captures show selected actual diagnostic fields and producer message portions;private filesystem paths,account/host/per-job identifiers/precise timestamps omitted before capture. Numeric fields unchanged. Not a live terminal,raw CT pixels or generated graphics. Raw logs/arrays remain private;manifest preserves raw hashes/selection. Original generated image remains historical;new supplement is not presumed personally reviewed.
 
 215allocated seconds x1CPU/0GPU,final/reconciled. Same13pinned producer artifacts deployed to scratch under existingCPython3.13.5;verified existingCPython3.14consumer archive/sharedbase. No pip/ensurepip/system install or persistent environment change;not a full new repository/installer proof. Credit original producer/trainer/prior authors. e-INFRA CZ90254;VillaMIT/CT/annotation rights separate. No acceptance,prize or blanket contribution-rule claim.
+
+![Actual original nonmatch](before.jpg)
+
+![Actual repaired partition](after.jpg)
+
+![Actual producer and identity controls](controls.jpg)
+
+[Capture hashes/sizes](screenshot-manifest.json)
