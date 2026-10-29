@@ -1,0 +1,120 @@
+{
+  "PR": 2344,
+  "head": "4e5f4a382d0b0e857b42aa40efe84950b772e11c",
+  "title": "Actual released-model predict blend finalize guide",
+  "before": {
+    "actual_parser_rejections": [
+      {
+        "actual_command": "01-original-advertised-flag",
+        "actual_exit": 2,
+        "expected_exit": 2
+      },
+      {
+        "actual_command": "03-old-public-intensity-option",
+        "actual_exit": 2,
+        "expected_exit": 2
+      },
+      {
+        "actual_command": "06-old-frame-parser",
+        "actual_exit": 2,
+        "expected_exit": 2
+      }
+    ],
+    "original_help_default": "rotation",
+    "corrected_help_default": "mirroring",
+    "original_unsupported_flag": "--config-yaml",
+    "additional_public_row_unsupported_flag": "--intensity-properties-json",
+    "old_unsupported_frame_choice": "surface_frame",
+    "each_rejection_writes_no_output": true
+  },
+  "after": {
+    "actual_CLI_calls": 8,
+    "actual_exit_codes": [
+      0,
+      2,
+      0,
+      2,
+      0,
+      0,
+      2,
+      0
+    ],
+    "actual_full_model_forwards": 1,
+    "actual_written_coordinates": [
+      [
+        64,
+        64,
+        64
+      ]
+    ],
+    "actual_prediction_shape": [
+      1,
+      2,
+      128,
+      128,
+      128
+    ],
+    "actual_blended_shape": [
+      2,
+      256,
+      256,
+      256
+    ],
+    "independent_Gaussian_max_float16_ULP": 1,
+    "outside_selected_patch_exact_zero": true,
+    "actual_final_mask_shape": [
+      1,
+      256,
+      256,
+      256
+    ],
+    "exact_independent_binary_reference": true
+  },
+  "controls": {
+    "requested_bbox_zyx": [
+      32,
+      160,
+      32,
+      160,
+      32,
+      160
+    ],
+    "whole_volume_grid_axis_starts": [
+      0,
+      64,
+      128
+    ],
+    "all_overlapping_cartesian_patches": 27,
+    "one_patch_limit_selects_middle_index": 13,
+    "actual_selected_patch_bbox_zyx": [
+      64,
+      192,
+      64,
+      192,
+      64,
+      192
+    ],
+    "released_checkpoint_sha256": "dd36b3a89b2f4e21a6cafa14fea459f775f846a6ed036f75fb8e6b65aee3137b",
+    "whole_CT_decoded_sha256": "180bf694ebd175b56f5a21803b90bc0143c77684ef1c7e580b78981415c5d133",
+    "threshold_fixed_before_execution": 0.5,
+    "all8_process_origins_qualified": true,
+    "native_tree_and_released_checkpoint_unchanged": true,
+    "old0144wrong_oracle_and_failure_preserved": true
+  },
+  "scope": "Actual archived diagnostic fields from a complete repository CLI on the fixed exposed S5 CT control. Actual unmodified module CLI execution with exit/origin/output checks. Repeated operations on ONE CT/annotation pair;not independent samples, model quality or a new personal review. Raw CT, masks, weights and predictions remain private. The requested box stayed 32:160. Source review proved the full-volume grid selection at 64:192 selection before this successor;the old 0144 incorrect-coordinate-oracle failure is preserved. The one-channel binary output is not text, quality, pyramid, OME or multi-target evidence.",
+  "common": {
+    "source_main": "8ff06f7620dcb663ed327028dbb8a0cf7e9a8198",
+    "verified_nonfiber_source_files": 416,
+    "allocation_seconds": 318,
+    "allocated_CPU": 4,
+    "allocated_GPU": 0,
+    "whole_job_successful_optimizer_updates": 2,
+    "raw_result_sha256": "da2451ed49287d3e7f761576772cb0ba0d494675348c18c042482d4881543a82",
+    "whole_job_text_files": 39,
+    "whole_job_text_bytes": 277094,
+    "all_original_CT_mask_checkpoints_and_constructed_tree_unchanged": true,
+    "actual_process_origins_qualified": true,
+    "infrastructure_acknowledgement": "e-INFRA CZ90254",
+    "rights": "VillaMIT,model architecture/checkpoint rights,CT/data and released annotation rights are separate."
+  }
+}

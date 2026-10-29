@@ -1,0 +1,82 @@
+{
+  "PR": 2337,
+  "head": "bcd9ae6e8766f2b2acb9b404df716471c9e5f8a4",
+  "title": "Actual authentic-checkpoint alias prediction CLI",
+  "before": {
+    "actual_prediction_CLI_exit": 1,
+    "actual_dataset_normalization_request": [
+      "minmax"
+    ],
+    "actual_model_forwards": 0,
+    "verbatim_error_fragment": "Invalid normalization_scheme: 'minmax'.",
+    "authentic_checkpoint_metadata_edited": false
+  },
+  "after": {
+    "actual_prediction_CLI_exit": 0,
+    "actual_dataset_normalization_request": [
+      "instance_minmax"
+    ],
+    "actual_model_forwards": 1,
+    "actual_normalized_input_shape": [
+      1,
+      128,
+      128,
+      128
+    ],
+    "independent_minmax_max_abs": 0.0,
+    "actual_logit_shape": [
+      1,
+      2,
+      128,
+      128,
+      128
+    ],
+    "actual_logits_finite": true,
+    "actual_written_coordinates": [
+      [
+        64,
+        64,
+        64
+      ]
+    ]
+  },
+  "controls": {
+    "authentic_prior_training_updates": 1,
+    "authentic_checkpoint_epoch": 0,
+    "authentic_checkpoint_normalization": "minmax",
+    "authentic_checkpoint_EMA_counter": 1,
+    "authentic_checkpoint_sha256": "1f3717024acd611df016e5584e7b8cadf25c70a1acd4d9a2830a409af7861905",
+    "requested_bbox_zyx": [
+      32,
+      160,
+      32,
+      160,
+      32,
+      160
+    ],
+    "source_derived_patch_origin_zyx": [
+      64,
+      64,
+      64
+    ],
+    "TTA": false,
+    "actual_child_origins_qualified": true,
+    "input_and_checkpoint_final_hashes_preserved": true
+  },
+  "scope": "Actual archived diagnostic fields from a complete repository CLI on the fixed exposed S5 CT control. Return-preserving instrumentation is disclosed. Repeated operations on ONE CT/annotation pair;not independent samples, model quality or a new personal review. Raw CT, masks, weights and predictions remain private. The checkpoint was genuinely produced by the actual short configured generic training workflow;its normalization/EMA metadata is unedited. This is the minmax alias only,not full nnU-Net/global-statistics/all-normalizers/quality proof. The separate released z-score guide is not a paired PR2337 z-score control.",
+  "common": {
+    "source_main": "8ff06f7620dcb663ed327028dbb8a0cf7e9a8198",
+    "verified_nonfiber_source_files": 416,
+    "allocation_seconds": 318,
+    "allocated_CPU": 4,
+    "allocated_GPU": 0,
+    "whole_job_successful_optimizer_updates": 2,
+    "raw_result_sha256": "da2451ed49287d3e7f761576772cb0ba0d494675348c18c042482d4881543a82",
+    "whole_job_text_files": 39,
+    "whole_job_text_bytes": 277094,
+    "all_original_CT_mask_checkpoints_and_constructed_tree_unchanged": true,
+    "actual_process_origins_qualified": true,
+    "infrastructure_acknowledgement": "e-INFRA CZ90254",
+    "rights": "VillaMIT,model architecture/checkpoint rights,CT/data and released annotation rights are separate."
+  }
+}

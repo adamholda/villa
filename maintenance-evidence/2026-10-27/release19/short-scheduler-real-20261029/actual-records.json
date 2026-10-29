@@ -1,0 +1,61 @@
+{
+  "PR": 2306,
+  "head": "ab46b8b0af6b6b1bf39a7e3ea85ae5e18cd2ff01",
+  "title": "Actual real-CT short-run scheduler CLI",
+  "before": {
+    "actual_CLI_exit": 1,
+    "actual_scheduler": "StepLR",
+    "actual_step_size": 0,
+    "actual_model_parameters": 142243708,
+    "actual_train_loss": 0.8063495755195618,
+    "actual_optimizer_updates": 1,
+    "actual_model_forwards": 1,
+    "actual_error": "ZeroDivisionError('division by zero')"
+  },
+  "after": {
+    "actual_CLI_exit": 0,
+    "actual_scheduler": "StepLR",
+    "actual_step_size": 1,
+    "actual_optimizer_updates": 1,
+    "actual_training_and_validation_forwards": 2,
+    "actual_saved_epoch": 0,
+    "actual_saved_normalization": "minmax",
+    "actual_saved_EMA_counter": 1,
+    "actual_checkpoint_sha256": "b27a7d836ac714e6907da8a4f6814ce3d6a95a9a5ae9e2922f2919f5f5b80b5b"
+  },
+  "controls": {
+    "actual_supported_CLI_flag": "--scheduler step",
+    "fixed_whole_CT_shape": [
+      256,
+      256,
+      256
+    ],
+    "fixed_train_patch": [
+      128,
+      128,
+      128
+    ],
+    "fixed8_reader_references_exact": true,
+    "only_public_lr_schedulers_source_differs": true,
+    "repaired_source_Git_blob": "547e5fbd2bc6abf2bc7f8a259b023fd8ad38c89b",
+    "one_update_guard_per_arm": 1,
+    "original_whole_trees_preserved": true,
+    "post_horizon_polynomial_or_quality_proof": false
+  },
+  "scope": "Actual archived diagnostic fields from a complete repository CLI on the fixed exposed S5 CT control. Return-preserving instrumentation is disclosed. Repeated operations on ONE CT/annotation pair;not independent samples, model quality or a new personal review. Raw CT, masks, weights and predictions remain private. The actual explicit CLI StepLR default is tested here. Earlier 0159 used the default poly scheduler; its source-only 0161 StepLR prediction is not this measured error. Other polynomial/warmup boundaries remain historical CPU tests.",
+  "common": {
+    "source_main": "8ff06f7620dcb663ed327028dbb8a0cf7e9a8198",
+    "verified_nonfiber_source_files": 416,
+    "allocation_seconds": 318,
+    "allocated_CPU": 4,
+    "allocated_GPU": 0,
+    "whole_job_successful_optimizer_updates": 2,
+    "raw_result_sha256": "da2451ed49287d3e7f761576772cb0ba0d494675348c18c042482d4881543a82",
+    "whole_job_text_files": 39,
+    "whole_job_text_bytes": 277094,
+    "all_original_CT_mask_checkpoints_and_constructed_tree_unchanged": true,
+    "actual_process_origins_qualified": true,
+    "infrastructure_acknowledgement": "e-INFRA CZ90254",
+    "rights": "VillaMIT,model architecture/checkpoint rights,CT/data and released annotation rights are separate."
+  }
+}
