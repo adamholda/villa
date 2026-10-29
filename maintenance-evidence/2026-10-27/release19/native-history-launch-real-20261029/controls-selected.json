@@ -1,0 +1,37 @@
+{
+  "genuine_producer_optimizer_updates": 2,
+  "actual_optimizer_updates_total": 3,
+  "actual_complete_native_CLI_contexts": 6,
+  "genuine_producer_best_val_loss": 0.5637056827545166,
+  "actual_controls": {
+    "metric-mismatch": {
+      "actual_CLI_exit_code": 0,
+      "actual_typed_weights_only": false,
+      "actual_start_step": 4,
+      "actual_restored_best": null,
+      "actual_optimizer_updates": 0,
+      "actual_origins_qualified": true
+    },
+    "foreign-output": {
+      "actual_CLI_exit_code": 0,
+      "actual_typed_weights_only": false,
+      "actual_start_step": 4,
+      "actual_restored_best": null,
+      "actual_optimizer_updates": 0,
+      "actual_origins_qualified": true
+    },
+    "weights-only": {
+      "actual_CLI_exit_code": 0,
+      "actual_typed_weights_only": true,
+      "actual_start_step": 0,
+      "actual_restored_best": null,
+      "actual_optimizer_updates": 1,
+      "actual_origins_qualified": true
+    }
+  },
+  "producer_artifacts_and_original_input_trees_unchanged": true,
+  "all_six_actual_process_origins_qualified": true,
+  "scores_or_checkpoint_metadata_fabricated": false,
+  "later_worse_score_overwrite_or_quality_result_claimed": false,
+  "fresh_personal_review_claimed": false
+}

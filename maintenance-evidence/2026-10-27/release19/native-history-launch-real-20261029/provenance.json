@@ -1,0 +1,10 @@
+{
+  "public_PR": 2305,
+  "production_head": "07c4a12261a27d6baf3729d1359159335bd4f01e",
+  "raw_result_sha256": "3f9ab583c3eee9aede190ac2a5d99d2b2da25e331b298d7a73e970ece714830b",
+  "actual_CLI_contexts": 6,
+  "actual_optimizer_updates": 3,
+  "raw_payloads_published": false,
+  "fresh_personal_review_claimed": false,
+  "all27_ready": false
+}
