@@ -1,0 +1,9 @@
+{
+  "public_head": "f5c5da2b9f01fd4f2ff574bc22656164e948cb6b",
+  "raw_result_sha256": "4e235e09c2f146f89c138f474b66302e40a3787bf7fd40eea52fea18362363b4",
+  "source": "actual completed0149 archive",
+  "public_fields_omit_private_identifiers": true,
+  "numeric_fields_unchanged": true,
+  "actual_CLI_lines_verbatim": true,
+  "personal_review_inferred": false
+}

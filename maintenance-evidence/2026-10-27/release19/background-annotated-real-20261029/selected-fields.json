@@ -1,0 +1,175 @@
+{
+  "scope": "Four actual CLI calls/six compound records on one fixed original PHerc0841 CT plane and original published annotations;two original nonmatches/onecontrol,repairedthreematches. No held0043 recovery/model/training/quality.",
+  "input_reference": {
+    "raw_CT_plane": 14,
+    "shape": [
+      1024,
+      1024
+    ],
+    "CT_plane_sha256": "4dce2eb416a261facef62af2496ee6d1344aec4b3f55aa436c6bf1628f4f492b",
+    "annotation_sha256": "e7a7756fde26b07dfebf58b87b4c4c2884e29be990ac8d769646f116fe03ecde",
+    "annotation_counts": {
+      "0": 976355,
+      "1": 31947,
+      "2": 40274
+    },
+    "foreground_regions": 2,
+    "background_regions": 4,
+    "whole_fixed_grid": 16,
+    "original_control_label_selected_and_exposed_not_independent_holdout": true,
+    "published_flat_canvas_alignment_provenance": "configs/control-crop.json and scripts/prepare_inputs.py;no second offset or resampling"
+  },
+  "arms": {
+    "original": [
+      {
+        "case": "disabled_normal_control",
+        "arm": "original",
+        "contract_matches": true,
+        "actual_CLI_exit": 0,
+        "actual_CLI_origins_qualified": true,
+        "written_caches": 1,
+        "scanned_volumes": 1,
+        "skipped_volumes": 0,
+        "foreground_patches": 2,
+        "background_requested": false,
+        "expected_background_patches": 0,
+        "cached_background_patches": 0,
+        "dataset_background_patches": 0,
+        "all_returned_CT_annotation_padding_exact": true,
+        "foreground_position_signature": "685190ce56efe68f8060686ae3238f9d00bb0d1c8ca453437eb874ca5a968923",
+        "reuse_cache_bytes_preserved": null,
+        "actual_ConfigManager_CLI_dataset": true,
+        "model_or_training": false
+      },
+      {
+        "case": "enabled_after_foreground_cache",
+        "arm": "original",
+        "contract_matches": false,
+        "actual_CLI_exit": 0,
+        "actual_CLI_origins_qualified": true,
+        "written_caches": 0,
+        "scanned_volumes": 0,
+        "skipped_volumes": 1,
+        "foreground_patches": 2,
+        "background_requested": true,
+        "expected_background_patches": 4,
+        "cached_background_patches": 0,
+        "dataset_background_patches": 0,
+        "all_returned_CT_annotation_padding_exact": true,
+        "foreground_position_signature": "685190ce56efe68f8060686ae3238f9d00bb0d1c8ca453437eb874ca5a968923",
+        "reuse_cache_bytes_preserved": true,
+        "actual_ConfigManager_CLI_dataset": true,
+        "model_or_training": false
+      },
+      {
+        "case": "enabled_missing_cache",
+        "arm": "original",
+        "contract_matches": false,
+        "actual_ValueError": null,
+        "enumerated_without_validated_cache": 16,
+        "data_file_tree_preserved": true,
+        "actual_ConfigManager_and_dataset": true,
+        "model_or_training": false
+      }
+    ],
+    "repaired": [
+      {
+        "case": "disabled_normal_control",
+        "arm": "repaired",
+        "contract_matches": true,
+        "actual_CLI_exit": 0,
+        "actual_CLI_origins_qualified": true,
+        "written_caches": 1,
+        "scanned_volumes": 1,
+        "skipped_volumes": 0,
+        "foreground_patches": 2,
+        "background_requested": false,
+        "expected_background_patches": 0,
+        "cached_background_patches": 0,
+        "dataset_background_patches": 0,
+        "all_returned_CT_annotation_padding_exact": true,
+        "foreground_position_signature": "685190ce56efe68f8060686ae3238f9d00bb0d1c8ca453437eb874ca5a968923",
+        "reuse_cache_bytes_preserved": null,
+        "actual_ConfigManager_CLI_dataset": true,
+        "model_or_training": false
+      },
+      {
+        "case": "enabled_after_foreground_cache",
+        "arm": "repaired",
+        "contract_matches": true,
+        "actual_CLI_exit": 0,
+        "actual_CLI_origins_qualified": true,
+        "written_caches": 1,
+        "scanned_volumes": 1,
+        "skipped_volumes": 0,
+        "foreground_patches": 2,
+        "background_requested": true,
+        "expected_background_patches": 4,
+        "cached_background_patches": 4,
+        "dataset_background_patches": 4,
+        "all_returned_CT_annotation_padding_exact": true,
+        "foreground_position_signature": "685190ce56efe68f8060686ae3238f9d00bb0d1c8ca453437eb874ca5a968923",
+        "reuse_cache_bytes_preserved": null,
+        "actual_ConfigManager_CLI_dataset": true,
+        "model_or_training": false
+      },
+      {
+        "case": "enabled_missing_cache",
+        "arm": "repaired",
+        "contract_matches": true,
+        "actual_ValueError": "Background sampling needs a matching patch cache; run `vesuvius.find_patches --config <config.yaml>` to regenerate it.",
+        "enumerated_without_validated_cache": null,
+        "data_file_tree_preserved": true,
+        "actual_ConfigManager_and_dataset": true,
+        "model_or_training": false
+      }
+    ]
+  },
+  "cli": {
+    "original": [
+      "BLOSC_NTHREADS not set; defaulting to 1 for patch-cache stability.",
+      "Detected 2D patch size (256, 256), setting 2D operations",
+      "Patch cache generation complete: 0 cache(s) written, 0 volumes scanned, 1 skipped.",
+      "Patches found: 2 FG, 0 BG, 0 unlabeled FG."
+    ],
+    "repaired": [
+      "BLOSC_NTHREADS not set; defaulting to 1 for patch-cache stability.",
+      "Detected 2D patch size (256, 256), setting 2D operations",
+      "Found 2 valid patches in 'control'",
+      "Found 4 BG-only patches in 'control'",
+      "Total valid patches found across all 1 volumes: 2",
+      "Total BG-only patches found: 4",
+      "Patch cache generation complete: 1 cache(s) written, 1 volumes scanned, 0 skipped.",
+      "Patches found: 2 FG, 4 BG, 0 unlabeled FG."
+    ]
+  },
+  "controls": {
+    "fixed_plane": 14,
+    "shape": [
+      1024,
+      1024
+    ],
+    "whole_fixed_grid": 16,
+    "foreground_regions": 2,
+    "background_regions": 4,
+    "original_missing_cache": {
+      "case": "enabled_missing_cache",
+      "arm": "original",
+      "contract_matches": false,
+      "actual_ValueError": null,
+      "enumerated_without_validated_cache": 16,
+      "data_file_tree_preserved": true
+    },
+    "repaired_missing_cache": {
+      "case": "enabled_missing_cache",
+      "arm": "repaired",
+      "contract_matches": true,
+      "actual_ValueError": "Background sampling needs a matching patch cache; run `vesuvius.find_patches --config <config.yaml>` to regenerate it.",
+      "enumerated_without_validated_cache": null,
+      "data_file_tree_preserved": true
+    },
+    "disabled_foreground_positions_identical": true,
+    "final_original_input_hashes_unchanged": true,
+    "all_six_process_origins_qualified": true
+  }
+}
