@@ -1,0 +1,38 @@
+{
+  "before": {
+    "bytes": 207500,
+    "sha256": "860b8dcdf614435100c9d857d9850bc66a9e8ef620a0f814b7d09f0719377a3b",
+    "git_blob_sha": "f76b53a965ce36807459fcb99cc4eb2529e621c6",
+    "base64_length": 276668,
+    "width": 1280,
+    "height": 1500,
+    "source_view": "https://github.com/adamholda/villa/blob/4582a3ebf3cfad283671f63052c14535c4f93b00/maintenance-evidence/2026-10-27/release19/native-amp-resume-real-20261029/before-view.md",
+    "actual_unmodified_browser_capture": true,
+    "visually_reviewed": true,
+    "private_paths_raw_arrays_credentials_or_contact_visible": false
+  },
+  "after": {
+    "bytes": 207140,
+    "sha256": "46c3fafb9ac41cce77ef59233ec1b99c9176482928952e50afb86c95da70a1f3",
+    "git_blob_sha": "ae1ad793a5c11ba61dc38ae503f15211b9fa882a",
+    "base64_length": 276188,
+    "width": 1280,
+    "height": 1500,
+    "source_view": "https://github.com/adamholda/villa/blob/4582a3ebf3cfad283671f63052c14535c4f93b00/maintenance-evidence/2026-10-27/release19/native-amp-resume-real-20261029/after-view.md",
+    "actual_unmodified_browser_capture": true,
+    "visually_reviewed": true,
+    "private_paths_raw_arrays_credentials_or_contact_visible": false
+  },
+  "controls": {
+    "bytes": 188821,
+    "sha256": "46e072a28d54ddaa125d7c1dc0f7a3ef20f0be947e7eadade6d005ccf4aa059b",
+    "git_blob_sha": "5e870277badd21c948d9d0bc99ba722e8349cc63",
+    "base64_length": 251764,
+    "width": 1280,
+    "height": 1500,
+    "source_view": "https://github.com/adamholda/villa/blob/4582a3ebf3cfad283671f63052c14535c4f93b00/maintenance-evidence/2026-10-27/release19/native-amp-resume-real-20261029/controls-view.md",
+    "actual_unmodified_browser_capture": true,
+    "visually_reviewed": true,
+    "private_paths_raw_arrays_credentials_or_contact_visible": false
+  }
+}
