@@ -1,0 +1,9 @@
+# Actual native AMP,counter,resume and EMA workflow
+
+Existing [PR2304](https://github.com/ScrollPrize/villa/pull/2304),production head `f26a50a9f616e423dff6dc071a05e22e165cbe29`.
+
+Nine actual complete native CLI contexts on ONE exposed PHerc0841 control and original released 2D ink/reviewed masks transported on plane14. The overflow/resume arms load the released trained Reader;the paired FP32 EMA controls use their predeclared fresh-He initialization. Return-preserving state/step observers are disclosed. Each overflow arm deliberately changes ONE real gradient element to +inf before the real GradScaler unscale;this is a controlled fault,not a naturally observed incident. All9native CLI processes exit0:the original error is silent counter/EMA behavior,not a fabricated exception. Three fixed validation regions have no positive ink;this is engineering correctness,not ink quality,independent samples,native3D ink labels or registration truth. The extra2305history composition is a separately identified zero-update control,not another fix or contribution. The shared job exited1 because its separate generic group failed;native2304qualifies independently and no generic success is claimed. Raw CT,masks,weights,predictions and produced checkpoints stay private. This supplement does not imply a new personal review.
+
+[Actual original fields](before-view.md) · [Actual repaired fields](after-view.md) · [Actual controls](controls-view.md) · [Selected actual records](actual-records.json). Three actual browser captures are attached only after image-hash and rendering verification.
+
+Computational resources were provided by e-INFRA CZ project90254,supported by the Ministry of Education,Youth and Sports of the Czech Republic. Villa MIT,Reader,CT and original annotation rights and attribution remain separate.

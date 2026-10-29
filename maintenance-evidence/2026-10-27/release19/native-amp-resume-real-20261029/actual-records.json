@@ -1,0 +1,88 @@
+{
+  "before": {
+    "all_native_CLI_exit_codes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual_successful_optimizer_updates": 1,
+    "actual_scheduler_calls": 2,
+    "reported_optimizer_step": 2,
+    "GradScaler_scale_before": 65536.0,
+    "GradScaler_scale_after": 32768.0,
+    "saved_noEMA_optimizer_step": null,
+    "full_resume_start_and_update_count": [
+      4,
+      0
+    ],
+    "weights_only_start_and_update_count": [
+      0,
+      0
+    ],
+    "weights_only_EMA_equals_loaded_main": false
+  },
+  "after": {
+    "actual_successful_optimizer_updates": 1,
+    "actual_scheduler_calls": 1,
+    "reported_optimizer_step": 1,
+    "GradScaler_scale_before": 65536.0,
+    "GradScaler_scale_after": 32768.0,
+    "saved_noEMA_optimizer_step": 1,
+    "full_resume_start_and_update_count": [
+      4,
+      1
+    ],
+    "full_resume_actual_updates": 0,
+    "weights_only_start_and_update_count": [
+      0,
+      0
+    ],
+    "weights_only_EMA_equals_loaded_main": true,
+    "weights_only_actual_updates": 1
+  },
+  "controls": {
+    "actual_complete_native_CLI_contexts": 9,
+    "actual_updates_by_context": {
+      "original-overflow": 1,
+      "repaired-overflow": 1,
+      "original-resume": 0,
+      "repaired-resume": 0,
+      "best-repaired-resume": 0,
+      "original-EMA": 2,
+      "repaired-EMA": 2,
+      "original-weights-only": 1,
+      "repaired-weights-only": 1
+    },
+    "whole_native_group_actual_updates": 8,
+    "real_GPU": "NVIDIA L40S",
+    "original_and_repaired_FP32_EMA_main_states_exact": true,
+    "final_original_CT_annotation_checkpoint_and_input_trees_unchanged": true,
+    "all9_actual_module_origins_qualified": true,
+    "controlled_inf_gradient_elements_per_overflow_arm": 1,
+    "naturally_observed_user_incident": false,
+    "three_fixed_validation_regions_contain_positive_ink": false,
+    "separate_generic_group_passed": false,
+    "shared_allocation_seconds": 450,
+    "shared_allocated_CPUs": 4,
+    "shared_allocated_GPUs": 1
+  },
+  "common": {
+    "production_PR_head": "f26a50a9f616e423dff6dc071a05e22e165cbe29",
+    "current_main": "8ff06f7620dcb663ed327028dbb8a0cf7e9a8198",
+    "verified_nonfiber_source_files": 416,
+    "native_driver_seconds": 348.07086882996373,
+    "whole_job_text_files": 62,
+    "whole_job_text_bytes": 468177,
+    "whole_job_raw_result_sha256": "776f103853cace9ff8c280f1ca5d13798f7976e2491cadf7b109bd3d2adb52c8",
+    "all_generic_failed_attempts_zero_updates": true,
+    "code_data_model_annotation_rights_separate": true,
+    "e_INFRA_CZ_project": 90254
+  },
+  "scope": "Nine actual complete native CLI contexts on ONE exposed PHerc0841 control and original released 2D ink/reviewed masks transported on plane14. The overflow/resume arms load the released trained Reader;the paired FP32 EMA controls use their predeclared fresh-He initialization. Return-preserving state/step observers are disclosed. Each overflow arm deliberately changes ONE real gradient element to +inf before the real GradScaler unscale;this is a controlled fault,not a naturally observed incident. All9native CLI processes exit0:the original error is silent counter/EMA behavior,not a fabricated exception. Three fixed validation regions have no positive ink;this is engineering correctness,not ink quality,independent samples,native3D ink labels or registration truth. The extra2305history composition is a separately identified zero-update control,not another fix or contribution. The shared job exited1 because its separate generic group failed;native2304qualifies independently and no generic success is claimed. Raw CT,masks,weights,predictions and produced checkpoints stay private. This supplement does not imply a new personal review."
+}
