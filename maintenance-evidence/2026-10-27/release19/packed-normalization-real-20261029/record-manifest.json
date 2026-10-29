@@ -1,0 +1,15 @@
+{
+  "protocol": "0147/0147a",
+  "raw_collection_sha256": "8cad6dc2c952c59dd2730263fcc60d80978893fff6eaf513b16c6f178889aee2",
+  "raw_result_sha256": "4d72937e7d61ae66285ed12839caf8f5aadeb37f6b5c190e0080ee4c52aa2d80",
+  "selected_log_sha256": {
+    "packer.log": "a8d5ae4f56b2f7372c68f946cff40ddd2721586c23d4a993c0309506e2f688f0",
+    "original.log": "4384442d4a1c50642272bb8e7f6881395bf27c46086479ca59c60a90d87c4255",
+    "repaired.log": "fd842ee3cc49de4984c0134584b7191b178e44b2fa2816f56c5aee5659d5a967"
+  },
+  "omitted": "Private filesystem paths,account/host identifiers,per-job IDs,precise timestamps. No raw pixels or arrays.",
+  "selection": "Explicit original/repaired case fields; producer INFO message portions and controls. No numerical changes.",
+  "producer_git_blob": "e5c5663d5cd5d4d3f3891f85fa06cf51aef6ceed",
+  "original_dataset_sha256": "5b393cdb59b07b8a1aef696b512e0420ef5be1ca36ef266032df6658bea16f41",
+  "repaired_dataset_sha256": "49424cc0d94d853f40b0bc6cbe576cdd80ad9ebd9396b3e2f480496fd9404e4d"
+}

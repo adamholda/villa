@@ -1,0 +1,112 @@
+{
+  "original": [
+    {
+      "case": "zscore_overlap",
+      "arm": "original",
+      "scheme": "zscore",
+      "patch_shape": [
+        128,
+        128,
+        192
+      ],
+      "own_source_and_gap_reference_matches": false,
+      "maximum_absolute_difference": 0.20345723628997803,
+      "actual_mask_and_padding_exact": true,
+      "mapping_unchanged": true,
+      "actual_ConfigManager_and_dataset_used": true,
+      "training_or_model_used": false
+    },
+    {
+      "case": "zscore_fit_control",
+      "arm": "original",
+      "scheme": "zscore",
+      "patch_shape": [
+        128,
+        128,
+        128
+      ],
+      "own_source_and_gap_reference_matches": true,
+      "maximum_absolute_difference": 0.0,
+      "actual_mask_and_padding_exact": true,
+      "mapping_unchanged": true,
+      "actual_ConfigManager_and_dataset_used": true,
+      "training_or_model_used": false
+    },
+    {
+      "case": "identity_overlap_control",
+      "arm": "original",
+      "scheme": "none",
+      "patch_shape": [
+        128,
+        128,
+        192
+      ],
+      "own_source_and_gap_reference_matches": true,
+      "maximum_absolute_difference": 0.0,
+      "actual_mask_and_padding_exact": true,
+      "mapping_unchanged": true,
+      "actual_ConfigManager_and_dataset_used": true,
+      "training_or_model_used": false
+    }
+  ],
+  "repaired": [
+    {
+      "case": "zscore_overlap",
+      "arm": "repaired",
+      "scheme": "zscore",
+      "patch_shape": [
+        128,
+        128,
+        192
+      ],
+      "own_source_and_gap_reference_matches": true,
+      "maximum_absolute_difference": 0.0,
+      "actual_mask_and_padding_exact": true,
+      "mapping_unchanged": true,
+      "actual_ConfigManager_and_dataset_used": true,
+      "training_or_model_used": false
+    },
+    {
+      "case": "zscore_fit_control",
+      "arm": "repaired",
+      "scheme": "zscore",
+      "patch_shape": [
+        128,
+        128,
+        128
+      ],
+      "own_source_and_gap_reference_matches": true,
+      "maximum_absolute_difference": 0.0,
+      "actual_mask_and_padding_exact": true,
+      "mapping_unchanged": true,
+      "actual_ConfigManager_and_dataset_used": true,
+      "training_or_model_used": false
+    },
+    {
+      "case": "identity_overlap_control",
+      "arm": "repaired",
+      "scheme": "none",
+      "patch_shape": [
+        128,
+        128,
+        192
+      ],
+      "own_source_and_gap_reference_matches": true,
+      "maximum_absolute_difference": 0.0,
+      "actual_mask_and_padding_exact": true,
+      "mapping_unchanged": true,
+      "actual_ConfigManager_and_dataset_used": true,
+      "training_or_model_used": false
+    }
+  ],
+  "producer_returncode": 0,
+  "native_inputs_unchanged": true,
+  "packed_input_tree_unchanged": true,
+  "source_TIFFs_unchanged": true,
+  "consumer_records": 6,
+  "original_nonmatches": 1,
+  "original_controls": 2,
+  "repaired_matches": 3,
+  "record_selection": "Actual archived fields only; private identifiers omitted; values unchanged.",
+  "scope": "Nontraining actual dataset library comparison after actual producer CLI; not six full training CLI sessions."
+}
