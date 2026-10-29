@@ -1,0 +1,29 @@
+{
+  "before": {
+    "file": "before.jpg",
+    "bytes": 125927,
+    "sha256": "5b1de629ee21607966e44cb665f2ead33ba897138780f8f5b78a55bf0ec2d94e",
+    "git_blob_sha": "b799041539cb2066643cddcaa4cccd07dbe62145",
+    "width": 1265,
+    "height": 1001,
+    "capture": "Unmodified full-page browser JPEG of public selected actual archived diagnostic fields; no pixel editing."
+  },
+  "after": {
+    "file": "after.jpg",
+    "bytes": 122309,
+    "sha256": "a1a62b0bde7aea0ecf2cbde6c0db52d9b75b8a161547d5ec0c13b923abfc916b",
+    "git_blob_sha": "a3d3029d46f254978f5725f590fb34c673f2769c",
+    "width": 1265,
+    "height": 1001,
+    "capture": "Unmodified full-page browser JPEG of public selected actual archived diagnostic fields; no pixel editing."
+  },
+  "controls": {
+    "file": "controls.jpg",
+    "bytes": 150327,
+    "sha256": "0838dae3b4898497997dcdd0f30d7b6c0c5c16a30841fe2e93e0ba9adbaa23bb",
+    "git_blob_sha": "4951af0aa7a36f11b4a3e3a9850a95f0d84a6063",
+    "width": 1265,
+    "height": 1092,
+    "capture": "Unmodified full-page browser JPEG of public selected actual archived diagnostic fields; no pixel editing."
+  }
+}
