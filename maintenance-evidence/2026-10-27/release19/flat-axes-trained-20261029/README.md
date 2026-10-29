@@ -13,3 +13,14 @@ Public excerpts omit private paths,account/host identifiers,per-job IDs and prec
 This is real trained-model geometry/routing evidence,not model/ink quality,heldout performance,throughput,depth/native-registration or recovered letters. Raw CT,weights and prediction TIFFs remain private. Separate occupancy/pyramid/provenance work2127/2256/2282/1891is not included or attributed here. AI assistance:implementation and validation orchestration/analysis;adopted workflow motivation is separately recorded on the PR.
 
 Computational resources:e-INFRA CZproject90254.VillaMIT,Reader model rights and EduceLab-Scrolls/Vesuvius Challenge CT attribution/data rights remain separate.
+
+
+## Actual archived-output captures
+
+![Original silent wrong frame](before.jpg)
+
+![Repaired declared-axis frame](after.jpg)
+
+![Exact controls and preservation](controls.jpg)
+
+[Unmodified screenshot byte/hash manifest](screenshot-manifest.json). Each image is a browser capture of the private-field-free public excerpt;no pixel editing or reencoding was applied.

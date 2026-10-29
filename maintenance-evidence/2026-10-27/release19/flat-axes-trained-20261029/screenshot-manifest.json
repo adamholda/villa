@@ -1,0 +1,37 @@
+{
+  "images": {
+    "before.jpg": {
+      "bytes": 140736,
+      "sha256": "510fb6a3f60c365d40721a71047ff92f1839d32effe9c53d04cddbb7c34e8593",
+      "width": 1265,
+      "height": 1128,
+      "format": "JPEG as returned by browser",
+      "capture": "Unmodified full-page browser screenshot of already-public private-field-free actual record excerpt.",
+      "source_commit": "69e0b1830c813f4b07e1512c35c48be0e991f444",
+      "Git_blob_sha1": "b65cf18df459f1796e5ee8cf40085d07202b28cd"
+    },
+    "after.jpg": {
+      "bytes": 142277,
+      "sha256": "c19cb46d9cbd72727db993746099e67de64d1c650204dcc5e4fd8c9efa9eca9a",
+      "width": 1265,
+      "height": 1108,
+      "format": "JPEG as returned by browser",
+      "capture": "Unmodified full-page browser screenshot of already-public private-field-free actual record excerpt.",
+      "source_commit": "69e0b1830c813f4b07e1512c35c48be0e991f444",
+      "Git_blob_sha1": "447f31e48b77a752582e73bf2003d29b042844cf"
+    },
+    "controls.jpg": {
+      "bytes": 140382,
+      "sha256": "428a96408eea54dff36dee82b6707bed2086e6621e742fd55869c52feeeb4086",
+      "width": 1265,
+      "height": 1005,
+      "format": "JPEG as returned by browser",
+      "capture": "Unmodified full-page browser screenshot of already-public private-field-free actual record excerpt.",
+      "source_commit": "69e0b1830c813f4b07e1512c35c48be0e991f444",
+      "Git_blob_sha1": "189f05e06ebb9d261fa15ef741e96caec54e4514"
+    }
+  },
+  "visually_reviewed": true,
+  "pixel_edit_or_reencoding": false,
+  "private_paths_or_account_host_per_job_IDs_in_screenshot": false
+}
