@@ -1,6 +1,12 @@
 # PR2307: actual missing-cache error and unchanged controls
 
-Selected actual records from the uncached library case and fixed-grid controls. This is the actual ConfigManager/ZarrDataset error, not a claimed human CLI failure.
+Actual ConfigManager/ZarrDataset ValueError (verbatim text, not a claimed human CLI failure):
+
+```text
+Background sampling needs a matching patch cache; run `vesuvius.find_patches --config <config.yaml>` to regenerate it.
+```
+
+Selected actual diagnostic fields, pretty-printed:
 
 ```json
 {
@@ -13,19 +19,12 @@ Selected actual records from the uncached library case and fixed-grid controls. 
   "foreground_regions": 2,
   "background_regions": 4,
   "original_missing_cache": {
-    "case": "enabled_missing_cache",
-    "arm": "original",
     "contract_matches": false,
-    "actual_ValueError": null,
     "enumerated_without_validated_cache": 16,
     "data_file_tree_preserved": true
   },
   "repaired_missing_cache": {
-    "case": "enabled_missing_cache",
-    "arm": "repaired",
     "contract_matches": true,
-    "actual_ValueError": "Background sampling needs a matching patch cache; run `vesuvius.find_patches --config <config.yaml>` to regenerate it.",
-    "enumerated_without_validated_cache": null,
     "data_file_tree_preserved": true
   },
   "disabled_foreground_positions_identical": true,
