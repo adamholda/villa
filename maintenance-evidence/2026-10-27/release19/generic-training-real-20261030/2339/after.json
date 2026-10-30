@@ -1,0 +1,54 @@
+{
+  "actual_CLI_completed": true,
+  "post_CLI_checks_completed": true,
+  "all_attempts_accounted": true,
+  "successful_optimizer_updates": 0,
+  "controlled_gradient_injections": 0,
+  "forwards": 0,
+  "initialization": {
+    "device": "cuda:0",
+    "parameters": 142243708,
+    "model_class": "NetworkFromConfig",
+    "AMP_enabled": false,
+    "scaler_class": "DummyScaler",
+    "scaler_enabled": false,
+    "start_epoch": 1,
+    "normalization": "minmax",
+    "load_weights_only": false,
+    "EMA_enabled": false,
+    "EMA_counter": 0,
+    "scheduler_class": "PolyLRScheduler",
+    "scheduler_total_steps": null,
+    "scheduler_first_cycle_steps": null,
+    "microbatches_per_epoch": 1,
+    "gradient_accumulation": 1,
+    "train_items": 4,
+    "validation_items": 4,
+    "actual_saved_checkpoint_epoch": 0,
+    "loaded_main_exact": true
+  },
+  "actual_optimizer_defaults": {
+    "momentum": 0.99,
+    "nesterov": true
+  },
+  "actual_optimizer_parameter_groups": [
+    {
+      "momentum": 0.0,
+      "nesterov": false
+    }
+  ],
+  "train_steps": [],
+  "history_records": [],
+  "scheduler_consumer_calls": 0,
+  "final_EMA_counter": 0,
+  "final_scheduler_total_steps": null,
+  "final_scheduler_first_cycle_steps": null,
+  "final_scheduler_last_epoch": -1,
+  "periodic_files": [],
+  "elapsed_seconds": 15.337784750852734,
+  "final_checkpoint": {
+    "epoch": 0,
+    "normalization_scheme": "minmax",
+    "sha256": "4fc761d56cea216a7df92ad1110a7f940fa86b3e4d07c237c367c4485505e8b5"
+  }
+}

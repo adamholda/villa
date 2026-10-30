@@ -1,0 +1,161 @@
+{
+  "actual_CLI_completed": true,
+  "post_CLI_checks_completed": true,
+  "all_attempts_accounted": true,
+  "successful_optimizer_updates": 4,
+  "controlled_gradient_injections": 0,
+  "forwards": 8,
+  "initialization": {
+    "device": "cuda:0",
+    "parameters": 142243708,
+    "model_class": "NetworkFromConfig",
+    "AMP_enabled": false,
+    "scaler_class": "DummyScaler",
+    "scaler_enabled": false,
+    "start_epoch": 0,
+    "normalization": "minmax",
+    "load_weights_only": false,
+    "EMA_enabled": false,
+    "EMA_counter": 0,
+    "scheduler_class": "CosineAnnealingWarmupRestarts",
+    "scheduler_total_steps": null,
+    "scheduler_first_cycle_steps": 4,
+    "microbatches_per_epoch": 3,
+    "gradient_accumulation": 2,
+    "train_items": 4,
+    "validation_items": 4
+  },
+  "actual_optimizer_defaults": {
+    "momentum": 0.0,
+    "nesterov": false
+  },
+  "actual_optimizer_parameter_groups": [
+    {
+      "momentum": 0.0,
+      "nesterov": false
+    }
+  ],
+  "train_steps": [
+    {
+      "epoch": 0,
+      "microbatch": 0,
+      "loss": 0.8064829111099243,
+      "reported_optimizer_step": false,
+      "actual_updates_before": 0,
+      "actual_updates_after": 0,
+      "scale_before": null,
+      "scale_after": null,
+      "EMA_counter": 0
+    },
+    {
+      "epoch": 0,
+      "microbatch": 1,
+      "loss": 0.8137721419334412,
+      "reported_optimizer_step": true,
+      "actual_updates_before": 0,
+      "actual_updates_after": 1,
+      "scale_before": null,
+      "scale_after": null,
+      "EMA_counter": 0
+    },
+    {
+      "epoch": 0,
+      "microbatch": 2,
+      "loss": 0.8367134928703308,
+      "reported_optimizer_step": true,
+      "actual_updates_before": 1,
+      "actual_updates_after": 2,
+      "scale_before": null,
+      "scale_after": null,
+      "EMA_counter": 0
+    },
+    {
+      "epoch": 1,
+      "microbatch": 0,
+      "loss": 0.8173176646232605,
+      "reported_optimizer_step": false,
+      "actual_updates_before": 2,
+      "actual_updates_after": 2,
+      "scale_before": null,
+      "scale_after": null,
+      "EMA_counter": 0
+    },
+    {
+      "epoch": 1,
+      "microbatch": 1,
+      "loss": 0.8284600377082825,
+      "reported_optimizer_step": true,
+      "actual_updates_before": 2,
+      "actual_updates_after": 3,
+      "scale_before": null,
+      "scale_after": null,
+      "EMA_counter": 0
+    },
+    {
+      "epoch": 1,
+      "microbatch": 2,
+      "loss": 0.8306190371513367,
+      "reported_optimizer_step": true,
+      "actual_updates_before": 3,
+      "actual_updates_after": 4,
+      "scale_before": null,
+      "scale_after": null,
+      "EMA_counter": 0
+    }
+  ],
+  "history_records": [
+    {
+      "epoch": 0,
+      "actual_validation_loss": 0.8312206268310547,
+      "recent_epochs": [
+        0,
+        0
+      ],
+      "best": [
+        [
+          0.8312206268310547,
+          0,
+          "fixed_CT_completion_epoch1.pth"
+        ]
+      ],
+      "checkpoint_name": "fixed_CT_completion_epoch1.pth"
+    },
+    {
+      "epoch": 1,
+      "actual_validation_loss": 0.8228009343147278,
+      "recent_epochs": [
+        0,
+        1,
+        1
+      ],
+      "best": [
+        [
+          0.8228009343147278,
+          1,
+          "fixed_CT_completion_epoch2.pth"
+        ],
+        [
+          0.8312206268310547,
+          0,
+          "fixed_CT_completion_epoch1.pth"
+        ]
+      ],
+      "checkpoint_name": "fixed_CT_completion_epoch2.pth"
+    }
+  ],
+  "scheduler_consumer_calls": 4,
+  "final_EMA_counter": 0,
+  "final_scheduler_total_steps": null,
+  "final_scheduler_first_cycle_steps": 4,
+  "final_scheduler_last_epoch": 4,
+  "periodic_files": [
+    "fixed_CT_completion_epoch1.pth",
+    "fixed_CT_completion_epoch2.pth"
+  ],
+  "elapsed_seconds": 20.207335920073092,
+  "final_checkpoint": {
+    "epoch": 1,
+    "normalization_scheme": "minmax",
+    "sha256": "fbec02099bbeb1455d9e4e0e5a1b32e3e77179ab1450773620901de89b9316f9"
+  }
+}

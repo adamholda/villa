@@ -1,0 +1,95 @@
+{
+  "actual_CLI_completed": true,
+  "post_CLI_checks_completed": true,
+  "all_attempts_accounted": true,
+  "successful_optimizer_updates": 1,
+  "controlled_gradient_injections": 1,
+  "forwards": 3,
+  "initialization": {
+    "device": "cuda:0",
+    "parameters": 142243708,
+    "model_class": "NetworkFromConfig",
+    "AMP_enabled": true,
+    "scaler_class": "GradScaler",
+    "scaler_enabled": true,
+    "start_epoch": 0,
+    "normalization": "minmax",
+    "load_weights_only": false,
+    "EMA_enabled": true,
+    "EMA_counter": 0,
+    "scheduler_class": "CosineAnnealingWarmupRestarts",
+    "scheduler_total_steps": null,
+    "scheduler_first_cycle_steps": 2,
+    "microbatches_per_epoch": 2,
+    "gradient_accumulation": 1,
+    "train_items": 4,
+    "validation_items": 4,
+    "EMA_equals_loaded_main": true
+  },
+  "actual_optimizer_defaults": {
+    "momentum": 0.0,
+    "nesterov": false
+  },
+  "actual_optimizer_parameter_groups": [
+    {
+      "momentum": 0.0,
+      "nesterov": false
+    }
+  ],
+  "train_steps": [
+    {
+      "epoch": 0,
+      "microbatch": 0,
+      "loss": 0.8064892292022705,
+      "reported_optimizer_step": false,
+      "actual_updates_before": 0,
+      "actual_updates_after": 0,
+      "scale_before": 65536.0,
+      "scale_after": 32768.0,
+      "EMA_counter": 0
+    },
+    {
+      "epoch": 0,
+      "microbatch": 1,
+      "loss": 0.8137732744216919,
+      "reported_optimizer_step": true,
+      "actual_updates_before": 0,
+      "actual_updates_after": 1,
+      "scale_before": 32768.0,
+      "scale_after": 32768.0,
+      "EMA_counter": 1
+    }
+  ],
+  "history_records": [
+    {
+      "epoch": 0,
+      "actual_validation_loss": 0.8399291634559631,
+      "recent_epochs": [
+        0,
+        0
+      ],
+      "best": [
+        [
+          0.8399291634559631,
+          0,
+          "fixed_CT_completion_epoch1.pth"
+        ]
+      ],
+      "checkpoint_name": "fixed_CT_completion_epoch1.pth"
+    }
+  ],
+  "scheduler_consumer_calls": 1,
+  "final_EMA_counter": 1,
+  "final_scheduler_total_steps": null,
+  "final_scheduler_first_cycle_steps": 2,
+  "final_scheduler_last_epoch": 1,
+  "periodic_files": [
+    "fixed_CT_completion_epoch1.pth"
+  ],
+  "elapsed_seconds": 18.504209575010464,
+  "final_checkpoint": {
+    "epoch": 0,
+    "normalization_scheme": "minmax",
+    "sha256": "f776301f44d17530ab34e933607d472f08e117cac81f7d7e5dd74ed55c0607c3"
+  }
+}

@@ -1,0 +1,47 @@
+Using Base Trainer for supervised training
+Starting training...
+Using ZarrDataset (training)
+Using dimensionality (3D) from ConfigManager
+Using 3D convolutions (nn.Conv3d)
+Using 3D normalization (nn.InstanceNorm3d)
+Using provided features_per_stage: [32, 64, 128, 256, 320, 320, 320]
+Using provided n_blocks_per_stage: [1, 3, 4, 6, 6, 6, 6]
+Using poly learning rate scheduler over 4 epochs
+Epoch 1/4:   0%|          | 0/1 [00:00<?, ?it/s]Using optimizer : SGD
+Using scheduler : PolyLRScheduler (per-iteration: False)
+Epoch 1/4:   0%|          | 0/1 [00:01<?, ?it/s, fiber: 0.8065]
+Epoch 1/4: 100%|██████████| 1/1 [00:01<00:00,  1.37s/it, fiber: 0.8065]
+Epoch 1/4: 100%|██████████| 1/1 [00:01<00:00,  1.37s/it, fiber: 0.8065]
+Validation 1:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation 1:   0%|          | 0/1 [00:00<?, ?it/s, fiber: 0.8289]
+Validation 1: 100%|██████████| 1/1 [00:00<00:00,  2.80it/s, fiber: 0.8289]
+Validation 1: 100%|██████████| 1/1 [00:00<00:00,  2.80it/s, fiber: 0.8289]
+Epoch 2/4:   0%|          | 0/1 [00:00<?, ?it/s]Using optimizer : SGD
+Using scheduler : PolyLRScheduler (per-iteration: False)
+Epoch 2/4:   0%|          | 0/1 [00:00<?, ?it/s, fiber: 0.8243]
+Epoch 2/4: 100%|██████████| 1/1 [00:00<00:00,  3.04it/s, fiber: 0.8243]
+Epoch 2/4: 100%|██████████| 1/1 [00:00<00:00,  3.04it/s, fiber: 0.8243]
+Validation 2:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation 2:   0%|          | 0/1 [00:00<?, ?it/s, fiber: 0.8331]
+Validation 2: 100%|██████████| 1/1 [00:00<00:00,  3.48it/s, fiber: 0.8331]
+Validation 2: 100%|██████████| 1/1 [00:00<00:00,  3.48it/s, fiber: 0.8331]
+Epoch 3/4:   0%|          | 0/1 [00:00<?, ?it/s]Using optimizer : SGD
+Using scheduler : PolyLRScheduler (per-iteration: False)
+Epoch 3/4:   0%|          | 0/1 [00:00<?, ?it/s, fiber: 0.8258]
+Epoch 3/4: 100%|██████████| 1/1 [00:00<00:00,  3.93it/s, fiber: 0.8258]
+Epoch 3/4: 100%|██████████| 1/1 [00:00<00:00,  3.93it/s, fiber: 0.8258]
+Validation 3:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation 3:   0%|          | 0/1 [00:00<?, ?it/s, fiber: 0.8307]
+Validation 3: 100%|██████████| 1/1 [00:00<00:00,  3.51it/s, fiber: 0.8307]
+Validation 3: 100%|██████████| 1/1 [00:00<00:00,  3.51it/s, fiber: 0.8307]
+Epoch 4/4:   0%|          | 0/1 [00:00<?, ?it/s]Using optimizer : SGD
+Using scheduler : PolyLRScheduler (per-iteration: False)
+Epoch 4/4:   0%|          | 0/1 [00:00<?, ?it/s, fiber: 0.8160]
+Epoch 4/4: 100%|██████████| 1/1 [00:00<00:00,  3.45it/s, fiber: 0.8160]
+Epoch 4/4: 100%|██████████| 1/1 [00:00<00:00,  3.45it/s, fiber: 0.8160]
+Validation 4:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation 4:   0%|          | 0/1 [00:00<?, ?it/s, fiber: 0.8229]
+Validation 4: 100%|██████████| 1/1 [00:00<00:00,  3.50it/s, fiber: 0.8229]
+Validation 4: 100%|██████████| 1/1 [00:00<00:00,  3.50it/s, fiber: 0.8229]
+Training Finished!
+Training completed!

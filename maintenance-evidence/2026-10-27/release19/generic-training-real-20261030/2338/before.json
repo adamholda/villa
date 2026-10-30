@@ -1,0 +1,189 @@
+{
+  "actual_CLI_completed": true,
+  "post_CLI_checks_completed": true,
+  "all_attempts_accounted": true,
+  "successful_optimizer_updates": 4,
+  "controlled_gradient_injections": 0,
+  "forwards": 8,
+  "initialization": {
+    "device": "cuda:0",
+    "parameters": 142243708,
+    "model_class": "NetworkFromConfig",
+    "AMP_enabled": false,
+    "scaler_class": "DummyScaler",
+    "scaler_enabled": false,
+    "start_epoch": 0,
+    "normalization": "minmax",
+    "load_weights_only": false,
+    "EMA_enabled": false,
+    "EMA_counter": 0,
+    "scheduler_class": "PolyLRScheduler",
+    "scheduler_total_steps": null,
+    "scheduler_first_cycle_steps": null,
+    "microbatches_per_epoch": 1,
+    "gradient_accumulation": 1,
+    "train_items": 4,
+    "validation_items": 4
+  },
+  "actual_optimizer_defaults": {
+    "momentum": 0.0,
+    "nesterov": false
+  },
+  "actual_optimizer_parameter_groups": [
+    {
+      "momentum": 0.0,
+      "nesterov": false
+    }
+  ],
+  "train_steps": [
+    {
+      "epoch": 0,
+      "microbatch": 0,
+      "loss": 0.8064829111099243,
+      "reported_optimizer_step": true,
+      "actual_updates_before": 0,
+      "actual_updates_after": 1,
+      "scale_before": null,
+      "scale_after": null,
+      "EMA_counter": 0
+    },
+    {
+      "epoch": 1,
+      "microbatch": 0,
+      "loss": 0.8243299722671509,
+      "reported_optimizer_step": true,
+      "actual_updates_before": 1,
+      "actual_updates_after": 2,
+      "scale_before": null,
+      "scale_after": null,
+      "EMA_counter": 0
+    },
+    {
+      "epoch": 2,
+      "microbatch": 0,
+      "loss": 0.8257791996002197,
+      "reported_optimizer_step": true,
+      "actual_updates_before": 2,
+      "actual_updates_after": 3,
+      "scale_before": null,
+      "scale_after": null,
+      "EMA_counter": 0
+    },
+    {
+      "epoch": 3,
+      "microbatch": 0,
+      "loss": 0.8160018920898438,
+      "reported_optimizer_step": true,
+      "actual_updates_before": 3,
+      "actual_updates_after": 4,
+      "scale_before": null,
+      "scale_after": null,
+      "EMA_counter": 0
+    }
+  ],
+  "history_records": [
+    {
+      "epoch": 0,
+      "actual_validation_loss": 0.8288912177085876,
+      "recent_epochs": [
+        0,
+        0
+      ],
+      "best": [
+        [
+          0.8288912177085876,
+          0,
+          "fixed_CT_completion_epoch1.pth"
+        ]
+      ],
+      "checkpoint_name": "fixed_CT_completion_epoch1.pth"
+    },
+    {
+      "epoch": 1,
+      "actual_validation_loss": 0.8330860733985901,
+      "recent_epochs": [
+        0,
+        1,
+        1
+      ],
+      "best": [
+        [
+          0.8288912177085876,
+          0,
+          "fixed_CT_completion_epoch1.pth"
+        ],
+        [
+          0.8330860733985901,
+          1,
+          "fixed_CT_completion_epoch2.pth"
+        ]
+      ],
+      "checkpoint_name": "fixed_CT_completion_epoch2.pth"
+    },
+    {
+      "epoch": 2,
+      "actual_validation_loss": 0.8307306170463562,
+      "recent_epochs": [
+        1,
+        2,
+        2
+      ],
+      "best": [
+        [
+          0.8288912177085876,
+          0,
+          "fixed_CT_completion_epoch1.pth"
+        ],
+        [
+          0.8307306170463562,
+          2,
+          "fixed_CT_completion_epoch3.pth"
+        ]
+      ],
+      "checkpoint_name": "fixed_CT_completion_epoch3.pth"
+    },
+    {
+      "epoch": 3,
+      "actual_validation_loss": 0.8228880763053894,
+      "recent_epochs": [
+        2,
+        3,
+        3
+      ],
+      "best": [
+        [
+          0.8228880763053894,
+          3,
+          "fixed_CT_completion_epoch4.pth"
+        ],
+        [
+          0.8288912177085876,
+          0,
+          "fixed_CT_completion_epoch1.pth"
+        ]
+      ],
+      "checkpoint_name": "fixed_CT_completion_epoch4.pth"
+    }
+  ],
+  "scheduler_consumer_calls": 4,
+  "final_EMA_counter": 0,
+  "final_scheduler_total_steps": null,
+  "final_scheduler_first_cycle_steps": null,
+  "final_scheduler_last_epoch": -1,
+  "periodic_files": [
+    "fixed_CT_completion_epoch1.pth",
+    "fixed_CT_completion_epoch3.pth",
+    "fixed_CT_completion_epoch4.pth"
+  ],
+  "elapsed_seconds": 24.108903852058575,
+  "final_checkpoint": {
+    "epoch": 3,
+    "normalization_scheme": "minmax",
+    "sha256": "8306e2bca359ee25b1d3a3a83c8bc85e6b6b57c3aa254dad61ebed2ca8bc437d"
+  },
+  "latest_periodic_checkpoint": {
+    "epoch": 3,
+    "sha256": "1c96b46daf5e297d882498f6eccd2efe52dd33d4d1e88cc3c3b5a0d851a3e9a9",
+    "normalization_scheme": "minmax"
+  }
+}

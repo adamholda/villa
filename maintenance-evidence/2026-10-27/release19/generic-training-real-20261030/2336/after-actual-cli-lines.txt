@@ -1,0 +1,16 @@
+Using Base Trainer for supervised training
+Starting training...
+Using ZarrDataset (training)
+Using dimensionality (3D) from ConfigManager
+Using 3D convolutions (nn.Conv3d)
+Using 3D normalization (nn.InstanceNorm3d)
+Using provided features_per_stage: [32, 64, 128, 256, 320, 320, 320]
+Using provided n_blocks_per_stage: [1, 3, 4, 6, 6, 6, 6]
+Using poly learning rate scheduler over 1 epochs
+Using dimensionality (3D) from ConfigManager
+Using 3D convolutions (nn.Conv3d)
+Using 3D normalization (nn.InstanceNorm3d)
+Using provided features_per_stage: [32, 64, 128, 256, 320, 320, 320]
+Using provided n_blocks_per_stage: [1, 3, 4, 6, 6, 6, 6]
+Training Finished!
+Training completed!

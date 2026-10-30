@@ -1,0 +1,35 @@
+{
+  "actual_parent_gate_record": {
+    "passed": true,
+    "pair": {
+      "original": {
+        "actual_AMP_enabled": true,
+        "actual_scaler": "GradScaler",
+        "actual_scaler_enabled": true,
+        "actual_updates": 0
+      },
+      "repaired": {
+        "actual_AMP_enabled": false,
+        "actual_scaler": "DummyScaler",
+        "actual_scaler_enabled": false,
+        "actual_updates": 0
+      },
+      "explicit-noamp": {
+        "actual_AMP_enabled": false,
+        "actual_scaler": "DummyScaler",
+        "actual_scaler_enabled": false,
+        "actual_updates": 0
+      }
+    },
+    "actual_full_CLI_trainer_empty_resume_initialization": true,
+    "actual_scaler_policy_not_training_quality": true
+  },
+  "actual_parent_final_input_checks_passed": true,
+  "actual_job_exit": 0,
+  "actual_allocated_seconds": 329,
+  "ncpus": 4,
+  "ngpus": 1,
+  "shared_actual_updates": 20,
+  "raw_result_sha256": "5f4a7b4337e71f12748b4ad94c0db90e8c3bcf3474ca97dc0d905c96cdb571ac",
+  "scope": "Instrumented complete CLI/library engineering check on ONE exposed whole S5 CT/released binary-fiber pair. Not independent samples,ink,anatomical truth,quality,adoption or a fresh personal review. Any GradScaler +inf fault is deliberate,not a natural user incident."
+}

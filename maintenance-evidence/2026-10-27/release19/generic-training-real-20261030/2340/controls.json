@@ -1,0 +1,29 @@
+{
+  "actual_parent_gate_record": {
+    "passed": true,
+    "pair": {
+      "original": {
+        "actual_initial_EMA_equals_loaded_main": false,
+        "actual_initial_EMA_counter": 1,
+        "actual_final_EMA_counter": 2,
+        "actual_updates": 1
+      },
+      "repaired": {
+        "actual_initial_EMA_equals_loaded_main": true,
+        "actual_initial_EMA_counter": 0,
+        "actual_final_EMA_counter": 1,
+        "actual_updates": 1
+      }
+    },
+    "genuine0159EMA_checkpoint": true,
+    "checkpoint_metadata_edited": false
+  },
+  "actual_parent_final_input_checks_passed": true,
+  "actual_job_exit": 0,
+  "actual_allocated_seconds": 329,
+  "ncpus": 4,
+  "ngpus": 1,
+  "shared_actual_updates": 20,
+  "raw_result_sha256": "5f4a7b4337e71f12748b4ad94c0db90e8c3bcf3474ca97dc0d905c96cdb571ac",
+  "scope": "Instrumented complete CLI/library engineering check on ONE exposed whole S5 CT/released binary-fiber pair. Not independent samples,ink,anatomical truth,quality,adoption or a fresh personal review. Any GradScaler +inf fault is deliberate,not a natural user incident."
+}
