@@ -1,0 +1,205 @@
+{
+  "source_result_sha256": "5f4a7b4337e71f12748b4ad94c0db90e8c3bcf3474ca97dc0d905c96cdb571ac",
+  "capture_count": 18,
+  "capture_kind": "Unmodified full-page browser captures of actual HTTPS-rendered archived records;not live terminals or CT pixels",
+  "captures": [
+    {
+      "PR": 2338,
+      "view": "before",
+      "path": "maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2338/before.jpg",
+      "source_URL": "https://github.com/adamholda/villa/blob/3224caac866f8d46f258cb6cceb0545c4247a51f/maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2338/before-view.md#original-contract-nonmatch",
+      "bytes": 129468,
+      "width": 1265,
+      "height": 1049,
+      "sha256": "c468023286d4c4c92cfdc41744c8b7a012d5105ee019adb1f3df0f5555f08c06",
+      "git_blob": "f949cd6c13209820afc492b671198fb837f0c8a3"
+    },
+    {
+      "PR": 2338,
+      "view": "after",
+      "path": "maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2338/after.jpg",
+      "source_URL": "https://github.com/adamholda/villa/blob/3224caac866f8d46f258cb6cceb0545c4247a51f/maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2338/after-view.md#repaired-contract-match",
+      "bytes": 128876,
+      "width": 1265,
+      "height": 1069,
+      "sha256": "775a8bfe7459051fdc7c74d10f70f76ed5e259b3ceba7a6ae7812a1c1ded81f0",
+      "git_blob": "95c7088e94ee77f73d90563d7f34e16dbcb848a0"
+    },
+    {
+      "PR": 2338,
+      "view": "controls",
+      "path": "maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2338/controls.jpg",
+      "source_URL": "https://github.com/adamholda/villa/blob/3224caac866f8d46f258cb6cceb0545c4247a51f/maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2338/controls-view.md#actual-controls-and-accounting",
+      "bytes": 130703,
+      "width": 1265,
+      "height": 961,
+      "sha256": "71a34d82d685d6d7833d13f84e43062dfe3d90999b8c0c665eaf5b70d1848990",
+      "git_blob": "317375c9df868001163aa60625f56c4e0f82975d"
+    },
+    {
+      "PR": 2336,
+      "view": "before",
+      "path": "maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2336/before.jpg",
+      "source_URL": "https://github.com/adamholda/villa/blob/3224caac866f8d46f258cb6cceb0545c4247a51f/maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2336/before-view.md#original-contract-nonmatch",
+      "bytes": 122170,
+      "width": 1265,
+      "height": 990,
+      "sha256": "f6d1f235e595810a4a0a50b69eaed16d911ea5e5e68f4f828ad4b067bd8ec65a",
+      "git_blob": "e813af3547f75824d3e907f28bbaf1360683324c"
+    },
+    {
+      "PR": 2336,
+      "view": "after",
+      "path": "maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2336/after.jpg",
+      "source_URL": "https://github.com/adamholda/villa/blob/3224caac866f8d46f258cb6cceb0545c4247a51f/maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2336/after-view.md#repaired-contract-match",
+      "bytes": 121095,
+      "width": 1265,
+      "height": 990,
+      "sha256": "44e821ae8c6f1cc65c66d3ec1699fcacd4cd7490c5ded326d400a8992ee55028",
+      "git_blob": "06929b26ed5748b4f9c20b65f80ef21d90eb58da"
+    },
+    {
+      "PR": 2336,
+      "view": "controls",
+      "path": "maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2336/controls.jpg",
+      "source_URL": "https://github.com/adamholda/villa/blob/3224caac866f8d46f258cb6cceb0545c4247a51f/maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2336/controls-view.md#actual-controls-and-accounting",
+      "bytes": 121306,
+      "width": 1265,
+      "height": 902,
+      "sha256": "2cedfd39304186f6e9f88c47080fec47e6768c1ee7c03e4e414e14880ed6e34d",
+      "git_blob": "f1fb458d72c8e72dc8e11f9dd3647b17df94b637"
+    },
+    {
+      "PR": 2340,
+      "view": "before",
+      "path": "maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2340/before.jpg",
+      "source_URL": "https://github.com/adamholda/villa/blob/3224caac866f8d46f258cb6cceb0545c4247a51f/maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2340/before-view.md#original-contract-nonmatch",
+      "bytes": 123373,
+      "width": 1265,
+      "height": 990,
+      "sha256": "fc06c266da066d709a0ed762b79600bebad12fc75fb1f9ae53029d01a64ada58",
+      "git_blob": "c6f6dacb03ed3954e234c350aea1e477831be046"
+    },
+    {
+      "PR": 2340,
+      "view": "after",
+      "path": "maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2340/after.jpg",
+      "source_URL": "https://github.com/adamholda/villa/blob/3224caac866f8d46f258cb6cceb0545c4247a51f/maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2340/after-view.md#repaired-contract-match",
+      "bytes": 122294,
+      "width": 1265,
+      "height": 990,
+      "sha256": "831632910c2dcf2f4f3d702c6ca59f60db49f5935f1ab3ffb9befa8308891beb",
+      "git_blob": "4815d8e611e7842dc98d7f541f17cfeec84dd835"
+    },
+    {
+      "PR": 2340,
+      "view": "controls",
+      "path": "maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2340/controls.jpg",
+      "source_URL": "https://github.com/adamholda/villa/blob/3224caac866f8d46f258cb6cceb0545c4247a51f/maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2340/controls-view.md#actual-controls-and-accounting",
+      "bytes": 120706,
+      "width": 1265,
+      "height": 902,
+      "sha256": "e6af08c2eaa4a6d2433fe96ebbe1f1c141236aca47d9205efc1843e4e3a7bf5a",
+      "git_blob": "55ed072d1a258dee74a4648b37c7215b68075431"
+    },
+    {
+      "PR": 2339,
+      "view": "before",
+      "path": "maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2339/before.jpg",
+      "source_URL": "https://github.com/adamholda/villa/blob/3224caac866f8d46f258cb6cceb0545c4247a51f/maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2339/before-view.md#original-contract-nonmatch",
+      "bytes": 122643,
+      "width": 1265,
+      "height": 1010,
+      "sha256": "b8be3ccc6d47d86b4ae13bdbd8391f47135f1a9356d9d42cb45ced7517428acf",
+      "git_blob": "0c7870d0caf1694d6f2ac59e782fc6b87517afeb"
+    },
+    {
+      "PR": 2339,
+      "view": "after",
+      "path": "maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2339/after.jpg",
+      "source_URL": "https://github.com/adamholda/villa/blob/3224caac866f8d46f258cb6cceb0545c4247a51f/maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2339/after-view.md#repaired-contract-match",
+      "bytes": 121295,
+      "width": 1265,
+      "height": 990,
+      "sha256": "07aa937421922a4ea637b5c109ac15de5b9c145cf953f539a8035d40f91ba0d3",
+      "git_blob": "df16980e39d4cd881569647340bc54729207c363"
+    },
+    {
+      "PR": 2339,
+      "view": "controls",
+      "path": "maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2339/controls.jpg",
+      "source_URL": "https://github.com/adamholda/villa/blob/d91d247667b93f2bb026a5fd56495bcc8ba2f996/maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2339/controls-view.md#actual-controls-and-accounting",
+      "bytes": 129413,
+      "width": 1265,
+      "height": 1021,
+      "sha256": "85c0e289a7dc8a54cf7219a572e688e454c7a88969692e08b0677d2eff11d6b6",
+      "git_blob": "f3b8ec886f77ef4f1a94b4b02b123e6b198ebba4"
+    },
+    {
+      "PR": 2341,
+      "view": "before",
+      "path": "maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2341/before.jpg",
+      "source_URL": "https://github.com/adamholda/villa/blob/3224caac866f8d46f258cb6cceb0545c4247a51f/maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2341/before-view.md#original-contract-nonmatch",
+      "bytes": 131989,
+      "width": 1265,
+      "height": 1049,
+      "sha256": "952cf516b3fb0826bf79e94453a3de773acf25883f7b692a0d57facd3bde2648",
+      "git_blob": "b2e6f5320253a75227c775174930b1c9c2bbdf1d"
+    },
+    {
+      "PR": 2341,
+      "view": "after",
+      "path": "maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2341/after.jpg",
+      "source_URL": "https://github.com/adamholda/villa/blob/3224caac866f8d46f258cb6cceb0545c4247a51f/maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2341/after-view.md#repaired-contract-match",
+      "bytes": 130890,
+      "width": 1265,
+      "height": 1049,
+      "sha256": "ecf920ac7f28ceb5e6f38df15ccaba0350bf95c3606e426f6e9423261a4fbb22",
+      "git_blob": "378ad47bf1d1fa57bb7bd7e1b0e4fc68c2e9200a"
+    },
+    {
+      "PR": 2341,
+      "view": "controls",
+      "path": "maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2341/controls.jpg",
+      "source_URL": "https://github.com/adamholda/villa/blob/3224caac866f8d46f258cb6cceb0545c4247a51f/maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2341/controls-view.md#actual-controls-and-accounting",
+      "bytes": 119809,
+      "width": 1265,
+      "height": 942,
+      "sha256": "b429dd87b227cb630cffaec16c657028493a436100ff68768779786f660ec416",
+      "git_blob": "b18cd0a05c5d5a72b9b449ec0c845e6849c442ec"
+    },
+    {
+      "PR": 2335,
+      "view": "before",
+      "path": "maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2335/before.jpg",
+      "source_URL": "https://github.com/adamholda/villa/blob/3224caac866f8d46f258cb6cceb0545c4247a51f/maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2335/before-view.md#original-contract-nonmatch",
+      "bytes": 137129,
+      "width": 1265,
+      "height": 1073,
+      "sha256": "a51057dcaadcb345b8c8f6e991daa17b64f2ae16a8d984f8f5384ca8479a785c",
+      "git_blob": "0f2d1d7d9410cd5b5eb620965234da8e7958fc07"
+    },
+    {
+      "PR": 2335,
+      "view": "after",
+      "path": "maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2335/after.jpg",
+      "source_URL": "https://github.com/adamholda/villa/blob/3224caac866f8d46f258cb6cceb0545c4247a51f/maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2335/after-view.md#repaired-contract-match",
+      "bytes": 136157,
+      "width": 1265,
+      "height": 1073,
+      "sha256": "bd51d20de6cb1adb0f15cb8351d5098dc5998f29e7c9b8ff2b65ea6b41d04e99",
+      "git_blob": "6af117794bbba9451a30bf0d420ee9c8eddda1b8"
+    },
+    {
+      "PR": 2335,
+      "view": "controls",
+      "path": "maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2335/controls.jpg",
+      "source_URL": "https://github.com/adamholda/villa/blob/3224caac866f8d46f258cb6cceb0545c4247a51f/maintenance-evidence/2026-10-27/release19/generic-training-real-20261030/2335/controls-view.md#actual-controls-and-accounting",
+      "bytes": 121158,
+      "width": 1265,
+      "height": 966,
+      "sha256": "a29772944cc86ddfe23e8bc7e372ada8013490f48e7dee98688fb9b08bf3be69",
+      "git_blob": "2d726161d6d722453cb2cba6a6e70498982b10b9"
+    }
+  ]
+}

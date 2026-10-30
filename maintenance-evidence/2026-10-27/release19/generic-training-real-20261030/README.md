@@ -1,6 +1,6 @@
 # Actual generic trainer workflows: six existing PRs
 
-The original/repaired contracts below completed in13 actual full CLI contexts with20 underlying optimizer updates in one329second x4CPU/1GPU allocation. All post-CLI checks,actual module origins,complete update accounting and final original CT/label/authentic-checkpoint/constructed-tree preservation checks passed. These are selected unmodified numerical fields and verbatim safe CLI lines from the archived records. Screenshots are added after actual browser capture and verification.
+The original/repaired contracts below completed in13 actual full CLI contexts with20 underlying optimizer updates in one329second x4CPU/1GPU allocation. All post-CLI checks,actual module origins,complete update accounting and final original CT/label/authentic-checkpoint/constructed-tree preservation checks passed. These are selected unmodified numerical fields and verbatim safe CLI lines from the archived records. Three unmodified full-page browser captures per PR are now archived below;their bytes,dimensions and Git blobs were verified. They show the actual HTTPS-rendered archived records,not live terminals or CT pixels.
 
 |PR|Actual original result|Actual repaired result|
 |---|---|---|
@@ -20,3 +20,13 @@ The exact pinned existing runtime/source closure and unchanged production repair
 Raw archived result SHA256: `5f4a7b4337e71f12748b4ad94c0db90e8c3bcf3474ca97dc0d905c96cdb571ac`.
 
 AI assistance was used for implementation,test preparation,orchestration,analysis and technical evidence drafting. Computational resources were provided by e-INFRA CZ project90254,supported by the Ministry of Education,Youth and Sports of the Czech Republic. Villa MIT,model,CT and original annotation rights/attribution remain separate. These six packets do not certify all27PRs,upstream acceptance,prize eligibility or awards.2343still lacks a genuine compatible multi-target input.
+
+
+## Captures
+
+- [PR2335 original,repair and controls](2335/README.md)
+- [PR2336 original,repair and controls](2336/README.md)
+- [PR2338 original,repair and controls](2338/README.md)
+- [PR2339 original,repair and controls](2339/README.md)
+- [PR2340 original,repair and controls](2340/README.md)
+- [PR2341 original,repair and controls](2341/README.md)
