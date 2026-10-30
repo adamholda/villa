@@ -15,7 +15,12 @@ Full CUDA trainer/scaler initialization on empty full resume. Zero forwards/upda
   "raw_result_sha256": "5f4a7b4337e71f12748b4ad94c0db90e8c3bcf3474ca97dc0d905c96cdb571ac",
   "all_13_CLI_contexts_post_checks_and_origins_passed": true,
   "complete_update_accounting": true,
-  "actual_explicit_noamp_control": {"actual_AMP_enabled": false, "actual_scaler": "DummyScaler", "actual_scaler_enabled": false, "actual_updates": 0}
+  "actual_explicit_noamp_control": {
+    "actual_AMP_enabled": false,
+    "actual_scaler": "DummyScaler",
+    "actual_scaler_enabled": false,
+    "actual_updates": 0
+  }
 }
 ```
 
